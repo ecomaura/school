@@ -1,0 +1,2290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
+  <title>Little Wings Academy | Preschool, Daycare & Activity Club in Vadodara</title>
+  
+  <meta name="description" content="Little Wings Academy in Ellora Park, Vadodara offers joyful Preschool (Playgroup to UKG), Daycare (1-14 Yrs), and Tiny Wings Activity Club. Learn, Play & Grow Together!" />
+  <meta name="keywords" content="Preschool Vadodara, Daycare Ellora Park Vadodara, Kids Activity Club, Montessori Preschool, Childcare Vadodara" />
+  <meta name="author" content="Little Wings Academy" />
+  <meta property="og:title" content="Little Wings Academy - Learn • Play • Grow Together" />
+  <meta property="og:description" content="Nurturing preschool, loving daycare & vibrant activity club in Ellora Park, Vadodara." />
+  <meta property="og:type" content="website" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Nunito:ital,wght@0,400;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ChildCare",
+    "name": "Little Wings Academy",
+    "image": "https://images.unsplash.com/photo-1587654780291-39c9404d746b?w=800&auto=format&fit=crop&q=80",
+    "telephone": "+917016733472",
+    "email": "littlewingsacademy24@gmail.com",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "A/46-289 Anand Flats, Sai Baba Temple Lane, Ellora Park",
+      "addressLocality": "Vadodara",
+      "addressRegion": "Gujarat",
+      "postalCode": "390023",
+      "addressCountry": "IN"
+    },
+    "openingHoursSpecification": {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+      "opens": "08:00",
+      "closes": "19:00"
+    },
+    "priceRange": "₹₹"
+  }
+  </script>
+
+  <style>
+    /* ==========================================================================
+       CSS VARIABLES & THEME
+       ========================================================================== */
+    :root {
+      --primary-pink: #FF3B77;
+      --pink-soft: #FFF0F5;
+      --primary-blue: #0284C7;
+      --sky-blue: #38BDF8;
+      --sky-soft: #F0F9FF;
+      --primary-yellow: #F59E0B;
+      --yellow-soft: #FEF3C7;
+      --primary-green: #10B981;
+      --green-soft: #ECFDF5;
+      --primary-purple: #8B5CF6;
+      --purple-soft: #F5F3FF;
+      --primary-orange: #F97316;
+      
+      --text-main: #1E293B;
+      --text-muted: #64748B;
+      --bg-light: #F8FAFC;
+      --white: #FFFFFF;
+      --border-color: #E2E8F0;
+      
+      --shadow-sm: 0 2px 8px rgba(0,0,0,0.04);
+      --shadow-md: 0 8px 24px rgba(149, 157, 165, 0.12);
+      --shadow-lg: 0 16px 36px rgba(100, 116, 139, 0.16);
+      --shadow-fun: 0 12px 28px rgba(255, 59, 119, 0.22);
+      
+      --radius-sm: 12px;
+      --radius-md: 20px;
+      --radius-lg: 28px;
+      --radius-full: 9999px;
+      
+      --font-display: 'Fredoka', cursive, sans-serif;
+      --font-body: 'Nunito', sans-serif;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    html {
+      scroll-behavior: smooth;
+      font-size: 16px;
+    }
+
+    body {
+      font-family: var(--font-body);
+      color: var(--text-main);
+      background-color: var(--bg-light);
+      line-height: 1.6;
+      overflow-x: hidden;
+      padding-bottom: 60px; /* Space for mobile floating bar */
+    }
+
+    @media (min-width: 768px) {
+      body {
+        padding-bottom: 0;
+      }
+    }
+
+    /* Headings */
+    h1, h2, h3, h4, h5, h6 {
+      font-family: var(--font-display);
+      font-weight: 700;
+      line-height: 1.25;
+      color: #0F172A;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    /* ==========================================================================
+       CONTAINERS & COMMON UTILITIES
+       ========================================================================== */
+    .container {
+      width: 100%;
+      max-width: 1240px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+
+    .section-py {
+      padding: 70px 0;
+    }
+
+    @media (max-width: 768px) {
+      .section-py {
+        padding: 45px 0;
+      }
+    }
+
+    .badge-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 6px 18px;
+      background: var(--pink-soft);
+      color: var(--primary-pink);
+      border-radius: var(--radius-full);
+      font-weight: 700;
+      font-size: 0.88rem;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      border: 1.5px dashed var(--primary-pink);
+      margin-bottom: 12px;
+    }
+
+    .badge-pill.blue {
+      background: var(--sky-soft);
+      color: var(--primary-blue);
+      border-color: var(--sky-blue);
+    }
+    
+    .badge-pill.yellow {
+      background: var(--yellow-soft);
+      color: #B45309;
+      border-color: var(--primary-yellow);
+    }
+
+    .badge-pill.green {
+      background: var(--green-soft);
+      color: #047857;
+      border-color: var(--primary-green);
+    }
+
+    .section-header {
+      text-align: center;
+      max-width: 720px;
+      margin: 0 auto 45px auto;
+    }
+
+    .section-header h2 {
+      font-size: clamp(1.8rem, 3.5vw, 2.6rem);
+      margin-bottom: 12px;
+    }
+
+    .section-header p {
+      color: var(--text-muted);
+      font-size: 1.05rem;
+    }
+
+    /* Playful Buttons */
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      font-family: var(--font-body);
+      font-weight: 700;
+      font-size: 1rem;
+      padding: 13px 28px;
+      border-radius: var(--radius-full);
+      cursor: pointer;
+      transition: all 0.25s ease;
+      border: none;
+      outline: none;
+      text-align: center;
+    }
+
+    .btn:hover {
+      transform: translateY(-2px);
+      box-shadow: var(--shadow-md);
+    }
+
+    .btn-pink {
+      background-color: var(--primary-pink);
+      color: var(--white);
+      box-shadow: 0 6px 18px rgba(255, 59, 119, 0.35);
+    }
+    .btn-pink:hover {
+      background-color: #E62A64;
+    }
+
+    .btn-blue {
+      background-color: var(--primary-blue);
+      color: var(--white);
+      box-shadow: 0 6px 18px rgba(2, 132, 199, 0.35);
+    }
+    .btn-blue:hover {
+      background-color: #0369A1;
+    }
+
+    .btn-yellow {
+      background-color: var(--primary-yellow);
+      color: #451A03;
+      font-weight: 800;
+      box-shadow: 0 6px 18px rgba(245, 158, 11, 0.35);
+    }
+
+    .btn-outline {
+      background-color: transparent;
+      border: 2px solid var(--primary-pink);
+      color: var(--primary-pink);
+    }
+    .btn-outline:hover {
+      background-color: var(--primary-pink);
+      color: var(--white);
+    }
+
+    .btn-whatsapp {
+      background-color: #25D366;
+      color: var(--white);
+      font-weight: 700;
+    }
+    .btn-whatsapp:hover {
+      background-color: #1EBE5B;
+    }
+
+    /* ==========================================================================
+       HEADER & NAVIGATION
+       ========================================================================== */
+    .site-header {
+      position: sticky;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background: rgba(255, 255, 255, 0.96);
+      backdrop-filter: blur(12px);
+      box-shadow: 0 2px 14px rgba(0, 0, 0, 0.06);
+      z-index: 1000;
+      transition: all 0.3s ease;
+    }
+
+    .top-bar {
+      background: linear-gradient(90deg, #FF3B77 0%, #8B5CF6 50%, #38BDF8 100%);
+      color: var(--white);
+      font-size: 0.85rem;
+      padding: 6px 0;
+      font-weight: 600;
+    }
+
+    .top-bar-inner {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .top-bar-left, .top-bar-right {
+      display: flex;
+      align-items: center;
+      gap: 18px;
+    }
+
+    @media (max-width: 768px) {
+      .top-bar {
+        display: none;
+      }
+    }
+
+    .nav-container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 12px 20px;
+    }
+
+    /* Little Wings Brand Logo Component */
+    .brand-logo {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      cursor: pointer;
+    }
+
+    .logo-emblem {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, #FFE2EB 0%, #E0F2FE 100%);
+      border: 2px solid var(--primary-pink);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 26px;
+      box-shadow: 0 4px 10px rgba(255, 59, 119, 0.15);
+      position: relative;
+      flex-shrink: 0;
+    }
+
+    .brand-text {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .brand-title {
+      font-family: var(--font-display);
+      font-size: 1.45rem;
+      font-weight: 700;
+      line-height: 1.1;
+      background: linear-gradient(45deg, #FF3B77, #38BDF8);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .brand-sub {
+      font-size: 0.72rem;
+      font-weight: 800;
+      letter-spacing: 1.2px;
+      text-transform: uppercase;
+      color: #64748B;
+    }
+
+    .brand-tagline {
+      font-size: 0.72rem;
+      color: var(--primary-pink);
+      font-weight: 700;
+    }
+
+    /* Desktop Navigation Links */
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 22px;
+      list-style: none;
+    }
+
+    .nav-links a {
+      font-weight: 700;
+      font-size: 0.95rem;
+      color: #334155;
+      padding: 6px 2px;
+      position: relative;
+      transition: color 0.2s;
+    }
+
+    .nav-links a:hover,
+    .nav-links a.active {
+      color: var(--primary-pink);
+    }
+
+    .nav-links a.active::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 3px;
+      background: var(--primary-pink);
+      border-radius: 4px;
+    }
+
+    .nav-actions {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .hamburger-btn {
+      display: none;
+      background: none;
+      border: none;
+      font-size: 1.5rem;
+      color: #334155;
+      cursor: pointer;
+      padding: 6px;
+    }
+
+    /* Mobile Navigation Drawer */
+    .mobile-drawer {
+      position: fixed;
+      top: 0;
+      right: -100%;
+      width: 82%;
+      max-width: 320px;
+      height: 100vh;
+      background: #FFFFFF;
+      box-shadow: -4px 0 20px rgba(0,0,0,0.15);
+      z-index: 1100;
+      display: flex;
+      flex-direction: column;
+      padding: 24px;
+      transition: right 0.35s ease;
+      overflow-y: auto;
+    }
+
+    .mobile-drawer.open {
+      right: 0;
+    }
+
+    .drawer-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0,0,0,0.45);
+      z-index: 1050;
+      opacity: 0;
+      visibility: hidden;
+      transition: all 0.3s ease;
+    }
+
+    .drawer-overlay.active {
+      opacity: 1;
+      visibility: visible;
+    }
+
+    .drawer-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 24px;
+      border-bottom: 1px solid var(--border-color);
+      padding-bottom: 16px;
+    }
+
+    .drawer-links {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+    }
+
+    .drawer-links a {
+      font-size: 1.1rem;
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      color: #334155;
+      padding: 8px 12px;
+      border-radius: var(--radius-sm);
+    }
+
+    .drawer-links a.active,
+    .drawer-links a:hover {
+      background: var(--pink-soft);
+      color: var(--primary-pink);
+    }
+
+    @media (max-width: 992px) {
+      .nav-links {
+        display: none;
+      }
+      .nav-actions .btn-pink {
+        display: none;
+      }
+      .hamburger-btn {
+        display: block;
+      }
+    }
+
+    /* ==========================================================================
+       PAGE DISPLAY & ROUTING SYSTEM
+       ========================================================================== */
+    .page-section {
+      display: none;
+      animation: fadeInPage 0.35s ease forwards;
+    }
+
+    .page-section.active-page {
+      display: block;
+    }
+
+    @keyframes fadeInPage {
+      from { opacity: 0; transform: translateY(8px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    /* ==========================================================================
+       DECORATIVE ELEMENTS & HERO BANNER
+       ========================================================================== */
+    .hero-wrapper {
+      position: relative;
+      background: radial-gradient(circle at top left, #FFF1F5 0%, #F0F9FF 50%, #FAF5FF 100%);
+      padding: 70px 0 90px 0;
+      overflow: hidden;
+      border-radius: 0 0 var(--radius-lg) var(--radius-lg);
+    }
+
+    .hero-grid {
+      display: grid;
+      grid-template-columns: 1.1fr 0.9fr;
+      gap: 40px;
+      align-items: center;
+    }
+
+    @media (max-width: 900px) {
+      .hero-grid {
+        grid-template-columns: 1fr;
+        text-align: center;
+      }
+    }
+
+    .hero-content h1 {
+      font-size: clamp(2.3rem, 5vw, 3.6rem);
+      color: #1E1B4B;
+      margin: 14px 0 18px 0;
+      line-height: 1.18;
+    }
+
+    .hero-content h1 span.pink { color: var(--primary-pink); }
+    .hero-content h1 span.blue { color: var(--primary-blue); }
+    .hero-content h1 span.yellow { color: #D97706; }
+
+    .hero-content p {
+      font-size: 1.15rem;
+      color: #475569;
+      margin-bottom: 28px;
+      max-width: 540px;
+    }
+
+    @media (max-width: 900px) {
+      .hero-content p {
+        margin: 0 auto 28px auto;
+      }
+    }
+
+    .hero-cta-group {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+      align-items: center;
+    }
+
+    @media (max-width: 900px) {
+      .hero-cta-group {
+        justify-content: center;
+      }
+    }
+
+    .hero-image-frame {
+      position: relative;
+      z-index: 2;
+    }
+
+    .hero-main-img {
+      width: 100%;
+      height: 420px;
+      object-fit: cover;
+      border-radius: 36px 36px 60px 36px;
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12);
+      border: 6px solid #FFFFFF;
+    }
+
+    .floating-card-badge {
+      position: absolute;
+      background: #FFFFFF;
+      padding: 12px 18px;
+      border-radius: 20px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-weight: 700;
+      animation: floatBadge 4s ease-in-out infinite alternate;
+    }
+
+    .badge-top {
+      top: -15px;
+      left: -15px;
+      border-left: 4px solid var(--primary-green);
+    }
+
+    .badge-bottom {
+      bottom: -20px;
+      right: -10px;
+      border-left: 4px solid var(--primary-pink);
+    }
+
+    @keyframes floatBadge {
+      0% { transform: translateY(0); }
+      100% { transform: translateY(-8px); }
+    }
+
+    /* ==========================================================================
+       CARDS & GRIDS
+       ========================================================================== */
+    .grid-3 {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 26px;
+    }
+
+    .grid-4 {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 20px;
+    }
+
+    .grid-2 {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 32px;
+      align-items: center;
+    }
+
+    /* Program Cards */
+    .program-card {
+      background: var(--white);
+      border-radius: var(--radius-lg);
+      padding: 28px;
+      box-shadow: var(--shadow-sm);
+      border: 2px solid transparent;
+      transition: all 0.3s ease;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .program-card:hover {
+      transform: translateY(-6px);
+      box-shadow: var(--shadow-lg);
+    }
+
+    .program-card.card-pink:hover { border-color: var(--primary-pink); }
+    .program-card.card-blue:hover { border-color: var(--sky-blue); }
+    .program-card.card-purple:hover { border-color: var(--primary-purple); }
+
+    .program-img-wrap {
+      height: 190px;
+      margin: -28px -28px 20px -28px;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .program-img-wrap img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.5s ease;
+    }
+
+    .program-card:hover .program-img-wrap img {
+      transform: scale(1.06);
+    }
+
+    .program-price-tag {
+      position: absolute;
+      bottom: 12px;
+      right: 12px;
+      background: rgba(255, 255, 255, 0.95);
+      padding: 6px 14px;
+      border-radius: var(--radius-full);
+      font-family: var(--font-display);
+      font-weight: 700;
+      color: var(--primary-pink);
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      font-size: 0.95rem;
+    }
+
+    .feature-list {
+      list-style: none;
+      margin: 18px 0 24px 0;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      flex-grow: 1;
+    }
+
+    .feature-list li {
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+      font-size: 0.95rem;
+      color: #334155;
+    }
+
+    .feature-list li i {
+      color: var(--primary-green);
+      margin-top: 4px;
+      font-size: 0.9rem;
+    }
+
+    /* Activity Grid Badges & Cards */
+    .activity-bubble-card {
+      background: var(--white);
+      border-radius: var(--radius-md);
+      padding: 20px;
+      text-align: center;
+      box-shadow: var(--shadow-sm);
+      border: 1px solid var(--border-color);
+      transition: all 0.25s ease;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .activity-bubble-card:hover {
+      transform: translateY(-4px);
+      box-shadow: var(--shadow-md);
+      border-color: var(--primary-pink);
+    }
+
+    .activity-icon-wrap {
+      width: 64px;
+      height: 64px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 26px;
+      margin-bottom: 14px;
+    }
+
+    /* Why Choose Us Cards */
+    .feature-box {
+      background: var(--white);
+      border-radius: var(--radius-md);
+      padding: 24px;
+      display: flex;
+      gap: 18px;
+      align-items: flex-start;
+      box-shadow: var(--shadow-sm);
+      border: 1px solid #F1F5F9;
+      transition: transform 0.2s ease;
+    }
+
+    .feature-box:hover {
+      transform: translateY(-3px);
+      box-shadow: var(--shadow-md);
+    }
+
+    .feature-box-icon {
+      width: 52px;
+      height: 52px;
+      border-radius: 16px;
+      background: var(--pink-soft);
+      color: var(--primary-pink);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 22px;
+      flex-shrink: 0;
+    }
+
+    /* ==========================================================================
+       FORMS & INTERACTIVE SECTIONS
+       ========================================================================== */
+    .form-container {
+      background: var(--white);
+      border-radius: var(--radius-lg);
+      padding: 36px;
+      box-shadow: var(--shadow-lg);
+      border: 1px solid var(--border-color);
+    }
+
+    @media (max-width: 600px) {
+      .form-container {
+        padding: 22px;
+      }
+    }
+
+    .form-group {
+      margin-bottom: 18px;
+    }
+
+    .form-group label {
+      display: block;
+      font-weight: 700;
+      font-size: 0.92rem;
+      margin-bottom: 6px;
+      color: #334155;
+    }
+
+    .form-control {
+      width: 100%;
+      padding: 12px 16px;
+      font-family: var(--font-body);
+      font-size: 0.98rem;
+      border: 1.5px solid #CBD5E1;
+      border-radius: var(--radius-sm);
+      outline: none;
+      transition: border 0.2s;
+    }
+
+    .form-control:focus {
+      border-color: var(--primary-pink);
+      box-shadow: 0 0 0 3px rgba(255, 59, 119, 0.15);
+    }
+
+    .form-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+    }
+
+    @media (max-width: 600px) {
+      .form-row {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    /* ==========================================================================
+       GALLERY & LIGHTBOX
+       ========================================================================== */
+    .gallery-filter-bar {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-bottom: 32px;
+    }
+
+    .filter-btn {
+      padding: 8px 20px;
+      border-radius: var(--radius-full);
+      border: 1px solid var(--border-color);
+      background: var(--white);
+      font-weight: 700;
+      font-size: 0.9rem;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+
+    .filter-btn.active, .filter-btn:hover {
+      background: var(--primary-pink);
+      color: var(--white);
+      border-color: var(--primary-pink);
+    }
+
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 20px;
+    }
+
+    .gallery-item {
+      border-radius: var(--radius-md);
+      overflow: hidden;
+      position: relative;
+      cursor: pointer;
+      height: 250px;
+      box-shadow: var(--shadow-sm);
+    }
+
+    .gallery-item img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.4s ease;
+    }
+
+    .gallery-item:hover img {
+      transform: scale(1.08);
+    }
+
+    .gallery-overlay {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(to top, rgba(0,0,0,0.65) 0%, transparent 60%);
+      display: flex;
+      align-items: flex-end;
+      padding: 16px;
+      color: var(--white);
+      opacity: 0;
+      transition: opacity 0.25s;
+    }
+
+    .gallery-item:hover .gallery-overlay {
+      opacity: 1;
+    }
+
+    /* Lightbox Modal */
+    .lightbox-modal {
+      position: fixed;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.9);
+      z-index: 2000;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+
+    .lightbox-modal.active {
+      display: flex;
+    }
+
+    .lightbox-content {
+      max-width: 900px;
+      max-height: 85vh;
+      position: relative;
+    }
+
+    .lightbox-content img {
+      max-width: 100%;
+      max-height: 80vh;
+      border-radius: 12px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    }
+
+    .lightbox-close {
+      position: absolute;
+      top: -45px;
+      right: 0;
+      color: #fff;
+      font-size: 2rem;
+      cursor: pointer;
+      background: none;
+      border: none;
+    }
+
+    /* ==========================================================================
+       FREE TRIAL BANNER
+       ========================================================================== */
+    .free-trial-banner {
+      background: linear-gradient(135deg, #FFB703 0%, #FB8500 100%);
+      border-radius: var(--radius-lg);
+      padding: 40px;
+      color: #FFFFFF;
+      display: grid;
+      grid-template-columns: 1.2fr 0.8fr;
+      gap: 30px;
+      align-items: center;
+      box-shadow: 0 16px 36px rgba(251, 133, 0, 0.25);
+      position: relative;
+      overflow: hidden;
+    }
+
+    @media (max-width: 768px) {
+      .free-trial-banner {
+        grid-template-columns: 1fr;
+        padding: 28px;
+        text-align: center;
+      }
+    }
+
+    /* ==========================================================================
+       FOOTER & FLOATING ACTIONS
+       ========================================================================== */
+    .site-footer {
+      background: #0F172A;
+      color: #94A3B8;
+      padding: 60px 0 30px 0;
+      font-size: 0.95rem;
+    }
+
+    .footer-grid {
+      display: grid;
+      grid-template-columns: 1.5fr 1fr 1fr 1.2fr;
+      gap: 36px;
+      margin-bottom: 40px;
+    }
+
+    @media (max-width: 900px) {
+      .footer-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+
+    @media (max-width: 600px) {
+      .footer-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .footer-col h4 {
+      color: var(--white);
+      font-size: 1.2rem;
+      margin-bottom: 18px;
+      position: relative;
+      display: inline-block;
+    }
+
+    .footer-col h4::after {
+      content: '';
+      position: absolute;
+      bottom: -6px;
+      left: 0;
+      width: 32px;
+      height: 3px;
+      background: var(--primary-pink);
+      border-radius: 2px;
+    }
+
+    .footer-links {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .footer-links a {
+      transition: color 0.2s;
+    }
+
+    .footer-links a:hover {
+      color: var(--primary-pink);
+    }
+
+    .contact-item {
+      display: flex;
+      gap: 12px;
+      margin-bottom: 12px;
+    }
+
+    .contact-item i {
+      color: var(--primary-pink);
+      margin-top: 4px;
+    }
+
+    .footer-bottom {
+      border-top: 1px solid #1E293B;
+      padding-top: 24px;
+      text-align: center;
+      font-size: 0.88rem;
+    }
+
+    /* Floating WhatsApp Button (Desktop & Mobile) */
+    .floating-whatsapp {
+      position: fixed;
+      bottom: 80px;
+      right: 22px;
+      width: 58px;
+      height: 58px;
+      border-radius: 50%;
+      background: #25D366;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 30px;
+      box-shadow: 0 8px 24px rgba(37, 211, 102, 0.45);
+      z-index: 999;
+      transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    }
+
+    .floating-whatsapp:hover {
+      transform: scale(1.1);
+      color: #fff;
+    }
+
+    @media (min-width: 768px) {
+      .floating-whatsapp {
+        bottom: 26px;
+      }
+    }
+
+    /* Mobile Bottom Floating Bar */
+    .mobile-bottom-bar {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 60px;
+      background: #FFFFFF;
+      box-shadow: 0 -3px 12px rgba(0,0,0,0.08);
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      z-index: 1000;
+      border-top: 1px solid #F1F5F9;
+    }
+
+    @media (min-width: 768px) {
+      .mobile-bottom-bar {
+        display: none;
+      }
+    }
+
+    .bottom-action-btn {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.75rem;
+      font-weight: 700;
+      color: #475569;
+      flex: 1;
+      height: 100%;
+    }
+
+    .bottom-action-btn i {
+      font-size: 1.15rem;
+      margin-bottom: 2px;
+    }
+
+    .bottom-action-btn.active {
+      color: var(--primary-pink);
+    }
+
+    /* Modals & Alerts */
+    .notification-toast {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      background: #10B981;
+      color: white;
+      padding: 14px 24px;
+      border-radius: var(--radius-sm);
+      box-shadow: var(--shadow-lg);
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      z-index: 3000;
+      transform: translateY(-80px);
+      opacity: 0;
+      transition: all 0.3s ease;
+    }
+
+    .notification-toast.show {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="top-bar">
+    <div class="container top-bar-inner">
+      <div class="top-bar-left">
+        <span><i class="fa-solid fa-location-dot"></i> Ellora Park, Vadodara</span>
+        <span><i class="fa-solid fa-clock"></i> Mon - Sat: 8:00 AM - 7:00 PM</span>
+      </div>
+      <div class="top-bar-right">
+        <span><i class="fa-solid fa-gift"></i> <strong>2 Days FREE Trial Classes Available!</strong></span>
+        <a href="tel:7016733472" style="color:white; text-decoration: underline;"><i class="fa-solid fa-phone"></i> 70167 33472</a>
+      </div>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <div class="container nav-container">
+      
+      <a href="#/home" class="brand-logo" onclick="navigateTo('home')">
+        <div class="logo-emblem">
+          👼
+        </div>
+        <div class="brand-text">
+          <span class="brand-title">Little Wings</span>
+          <span class="brand-sub">ACADEMY</span>
+          <span class="brand-tagline">Learn • Play • Grow Together</span>
+        </div>
+      </a>
+
+      <ul class="nav-links">
+        <li><a href="#/home" data-route="home" class="active">Home</a></li>
+        <li><a href="#/about-us" data-route="about-us">About Us</a></li>
+        <li><a href="#/preschool" data-route="preschool">Preschool</a></li>
+        <li><a href="#/daycare" data-route="daycare">Daycare</a></li>
+        <li><a href="#/activity-club" data-route="activity-club">Activity Club</a></li>
+        <li><a href="#/gallery" data-route="gallery">Gallery</a></li>
+        <li><a href="#/admissions" data-route="admissions">Admissions</a></li>
+        <li><a href="#/contact" data-route="contact">Contact</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <a href="#/admissions" onclick="navigateTo('admissions')" class="btn btn-pink" style="padding: 10px 22px; font-size: 0.92rem;">
+          <i class="fa-solid fa-paper-plane"></i> Enquire Now
+        </a>
+        <button class="hamburger-btn" id="mobileMenuBtn" aria-label="Toggle navigation">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+
+    </div>
+  </header>
+
+  <div class="drawer-overlay" id="drawerOverlay"></div>
+  <aside class="mobile-drawer" id="mobileDrawer">
+    <div class="drawer-header">
+      <div class="brand-text">
+        <span class="brand-title" style="font-size: 1.25rem;">Little Wings</span>
+        <span class="brand-tagline">Learn • Play • Grow</span>
+      </div>
+      <button id="closeDrawerBtn" style="background:none; border:none; font-size: 1.5rem; color:#64748B; cursor:pointer;">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+    </div>
+    <ul class="drawer-links">
+      <li><a href="#/home" data-route="home" class="active"><i class="fa-solid fa-house" style="color:var(--primary-pink)"></i> Home</a></li>
+      <li><a href="#/about-us" data-route="about-us"><i class="fa-solid fa-heart" style="color:var(--primary-purple)"></i> About Us</a></li>
+      <li><a href="#/preschool" data-route="preschool"><i class="fa-solid fa-shapes" style="color:var(--primary-yellow)"></i> Preschool</a></li>
+      <li><a href="#/daycare" data-route="daycare"><i class="fa-solid fa-child-reaching" style="color:var(--primary-blue)"></i> Daycare</a></li>
+      <li><a href="#/activity-club" data-route="activity-club"><i class="fa-solid fa-palette" style="color:var(--primary-green)"></i> Activity Club</a></li>
+      <li><a href="#/gallery" data-route="gallery"><i class="fa-solid fa-images" style="color:var(--primary-pink)"></i> Gallery</a></li>
+      <li><a href="#/admissions" data-route="admissions"><i class="fa-solid fa-graduation-cap" style="color:var(--primary-purple)"></i> Admissions</a></li>
+      <li><a href="#/contact" data-route="contact"><i class="fa-solid fa-phone" style="color:var(--primary-blue)"></i> Contact Us</a></li>
+    </ul>
+    
+    <div style="margin-top: 28px; display: flex; flex-direction: column; gap: 10px;">
+      <a href="#/admissions" onclick="navigateTo('admissions'); closeMobileMenu();" class="btn btn-pink" style="width: 100%;">
+        <i class="fa-solid fa-user-plus"></i> Enrol Now
+      </a>
+      <a href="https://wa.me/917016733472?text=Hello%20Little%20Wings%20Academy%2C%20I%20would%20like%20to%20enquire%20about%20your%20programs." target="_blank" class="btn btn-whatsapp" style="width: 100%;">
+        <i class="fa-brands fa-whatsapp"></i> Chat on WhatsApp
+      </a>
+    </div>
+  </aside>
+
+  <main id="page-home" class="page-section active-page">
+    
+    <section class="hero-wrapper">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="badge-pill">
+            <i class="fa-solid fa-sparkles"></i> Admissions Open for 2026-2027
+          </div>
+          <h1>Learn. Play. <br/><span class="pink">Grow</span> <span class="blue">Together.</span></h1>
+          <p>A joyful, safe and vibrant learning sanctuary where little wings prepare for big dreams through play-based Montessori preschool, loving daycare, and fun activities.</p>
+          <div class="hero-cta-group">
+            <a href="#/admissions" onclick="navigateTo('admissions')" class="btn btn-pink">
+              <i class="fa-solid fa-star"></i> Enrol Now
+            </a>
+            <a href="#/preschool" onclick="navigateTo('preschool')" class="btn btn-outline">
+              Explore Our Programs <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+          
+          <div style="margin-top: 30px; display: flex; gap: 20px; align-items: center;">
+            <div style="display: flex; align-items: center; gap: 6px; font-weight: 700; font-size: 0.9rem; color: #334155;">
+              <i class="fa-solid fa-circle-check" style="color: var(--primary-green);"></i> CCTV Secured
+            </div>
+            <div style="display: flex; align-items: center; gap: 6px; font-weight: 700; font-size: 0.9rem; color: #334155;">
+              <i class="fa-solid fa-circle-check" style="color: var(--primary-green);"></i> AC Classrooms
+            </div>
+            <div style="display: flex; align-items: center; gap: 6px; font-weight: 700; font-size: 0.9rem; color: var(--primary-pink);">
+              <i class="fa-solid fa-gift"></i> 2-Days Free Trial
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-image-frame">
+          <img src="https://images.unsplash.com/photo-1587654780291-39c9404d746b?w=800&auto=format&fit=crop&q=80" alt="Happy Children in classroom" class="hero-main-img" />
+          
+          <div class="floating-card-badge badge-top">
+            <i class="fa-solid fa-shield-heart" style="font-size: 1.6rem; color: var(--primary-green);"></i>
+            <div>
+              <div style="font-size: 0.75rem; color: #64748B;">Safe & Loving</div>
+              <div style="font-size: 0.9rem;">Home Environment</div>
+            </div>
+          </div>
+
+          <div class="floating-card-badge badge-bottom">
+            <i class="fa-solid fa-shapes" style="font-size: 1.6rem; color: var(--primary-pink);"></i>
+            <div>
+              <div style="font-size: 0.75rem; color: #64748B;">Montessori</div>
+              <div style="font-size: 0.9rem;">Activity-Based Learning</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-py">
+      <div class="container">
+        <div class="section-header">
+          <div class="badge-pill blue">Our Core Offerings</div>
+          <h2>Nurturing Every Step of Childhood</h2>
+          <p>Choose from our specialized early childhood programs crafted to encourage holistic emotional, social, and academic growth.</p>
+        </div>
+
+        <div class="grid-3">
+          <div class="program-card card-pink">
+            <div class="program-img-wrap">
+              <img src="https://images.unsplash.com/photo-1544717305-2782549b5136?w=600&auto=format&fit=crop&q=80" alt="Preschool Learning" />
+              <div class="program-price-tag">₹1,499 / mo</div>
+            </div>
+            <div class="badge-pill" style="align-self: flex-start; margin-bottom: 8px;">Preschool</div>
+            <h3>Building Strong Foundations</h3>
+            <p style="color: var(--text-muted); font-size: 0.95rem; margin-top: 6px;">From Playgroup to UKG with hands-on Montessori activities designed to ignite young minds.</p>
+            <ul class="feature-list">
+              <li><i class="fa-solid fa-check"></i> Play Group to UKG Curriculum</li>
+              <li><i class="fa-solid fa-check"></i> Montessori & Play-way Approach</li>
+              <li><i class="fa-solid fa-check"></i> Phonetics & Early Numbers</li>
+              <li><i class="fa-solid fa-check"></i> Individual Attention & Care</li>
+            </ul>
+            <a href="#/preschool" onclick="navigateTo('preschool')" class="btn btn-outline" style="width: 100%;">
+              Explore Preschool <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+
+          <div class="program-card card-blue">
+            <div class="program-img-wrap">
+              <img src="https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?w=600&auto=format&fit=crop&q=80" alt="Daycare Nurturing Care" />
+              <div class="program-price-tag" style="color: var(--primary-blue);">₹3,000 / mo</div>
+            </div>
+            <div class="badge-pill blue" style="align-self: flex-start; margin-bottom: 8px;">Daycare</div>
+            <h3>A Home Away From Home</h3>
+            <p style="color: var(--text-muted); font-size: 0.95rem; margin-top: 6px;">Caring, hygienic, and secure childcare for working parents with flexible hourly to full-day options.</p>
+            <ul class="feature-list">
+              <li><i class="fa-solid fa-check"></i> Age Group: 1 Year to 14 Years</li>
+              <li><i class="fa-solid fa-check"></i> Hourly, Half Day & Full Day</li>
+              <li><i class="fa-solid fa-check"></i> Nutritious Meals & Snacks</li>
+              <li><i class="fa-solid fa-check"></i> Homework Assistance for School Kids</li>
+            </ul>
+            <a href="#/daycare" onclick="navigateTo('daycare')" class="btn btn-blue" style="width: 100%;">
+              Explore Daycare <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+
+          <div class="program-card card-purple">
+            <div class="program-img-wrap">
+              <img src="https://images.unsplash.com/photo-1596464716127-f2a829822301?w=600&auto=format&fit=crop&q=80" alt="Activity Club Fun" />
+              <div class="program-price-tag" style="color: var(--primary-purple);">From ₹1,000 / mo</div>
+            </div>
+            <div class="badge-pill yellow" style="align-self: flex-start; margin-bottom: 8px;">Activity Club</div>
+            <h3>Tiny Wings Activity Club</h3>
+            <p style="color: var(--text-muted); font-size: 0.95rem; margin-top: 6px;">Unleash creativity, fitness, and communication through 15+ skill-building active workshops.</p>
+            <ul class="feature-list">
+              <li><i class="fa-solid fa-check"></i> Yoga, Zumba, Fun Run & Sports</li>
+              <li><i class="fa-solid fa-check"></i> Art, Craft, Clay & Drawing</li>
+              <li><i class="fa-solid fa-check"></i> Phonetics & English Grammar</li>
+              <li><i class="fa-solid fa-check"></i> Weekly 2-Day Structured Batches</li>
+            </ul>
+            <a href="#/activity-club" onclick="navigateTo('activity-club')" class="btn btn-pink" style="width: 100%;">
+              Explore Activities <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container" style="margin-bottom: 60px;">
+      <div class="free-trial-banner">
+        <div>
+          <span style="background: rgba(255,255,255,0.25); padding: 5px 14px; border-radius: 20px; font-weight: 800; font-size: 0.85rem; text-transform: uppercase;">Zero Risk Experience</span>
+          <h2 style="color: #fff; margin: 12px 0; font-size: 2.2rem;">Free Trial Classes (2 Days)!</h2>
+          <p style="font-size: 1.05rem; opacity: 0.95; max-width: 520px;">Let your child experience our caring teachers, cheerful environment, and engaging activity sessions before enrolling.</p>
+        </div>
+        <div style="text-align: center;">
+          <a href="#/admissions" onclick="navigateTo('admissions')" class="btn btn-pink" style="background: #FFFFFF; color: #D97706; font-size: 1.1rem; padding: 15px 36px; box-shadow: 0 8px 20px rgba(0,0,0,0.15);">
+            <i class="fa-solid fa-calendar-check"></i> Book Free Trial Now
+          </a>
+          <div style="font-size: 0.82rem; margin-top: 8px; opacity: 0.9;">*Limited seats per batch for personal care</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-py" style="background: #FFFFFF;">
+      <div class="container">
+        <div class="section-header">
+          <div class="badge-pill green">The Little Wings Difference</div>
+          <h2>Why Parents Trust Little Wings Academy</h2>
+          <p>Every corner is thoughtfully arranged to create a happy, safe, and motivating learning journey.</p>
+        </div>
+
+        <div class="grid-4">
+          <div class="feature-box">
+            <div class="feature-box-icon"><i class="fa-solid fa-heart-pulse"></i></div>
+            <div>
+              <h4 style="font-size: 1.05rem;">Safe & Nurturing</h4>
+              <p style="font-size: 0.88rem; color: var(--text-muted);">Hygienic, child-proof, loving environment.</p>
+            </div>
+          </div>
+
+          <div class="feature-box">
+            <div class="feature-box-icon" style="background:var(--sky-soft); color:var(--primary-blue);"><i class="fa-solid fa-chalkboard-user"></i></div>
+            <div>
+              <h4 style="font-size: 1.05rem;">Caring Educators</h4>
+              <p style="font-size: 0.88rem; color: var(--text-muted);">Experienced teachers who listen and guide.</p>
+            </div>
+          </div>
+
+          <div class="feature-box">
+            <div class="feature-box-icon" style="background:var(--yellow-soft); color:var(--primary-yellow);"><i class="fa-solid fa-snowflake"></i></div>
+            <div>
+              <h4 style="font-size: 1.05rem;">AC Classrooms</h4>
+              <p style="font-size: 0.88rem; color: var(--text-muted);">Comfortable air-conditioned spaces.</p>
+            </div>
+          </div>
+
+          <div class="feature-box">
+            <div class="feature-box-icon" style="background:var(--purple-soft); color:var(--primary-purple);"><i class="fa-solid fa-video"></i></div>
+            <div>
+              <h4 style="font-size: 1.05rem;">CCTV Surveillance</h4>
+              <p style="font-size: 0.88rem; color: var(--text-muted);">Round-the-clock safety monitoring.</p>
+            </div>
+          </div>
+
+          <div class="feature-box">
+            <div class="feature-box-icon"><i class="fa-solid fa-puzzle-piece"></i></div>
+            <div>
+              <h4 style="font-size: 1.05rem;">Play Area & Toys</h4>
+              <p style="font-size: 0.88rem; color: var(--text-muted);">Colorful learning toys & sensory blocks.</p>
+            </div>
+          </div>
+
+          <div class="feature-box">
+            <div class="feature-box-icon" style="background:var(--green-soft); color:var(--primary-green);"><i class="fa-solid fa-user-check"></i></div>
+            <div>
+              <h4 style="font-size: 1.05rem;">Individual Attention</h4>
+              <p style="font-size: 0.88rem; color: var(--text-muted);">Small batch size for personalized growth.</p>
+            </div>
+          </div>
+
+          <div class="feature-box">
+            <div class="feature-box-icon" style="background:var(--sky-soft); color:var(--primary-blue);"><i class="fa-solid fa-book-open-reader"></i></div>
+            <div>
+              <h4 style="font-size: 1.05rem;">Storytelling & Arts</h4>
+              <p style="font-size: 0.88rem; color: var(--text-muted);">Daily puppetry, music, craft & dancing.</p>
+            </div>
+          </div>
+
+          <div class="feature-box">
+            <div class="feature-box-icon" style="background:var(--yellow-soft); color:var(--primary-yellow);"><i class="fa-solid fa-bowl-rice"></i></div>
+            <div>
+              <h4 style="font-size: 1.05rem;">Nutritious Meals</h4>
+              <p style="font-size: 0.88rem; color: var(--text-muted);">Wholesome snacks & meal support in daycare.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <section id="page-about-us" class="page-section">
+    <div class="hero-wrapper" style="padding: 50px 0 60px 0; text-align: center;">
+      <div class="container">
+        <div class="badge-pill">About Little Wings Academy</div>
+        <h1>Small Wings, <span class="pink">Big Dreams</span></h1>
+        <p style="margin: 0 auto; max-width: 650px;">Where every child is celebrated, nurtured, and empowered to discover their true talents in a playful, respectful learning community.</p>
+      </div>
+    </div>
+
+    <div class="container section-py">
+      <div class="grid-2" style="margin-bottom: 60px;">
+        <div>
+          <div class="badge-pill blue">Our Philosophy</div>
+          <h2>Where Little Hands Explore, Create & Shine!</h2>
+          <p style="margin-bottom: 16px; color: #475569;">At Little Wings Academy, we believe early childhood is not a race—it is a magical journey of wonder, hands-on exploration, and social bonding. Guided by our motto <strong>“Learn • Play • Grow Together”</strong>, our curriculum bridges structured Montessori fundamentals with joyful physical and creative expression.</p>
+          <p style="color: #475569; margin-bottom: 24px;">Whether your little one joins us for preschool, after-school activity clubs, or daycare, we provide an encouraging environment where children feel secure, loved, and confident to ask questions.</p>
+          
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px;">
+            <div style="background: var(--pink-soft); padding: 16px; border-radius: var(--radius-sm);">
+              <h4 style="color: var(--primary-pink); margin-bottom: 4px;">Joyful Learning</h4>
+              <p style="font-size: 0.85rem; color: #64748B;">Play-way methods that turn education into adventure.</p>
+            </div>
+            <div style="background: var(--sky-soft); padding: 16px; border-radius: var(--radius-sm);">
+              <h4 style="color: var(--primary-blue); margin-bottom: 4px;">Holistic Care</h4>
+              <p style="font-size: 0.85rem; color: #64748B;">Physical fitness, creative expression & social values.</p>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <img src="https://images.unsplash.com/photo-1577896851231-70ef18881754?w=700&auto=format&fit=crop&q=80" alt="Teacher interacting with children" style="border-radius: 28px; box-shadow: var(--shadow-lg);" />
+        </div>
+      </div>
+
+      <div class="grid-3" style="margin-top: 40px;">
+        <div class="feature-box" style="flex-direction: column;">
+          <div class="feature-box-icon"><i class="fa-solid fa-seedling"></i></div>
+          <h3 style="font-size: 1.25rem;">Nurturing Growth</h3>
+          <p style="font-size: 0.95rem; color: var(--text-muted);">Encouraging cognitive, motor, linguistic, and emotional abilities simultaneously through specialized early childhood care.</p>
+        </div>
+
+        <div class="feature-box" style="flex-direction: column;">
+          <div class="feature-box-icon" style="background: var(--sky-soft); color: var(--primary-blue);"><i class="fa-solid fa-hand-holding-heart"></i></div>
+          <h3 style="font-size: 1.25rem;">Safe & Hygienic Habitat</h3>
+          <p style="font-size: 0.95rem; color: var(--text-muted);">Air-conditioned spaces, 24/7 CCTV surveillance, and strict hygiene protocols ensure peace of mind for every parent.</p>
+        </div>
+
+        <div class="feature-box" style="flex-direction: column;">
+          <div class="feature-box-icon" style="background: var(--yellow-soft); color: var(--primary-yellow);"><i class="fa-solid fa-people-group"></i></div>
+          <h3 style="font-size: 1.25rem;">Parent-Educator Synergy</h3>
+          <p style="font-size: 0.95rem; color: var(--text-muted);">Continuous updates, homework guidance, and open communication to support parents at every milestone.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="page-preschool" class="page-section">
+    <div class="hero-wrapper" style="padding: 50px 0 60px 0; text-align: center;">
+      <div class="container">
+        <div class="badge-pill">Early Childhood Program</div>
+        <h1>Preschool — <span class="pink">Building Strong Foundations</span></h1>
+        <p style="margin: 0 auto; max-width: 650px;">A joyful foundation from Playgroup to UKG built on Montessori values, phonics, number sense, and sensory discovery.</p>
+      </div>
+    </div>
+
+    <div class="container section-py">
+      <div class="grid-2" style="margin-bottom: 50px;">
+        <div>
+          <div class="badge-pill yellow">Curriculum Highlights</div>
+          <h2>Play Group to UKG Educational Journey</h2>
+          <p style="color: #475569; margin-bottom: 20px;">We foster natural curiosity through structured play-based modules designed by early learning experts. Your child develops strong phonics, social skills, and creative self-expression.</p>
+          
+          <ul class="feature-list">
+            <li><i class="fa-solid fa-circle-check"></i> <strong>Montessori Based Learning:</strong> Hands-on wooden materials, sensory boards, and practical life exercises.</li>
+            <li><i class="fa-solid fa-circle-check"></i> <strong>Early Literacy & Phonetics:</strong> Fun sound associations, storytelling, and early vocabulary building.</li>
+            <li><i class="fa-solid fa-circle-check"></i> <strong>Number Sense & Logic:</strong> Counting games, shape recognition, and spatial awareness.</li>
+            <li><i class="fa-solid fa-circle-check"></i> <strong>Creative Expression:</strong> Sand & clay play, finger painting, music, and dramatic role play.</li>
+            <li><i class="fa-solid fa-circle-check"></i> <strong>Safe & Hygienic Classrooms:</strong> Full AC, CCTV monitored, and child-safe fittings.</li>
+          </ul>
+
+          <div style="margin-top: 24px;">
+            <a href="https://wa.me/917016733472?text=Hello%20Little%20Wings%20Academy%2C%20I%20would%20like%20to%20enquire%20about%20Preschool%20admission." target="_blank" class="btn btn-whatsapp">
+              <i class="fa-brands fa-whatsapp"></i> Enquire on WhatsApp
+            </a>
+          </div>
+        </div>
+
+        <div>
+          <div style="background: #FFFFFF; padding: 32px; border-radius: var(--radius-lg); box-shadow: var(--shadow-lg); border: 2px solid var(--pink-soft);">
+            <span class="badge-pill">Affordable Fee Structure</span>
+            <div style="margin: 14px 0;">
+              <span style="font-size: 2.8rem; font-family: var(--font-display); font-weight: 700; color: var(--primary-pink);">₹1,499</span>
+              <span style="color: var(--text-muted); font-size: 1.1rem; font-weight: 700;">/ Month</span>
+            </div>
+            <p style="color: #64748B; font-size: 0.92rem; margin-bottom: 20px;">Includes access to air-conditioned classrooms, learning toys, Montessori activities, and daily development updates.</p>
+            <hr style="border: none; border-top: 1px solid var(--border-color); margin-bottom: 20px;" />
+            
+            <div style="display: flex; flex-direction: column; gap: 10px; margin-bottom: 24px;">
+              <div style="display: flex; justify-content: space-between; font-weight: 700; font-size: 0.95rem;">
+                <span>Batches:</span>
+                <span style="color: var(--primary-blue);">Morning & Afternoon</span>
+              </div>
+              <div style="display: flex; justify-content: space-between; font-weight: 700; font-size: 0.95rem;">
+                <span>Free Trial:</span>
+                <span style="color: var(--primary-green);">2 Days Complimentary</span>
+              </div>
+            </div>
+
+            <a href="#/admissions" onclick="navigateTo('admissions')" class="btn btn-pink" style="width: 100%;">
+              <i class="fa-solid fa-file-pen"></i> Apply for Preschool Admission
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="page-daycare" class="page-section">
+    <div class="hero-wrapper" style="padding: 50px 0 60px 0; text-align: center;">
+      <div class="container">
+        <div class="badge-pill blue">Loving Childcare</div>
+        <h1>Daycare — <span class="blue">A Home Away From Home</span></h1>
+        <p style="margin: 0 auto; max-width: 650px;">A safe, comfortable and loving second home designed with utmost care for children from 1 Year to 14 Years.</p>
+      </div>
+    </div>
+
+    <div class="container section-py">
+      <div class="grid-2">
+        <div>
+          <div class="badge-pill green">Personalized & Reliable Care</div>
+          <h2>Peace of Mind for Working Parents</h2>
+          <p style="color: #475569; margin-bottom: 20px;">We know how much your child's well-being matters. Our daycare is managed by compassionate caregivers providing balanced meals, homework assistance, supervised playtime, and peaceful nap routines.</p>
+
+          <div class="grid-2" style="gap: 16px; margin-bottom: 24px;">
+            <div style="background: var(--white); padding: 18px; border-radius: var(--radius-sm); border: 1px solid var(--border-color);">
+              <i class="fa-solid fa-users" style="color: var(--primary-pink); font-size: 1.4rem; margin-bottom: 8px;"></i>
+              <h4 style="font-size: 1rem;">Age 1 to 14 Years</h4>
+              <p style="font-size: 0.85rem; color: #64748B;">Toddlers to school-going children.</p>
+            </div>
+
+            <div style="background: var(--white); padding: 18px; border-radius: var(--radius-sm); border: 1px solid var(--border-color);">
+              <i class="fa-solid fa-clock" style="color: var(--primary-blue); font-size: 1.4rem; margin-bottom: 8px;"></i>
+              <h4 style="font-size: 1rem;">Flexible Timing</h4>
+              <p style="font-size: 0.85rem; color: #64748B;">Hourly, Half Day & Full Day options.</p>
+            </div>
+
+            <div style="background: var(--white); padding: 18px; border-radius: var(--radius-sm); border: 1px solid var(--border-color);">
+              <i class="fa-solid fa-utensils" style="color: var(--primary-yellow); font-size: 1.4rem; margin-bottom: 8px;"></i>
+              <h4 style="font-size: 1rem;">Nutritious Meals</h4>
+              <p style="font-size: 0.85rem; color: #64748B;">Fresh, wholesome snacks & food.</p>
+            </div>
+
+            <div style="background: var(--white); padding: 18px; border-radius: var(--radius-sm); border: 1px solid var(--border-color);">
+              <i class="fa-solid fa-pencil" style="color: var(--primary-green); font-size: 1.4rem; margin-bottom: 8px;"></i>
+              <h4 style="font-size: 1rem;">Homework Support</h4>
+              <p style="font-size: 0.85rem; color: #64748B;">Assistance for school-going kids.</p>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div style="background: #FFFFFF; padding: 34px; border-radius: var(--radius-lg); box-shadow: var(--shadow-lg); border: 2px solid var(--sky-soft);">
+            <span class="badge-pill blue">Daycare Plan</span>
+            <div style="margin: 14px 0;">
+              <span style="font-size: 2.8rem; font-family: var(--font-display); font-weight: 700; color: var(--primary-blue);">₹3,000</span>
+              <span style="color: var(--text-muted); font-size: 1.1rem; font-weight: 700;">/ Month</span>
+            </div>
+            <p style="color: #64748B; font-size: 0.92rem; margin-bottom: 20px;">Includes customized supervision, safe bedding for nap time, structured indoor activities, and homework assistance.</p>
+            
+            <div style="background: var(--sky-soft); padding: 14px; border-radius: var(--radius-sm); margin-bottom: 20px;">
+              <span style="font-size: 0.85rem; font-weight: 700; color: var(--primary-blue);"><i class="fa-solid fa-circle-info"></i> Flexible timings available as per parent requirement.</span>
+            </div>
+
+            <a href="https://wa.me/917016733472?text=Hello%20Little%20Wings%20Academy%2C%20I%20would%20like%20to%20enquire%20about%20Daycare%20services." target="_blank" class="btn btn-blue" style="width: 100%;">
+              <i class="fa-brands fa-whatsapp"></i> Enquire About Daycare
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="page-activity-club" class="page-section">
+    <div class="hero-wrapper" style="padding: 50px 0 60px 0; text-align: center;">
+      <div class="container">
+        <div class="badge-pill yellow">Tiny Wings Activity Club</div>
+        <h1>Where Little Hands <span class="pink">Explore</span>, <span class="blue">Create</span> & <span class="yellow">Shine!</span></h1>
+        <p style="margin: 0 auto; max-width: 680px;">Over 15+ curated creative and physical activities to boost fitness, communication, and confidence in boys and girls.</p>
+      </div>
+    </div>
+
+    <div class="container section-py">
+      
+      <div style="margin-bottom: 45px;">
+        <h3 style="font-size: 1.5rem; margin-bottom: 20px; display: flex; align-items: center; gap: 10px;">
+          <span style="background: var(--pink-soft); color: var(--primary-pink); width: 36px; height: 36px; border-radius: 50%; display: inline-flex; align-items: center; justify-content: center; font-size: 1rem;"><i class="fa-solid fa-palette"></i></span>
+          Creative & Expression Activities
+        </h3>
+
+        <div class="grid-4">
+          <div class="activity-bubble-card">
+            <div class="activity-icon-wrap" style="background: var(--pink-soft); color: var(--primary-pink);"><i class="fa-solid fa-masks-theater"></i></div>
+            <h4>Role Play Club</h4>
+            <p style="font-size: 0.85rem; color: #64748B;">Boost imagination, storytelling, and self-confidence.</p>
+          </div>
+
+          <div class="activity-bubble-card">
+            <div class="activity-icon-wrap" style="background: var(--yellow-soft); color: var(--primary-yellow);"><i class="fa-solid fa-hand-sparkles"></i></div>
+            <h4>Puppet Theatre</h4>
+            <p style="font-size: 0.85rem; color: #64748B;">Encourages creativity, listening & public speaking.</p>
+          </div>
+
+          <div class="activity-bubble-card">
+            <div class="activity-icon-wrap" style="background: var(--sky-soft); color: var(--primary-blue);"><i class="fa-solid fa-paint-brush"></i></div>
+            <h4>Art & Craft</h4>
+            <p style="font-size: 0.85rem; color: #64748B;">Unleash creativity with paper crafts, colors & models.</p>
+          </div>
+
+          <div class="activity-bubble-card">
+            <div class="activity-icon-wrap" style="background: var(--purple-soft); color: var(--primary-purple);"><i class="fa-solid fa-music"></i></div>
+            <h4>Dance & Groove</h4>
+            <p style="font-size: 0.85rem; color: #64748B;">Move to rhythm, improve coordination and joy.</p>
+          </div>
+
+          <div class="activity-bubble-card">
+            <div class="activity-icon-wrap" style="background: var(--green-soft); color: var(--primary-green);"><i class="fa-solid fa-cubes"></i></div>
+            <h4>Sand & Clay Club</h4>
+            <p style="font-size: 0.85rem; color: #64748B;">Tactile sensory play for fine motor development.</p>
+          </div>
+
+          <div class="activity-bubble-card">
+            <div class="activity-icon-wrap" style="background: var(--pink-soft); color: var(--primary-pink);"><i class="fa-solid fa-pencil"></i></div>
+            <h4>Drawing & Sketching</h4>
+            <p style="font-size: 0.85rem; color: #64748B;">Express thoughts and shapes through art.</p>
+          </div>
+
+          <div class="activity-bubble-card">
+            <div class="activity-icon-wrap" style="background: var(--sky-soft); color: var(--primary-blue);"><i class="fa-solid fa-spell-check"></i></div>
+            <h4>Language & Phonics</h4>
+            <p style="font-size: 0.85rem; color: #64748B;">Speaking, reading phonics & sound recognition.</p>
+          </div>
+
+          <div class="activity-bubble-card">
+            <div class="activity-icon-wrap" style="background: var(--yellow-soft); color: var(--primary-yellow);"><i class="fa-solid fa-tree"></i></div>
+            <h4>Nature Explorer</h4>
+            <p style="font-size: 0.85rem; color: #64748B;">Connect with nature, plants and curiosity.</p>
+          </div>
+        </div>
+      </div>
+
+      <div style="margin-bottom: 50px;">
+        <h3 style="font-size: 1.5rem; margin-bottom: 20px; display: flex; align-items: center; gap: 10px;">
+          <span style="background: var(--green-soft); color: var(--primary-green); width: 36px; height: 36px; border-radius: 50%; display: inline-flex; align-items: center; justify-content: center; font-size: 1rem;"><i class="fa-solid fa-dumbbell"></i></span>
+          Physical Fitness & Sports (Boys & Girls)
+        </h3>
+
+        <div class="grid-4">
+          <div class="activity-bubble-card">
+            <div class="activity-icon-wrap" style="background: var(--purple-soft); color: var(--primary-purple);"><i class="fa-solid fa-spa"></i></div>
+            <h4>Kids Yoga</h4>
+            <p style="font-size: 0.85rem; color: #64748B;">Flexibility, breathing & posture exercises.</p>
+          </div>
+
+          <div class="activity-bubble-card">
+            <div class="activity-icon-wrap" style="background: var(--pink-soft); color: var(--primary-pink);"><i class="fa-solid fa-person-running"></i></div>
+            <h4>Fun Run & Sprint</h4>
+            <p style="font-size: 0.85rem; color: #64748B;">Agility, speed & cardiovascular endurance.</p>
+          </div>
+
+          <div class="activity-bubble-card">
+            <div class="activity-icon-wrap" style="background: var(--yellow-soft); color: var(--primary-yellow);"><i class="fa-solid fa-child"></i></div>
+            <h4>Zumba Kids</h4>
+            <p style="font-size: 0.85rem; color: #64748B;">High-energy rhythmic workout with fun music.</p>
+          </div>
+
+          <div class="activity-bubble-card">
+            <div class="activity-icon-wrap" style="background: var(--sky-soft); color: var(--primary-blue);"><i class="fa-solid fa-futbol"></i></div>
+            <h4>Ball Games</h4>
+            <p style="font-size: 0.85rem; color: #64748B;">Hand-eye coordination and team play.</p>
+          </div>
+
+          <div class="activity-bubble-card">
+            <div class="activity-icon-wrap" style="background: var(--green-soft); color: var(--primary-green);"><i class="fa-solid fa-arrows-split-up-and-left"></i></div>
+            <h4>Obstacle Course</h4>
+            <p style="font-size: 0.85rem; color: #64748B;">Balance, navigation and athletic agility.</p>
+          </div>
+
+          <div class="activity-bubble-card">
+            <div class="activity-icon-wrap" style="background: var(--pink-soft); color: var(--primary-pink);"><i class="fa-solid fa-heart"></i></div>
+            <h4>Cool Down & Relax</h4>
+            <p style="font-size: 0.85rem; color: #64748B;">Mindfulness, calming stretches & focus.</p>
+          </div>
+
+          <div class="activity-bubble-card">
+            <div class="activity-icon-wrap" style="background: var(--purple-soft); color: var(--primary-purple);"><i class="fa-solid fa-people-arrows"></i></div>
+            <h4>Group Games</h4>
+            <p style="font-size: 0.85rem; color: #64748B;">Team spirit, bonding & sportsmanship.</p>
+          </div>
+
+          <div class="activity-bubble-card">
+            <div class="activity-icon-wrap" style="background: var(--yellow-soft); color: var(--primary-yellow);"><i class="fa-solid fa-bolt"></i></div>
+            <h4>Fitness Circuit</h4>
+            <p style="font-size: 0.85rem; color: #64748B;">Core stamina and motor skills development.</p>
+          </div>
+        </div>
+      </div>
+
+      <div style="background: var(--white); padding: 36px; border-radius: var(--radius-lg); box-shadow: var(--shadow-md); border: 2px solid var(--border-color);">
+        <div class="section-header" style="margin-bottom: 25px;">
+          <div class="badge-pill">Affordable Activity Club Fees</div>
+          <h2>Activity Club Pricing Plans</h2>
+          <p>Flexible schedules allowing you to pick your child's favorite hobby.</p>
+        </div>
+
+        <div class="grid-2">
+          <div style="background: var(--pink-soft); padding: 24px; border-radius: var(--radius-md); border: 1.5px solid var(--primary-pink);">
+            <h4 style="color: var(--primary-pink); font-size: 1.25rem;">Any 1 Activity Plan</h4>
+            <div style="font-size: 2.2rem; font-weight: 700; color: #1E293B; margin: 10px 0;">₹1,000 <span style="font-size: 0.9rem; color: #64748B;">/ month</span></div>
+            <p style="font-size: 0.9rem; color: #475569; margin-bottom: 12px;">Weekly 2 Days batch (Sports, Zumba, Yoga, Art & Craft, or Dance).</p>
+            <a href="https://wa.me/917016733472?text=Hello%20Little%20Wings%20Academy%2C%20I%20want%20to%20enquire%20about%20the%201000%20rupees%20Activity%20Club%20plan." target="_blank" class="btn btn-pink" style="width: 100%;">
+              Enrol in 1 Activity
+            </a>
+          </div>
+
+          <div style="background: var(--sky-soft); padding: 24px; border-radius: var(--radius-md); border: 1.5px solid var(--primary-blue);">
+            <h4 style="color: var(--primary-blue); font-size: 1.25rem;">Phonetic Fun & English Grammar</h4>
+            <div style="font-size: 2.2rem; font-weight: 700; color: #1E293B; margin: 10px 0;">₹2,000 <span style="font-size: 0.9rem; color: #64748B;">/ month</span></div>
+            <p style="font-size: 0.9rem; color: #475569; margin-bottom: 12px;">Weekly 2 Days dedicated phonetic reading, sentence structuring & speaking.</p>
+            <a href="https://wa.me/917016733472?text=Hello%20Little%20Wings%20Academy%2C%20I%20want%20to%20enquire%20about%20Phonetic%20Fun%20and%20English%20Grammar." target="_blank" class="btn btn-blue" style="width: 100%;">
+              Enrol in Phonics & Grammar
+            </a>
+          </div>
+        </div>
+
+        <p style="text-align: center; font-size: 0.85rem; color: #64748B; margin-top: 20px;">
+          *Timings & fees may vary as per selected plan and custom schedule confirmation.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="page-gallery" class="page-section">
+    <div class="hero-wrapper" style="padding: 50px 0 60px 0; text-align: center;">
+      <div class="container">
+        <div class="badge-pill">Memories & Smiles</div>
+        <h1>Our Learning <span class="pink">Moments</span></h1>
+        <p style="margin: 0 auto; max-width: 650px;">A glimpse into the daily joy, creative exploration, and active playtime at Little Wings Academy.</p>
+      </div>
+    </div>
+
+    <div class="container section-py">
+      <div class="gallery-filter-bar">
+        <button class="filter-btn active" onclick="filterGallery('all', this)">All Photos</button>
+        <button class="filter-btn" onclick="filterGallery('preschool', this)">Preschool</button>
+        <button class="filter-btn" onclick="filterGallery('daycare', this)">Daycare</button>
+        <button class="filter-btn" onclick="filterGallery('activities', this)">Activities & Sports</button>
+        <button class="filter-btn" onclick="filterGallery('art', this)">Art & Craft</button>
+      </div>
+
+      <div class="gallery-grid" id="galleryGrid">
+        <div class="gallery-item" data-category="preschool" onclick="openLightbox('https://images.unsplash.com/photo-1587654780291-39c9404d746b?w=1000')">
+          <img src="https://images.unsplash.com/photo-1587654780291-39c9404d746b?w=600&auto=format&fit=crop&q=80" alt="Montessori learning in classroom" />
+          <div class="gallery-overlay"><span>Preschool Hands-on Learning</span></div>
+        </div>
+
+        <div class="gallery-item" data-category="art" onclick="openLightbox('https://images.unsplash.com/photo-1596464716127-f2a829822301?w=1000')">
+          <img src="https://images.unsplash.com/photo-1596464716127-f2a829822301?w=600&auto=format&fit=crop&q=80" alt="Child doing watercolor and craft" />
+          <div class="gallery-overlay"><span>Creative Art & Painting</span></div>
+        </div>
+
+        <div class="gallery-item" data-category="daycare" onclick="openLightbox('https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?w=1000')">
+          <img src="https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?w=600&auto=format&fit=crop&q=80" alt="Daycare Story Time" />
+          <div class="gallery-overlay"><span>Daycare Nurturing & Stories</span></div>
+        </div>
+
+        <div class="gallery-item" data-category="activities" onclick="openLightbox('https://images.unsplash.com/photo-1544717305-2782549b5136?w=1000')">
+          <img src="https://images.unsplash.com/photo-1544717305-2782549b5136?w=600&auto=format&fit=crop&q=80" alt="Kids Sports & Fitness" />
+          <div class="gallery-overlay"><span>Tiny Tots Fitness & Fun</span></div>
+        </div>
+
+        <div class="gallery-item" data-category="art" onclick="openLightbox('https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=1000')">
+          <img src="https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=600&auto=format&fit=crop&q=80" alt="Clay modelling" />
+          <div class="gallery-overlay"><span>Clay & Sensory Play</span></div>
+        </div>
+
+        <div class="gallery-item" data-category="preschool" onclick="openLightbox('https://images.unsplash.com/photo-1577896851231-70ef18881754?w=1000')">
+          <img src="https://images.unsplash.com/photo-1577896851231-70ef18881754?w=600&auto=format&fit=crop&q=80" alt="Group classroom engagement" />
+          <div class="gallery-overlay"><span>Playgroup Fun Circle</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="page-admissions" class="page-section">
+    <div class="hero-wrapper" style="padding: 50px 0 60px 0; text-align: center;">
+      <div class="container">
+        <div class="badge-pill">Join Little Wings Family</div>
+        <h1>Admissions <span class="pink">Open 2026-27</span></h1>
+        <p style="margin: 0 auto; max-width: 650px;">Secure your child's seat in Preschool, Daycare, or Tiny Wings Activity Club. Schedule your 2-Day Free Trial today!</p>
+      </div>
+    </div>
+
+    <div class="container section-py">
+      <div class="grid-2">
+        <div>
+          <div class="badge-pill yellow">Admission Process</div>
+          <h2>Easy 3-Step Enrolment</h2>
+          <p style="color: #475569; margin-bottom: 24px;">We keep the registration transparent, friendly, and smooth for parents.</p>
+
+          <div style="display: flex; flex-direction: column; gap: 20px;">
+            <div style="display: flex; gap: 16px;">
+              <div style="width: 44px; height: 44px; border-radius: 50%; background: var(--pink-soft); color: var(--primary-pink); display: flex; align-items: center; justify-content: center; font-weight: 800; font-size: 1.2rem; flex-shrink: 0;">1</div>
+              <div>
+                <h4 style="font-size: 1.1rem;">Submit Enquiry or Book Trial</h4>
+                <p style="font-size: 0.9rem; color: #64748B;">Fill out the form or drop a message on WhatsApp for 2-day trial classes.</p>
+              </div>
+            </div>
+
+            <div style="display: flex; gap: 16px;">
+              <div style="width: 44px; height: 44px; border-radius: 50%; background: var(--sky-soft); color: var(--primary-blue); display: flex; align-items: center; justify-content: center; font-weight: 800; font-size: 1.2rem; flex-shrink: 0;">2</div>
+              <div>
+                <h4 style="font-size: 1.1rem;">Visit our Ellora Park Academy</h4>
+                <p style="font-size: 0.9rem; color: #64748B;">Tour our AC classrooms, safe play equipment, and meet our teachers.</p>
+              </div>
+            </div>
+
+            <div style="display: flex; gap: 16px;">
+              <div style="width: 44px; height: 44px; border-radius: 50%; background: var(--green-soft); color: var(--primary-green); display: flex; align-items: center; justify-content: center; font-weight: 800; font-size: 1.2rem; flex-shrink: 0;">3</div>
+              <div>
+                <h4 style="font-size: 1.1rem;">Confirm Batch & Welcome Kit</h4>
+                <p style="font-size: 0.9rem; color: #64748B;">Complete simple paperwork and start your child's fun learning journey!</p>
+              </div>
+            </div>
+          </div>
+
+          <div style="margin-top: 32px; background: var(--pink-soft); padding: 20px; border-radius: var(--radius-md); border-left: 4px solid var(--primary-pink);">
+            <h4 style="color: var(--primary-pink);">Need immediate assistance?</h4>
+            <p style="font-size: 0.9rem; color: #475569; margin: 4px 0 10px 0;">Speak directly with our academic coordinator at <strong>+91 70167 33472</strong> or <strong>+91 96248 29592</strong>.</p>
+          </div>
+        </div>
+
+        <div class="form-container">
+          <h3 style="margin-bottom: 8px;">Admission & Trial Booking</h3>
+          <p style="font-size: 0.88rem; color: #64748B; margin-bottom: 20px;">Fill this form and we will confirm your preferred timing within 2 hours.</p>
+
+          <form id="admissionEnquiryForm" onsubmit="handleAdmissionSubmit(event)">
+            <div class="form-row">
+              <div class="form-group">
+                <label>Parent / Guardian Name *</label>
+                <input type="text" class="form-control" placeholder="e.g. Ramesh Patel" required />
+              </div>
+              <div class="form-group">
+                <label>Contact Phone Number *</label>
+                <input type="tel" class="form-control" placeholder="e.g. 9876543210" required />
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label>Child's Name *</label>
+                <input type="text" class="form-control" placeholder="e.g. Aarav Patel" required />
+              </div>
+              <div class="form-group">
+                <label>Child's Age *</label>
+                <input type="text" class="form-control" placeholder="e.g. 3.5 Years" required />
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label>Program Interested In *</label>
+                <select class="form-control" required id="programInterest">
+                  <option value="Preschool (₹1,499/mo)">Preschool (Playgroup to UKG)</option>
+                  <option value="Daycare (₹3,000/mo)">Daycare (1-14 Yrs)</option>
+                  <option value="Activity Club (₹1,000/mo)">Activity Club (Fitness/Arts)</option>
+                  <option value="Phonics & Grammar (₹2,000/mo)">Phonetics & English Grammar</option>
+                  <option value="2-Day Free Trial">2-Days Free Trial Booking</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label>Preferred Batch Timing</label>
+                <select class="form-control">
+                  <option>Morning Batch (09:00 AM - 12:00 PM)</option>
+                  <option>Afternoon Batch (12:30 PM - 03:30 PM)</option>
+                  <option>Full Day Daycare (08:30 AM - 06:30 PM)</option>
+                  <option>Evening Activity Batches (04:00 PM - 06:30 PM)</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label>Special Notes / Questions (Optional)</label>
+              <textarea class="form-control" rows="3" placeholder="Tell us about food habits, allergies, or questions..."></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-pink" style="width: 100%; padding: 14px; font-size: 1.05rem;">
+              <i class="fa-solid fa-paper-plane"></i> Submit Admission Enquiry
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="page-contact" class="page-section">
+    <div class="hero-wrapper" style="padding: 50px 0 60px 0; text-align: center;">
+      <div class="container">
+        <div class="badge-pill blue">Get In Touch</div>
+        <h1>Visit & Contact <span class="pink">Our Academy</span></h1>
+        <p style="margin: 0 auto; max-width: 650px;">We would love to welcome you and your child to Little Wings Academy in Ellora Park, Vadodara.</p>
+      </div>
+    </div>
+
+    <div class="container section-py">
+      <div class="grid-2">
+        <div>
+          <div class="badge-pill">Location & Contacts</div>
+          <h2>We Are Located In Ellora Park, Vadodara</h2>
+          <p style="color: #475569; margin-bottom: 28px;">Easily accessible residential campus with safe drop-off space and child-proof security.</p>
+
+          <div style="display: flex; flex-direction: column; gap: 18px;">
+            <div class="feature-box">
+              <div class="feature-box-icon"><i class="fa-solid fa-location-dot"></i></div>
+              <div>
+                <h4 style="font-size: 1.05rem;">Academy Address</h4>
+                <p style="color: #64748B; font-size: 0.92rem;">A/46-289 Anand Flats, Sai Baba Temple Lane, Ellora Park, Vadodara - 390023</p>
+              </div>
+            </div>
+
+            <div class="feature-box">
+              <div class="feature-box-icon" style="background:var(--green-soft); color:var(--primary-green);"><i class="fa-solid fa-phone"></i></div>
+              <div>
+                <h4 style="font-size: 1.05rem;">Direct Phone & WhatsApp</h4>
+                <p style="color: #64748B; font-size: 0.92rem;">Primary: <a href="tel:7016733472" style="font-weight:700; color:var(--text-main);">70167 33472</a></p>
+                <p style="color: #64748B; font-size: 0.92rem;">Secondary: <a href="tel:9624829592" style="font-weight:700; color:var(--text-main);">96248 29592</a></p>
+              </div>
+            </div>
+
+            <div class="feature-box">
+              <div class="feature-box-icon" style="background:var(--purple-soft); color:var(--primary-purple);"><i class="fa-solid fa-envelope"></i></div>
+              <div>
+                <h4 style="font-size: 1.05rem;">Email Support</h4>
+                <p style="color: #64748B; font-size: 0.92rem;"><a href="mailto:littlewingsacademy24@gmail.com">littlewingsacademy24@gmail.com</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="form-container">
+          <h3 style="margin-bottom: 14px;">Send a Direct Message</h3>
+          <form onsubmit="handleContactSubmit(event)">
+            <div class="form-group">
+              <label>Your Name *</label>
+              <input type="text" class="form-control" placeholder="Enter your full name" required />
+            </div>
+
+            <div class="form-group">
+              <label>Your Phone Number *</label>
+              <input type="tel" class="form-control" placeholder="Enter 10-digit mobile number" required />
+            </div>
+
+            <div class="form-group">
+              <label>Your Message *</label>
+              <textarea class="form-control" rows="4" placeholder="How can we assist you with admissions or daycare?" required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-blue" style="width: 100%;">
+              <i class="fa-solid fa-envelope-circle-check"></i> Send Message
+            </button>
+          </form>
+
+          <div style="margin-top: 24px; border-radius: var(--radius-sm); overflow: hidden; height: 160px; background: #E2E8F0; position: relative;">
+            <iframe 
+              title="Little Wings Academy Location Map"
+              width="100%" 
+              height="100%" 
+              style="border:0;" 
+              loading="lazy" 
+              allowfullscreen 
+              src="https://maps.google.com/maps?q=Ellora+Park+Vadodara+Gujarat+390023&t=&z=14&ie=UTF8&iwloc=&output=embed">
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        
+        <div class="footer-col">
+          <div class="brand-logo" style="margin-bottom: 16px;">
+            <div class="logo-emblem" style="background:#FFF;">👼</div>
+            <div class="brand-text">
+              <span class="brand-title" style="color:#FFF;">Little Wings</span>
+              <span class="brand-sub" style="color:#CBD5E1;">ACADEMY</span>
+            </div>
+          </div>
+          <p style="font-size: 0.9rem; line-height: 1.6; margin-bottom: 16px;">“Learn • Play • Grow Together” — Nurturing young minds through holistic preschool, loving daycare, and joyful physical and creative clubs in Vadodara.</p>
+          <div style="display:flex; gap:12px;">
+            <a href="https://wa.me/917016733472" target="_blank" style="width:36px; height:36px; border-radius:50%; background:#1E293B; display:flex; align-items:center; justify-content:center; color:#25D366;"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="tel:7016733472" style="width:36px; height:36px; border-radius:50%; background:#1E293B; display:flex; align-items:center; justify-content:center; color:var(--sky-blue);"><i class="fa-solid fa-phone"></i></a>
+            <a href="mailto:littlewingsacademy24@gmail.com" style="width:36px; height:36px; border-radius:50%; background:#1E293B; display:flex; align-items:center; justify-content:center; color:var(--primary-pink);"><i class="fa-solid fa-envelope"></i></a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="#/home" onclick="navigateTo('home')">Home</a></li>
+            <li><a href="#/about-us" onclick="navigateTo('about-us')">About Us</a></li>
+            <li><a href="#/preschool" onclick="navigateTo('preschool')">Preschool (₹1499)</a></li>
+            <li><a href="#/daycare" onclick="navigateTo('daycare')">Daycare (₹3000)</a></li>
+            <li><a href="#/activity-club" onclick="navigateTo('activity-club')">Activity Club</a></li>
+            <li><a href="#/gallery" onclick="navigateTo('gallery')">Photo Gallery</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Our Programs</h4>
+          <ul class="footer-links">
+            <li><a href="#/preschool" onclick="navigateTo('preschool')">Playgroup to UKG</a></li>
+            <li><a href="#/preschool" onclick="navigateTo('preschool')">Montessori Learning</a></li>
+            <li><a href="#/daycare" onclick="navigateTo('daycare')">Hourly & Full Day Daycare</a></li>
+            <li><a href="#/activity-club" onclick="navigateTo('activity-club')">Tiny Tots Fitness</a></li>
+            <li><a href="#/activity-club" onclick="navigateTo('activity-club')">Phonics & Grammar</a></li>
+            <li><a href="#/admissions" onclick="navigateTo('admissions')">2-Days Free Trial</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Vadodara Campus</h4>
+          <div class="contact-item">
+            <i class="fa-solid fa-location-dot"></i>
+            <span>A/46-289 Anand Flats, Sai Baba Temple Lane, Ellora Park, Vadodara – 390023</span>
+          </div>
+          <div class="contact-item">
+            <i class="fa-solid fa-phone"></i>
+            <span>70167 33472 / 96248 29592</span>
+          </div>
+          <div class="contact-item">
+            <i class="fa-solid fa-envelope"></i>
+            <span>littlewingsacademy24@gmail.com</span>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Little Wings Academy. All Rights Reserved. Learn • Play • Grow Together.</p>
+      </div>
+    </div>
+  </footer>
+
+  <div class="lightbox-modal" id="lightboxModal" onclick="closeLightbox()">
+    <div class="lightbox-content" onclick="event.stopPropagation()">
+      <button class="lightbox-close" onclick="closeLightbox()">&times;</button>
+      <img id="lightboxImg" src="" alt="Little Wings Academy Activity Lightbox" />
+    </div>
+  </div>
+
+  <div class="notification-toast" id="notificationToast">
+    <i class="fa-solid fa-circle-check" style="font-size: 1.3rem;"></i>
+    <span id="toastMessage">Thank you! Your enquiry has been received.</span>
+  </div>
+
+  <a href="https://wa.me/917016733472?text=Hello%20Little%20Wings%20Academy%2C%20I%20would%20like%20to%20know%20more%20about%20your%20programs." 
+     target="_blank" 
+     class="floating-whatsapp" 
+     aria-label="Chat on WhatsApp"
+     title="Chat with us on WhatsApp">
+    <i class="fa-brands fa-whatsapp"></i>
+  </a>
+
+  <nav class="mobile-bottom-bar">
+    <a href="tel:7016733472" class="bottom-action-btn">
+      <i class="fa-solid fa-phone" style="color: var(--primary-blue);"></i>
+      <span>Call</span>
+    </a>
+    <a href="https://wa.me/917016733472?text=Hello%20Little%20Wings%20Academy%2C%20I%20would%20like%20to%20enquire%20about%20admissions." target="_blank" class="bottom-action-btn">
+      <i class="fa-brands fa-whatsapp" style="color: #25D366;"></i>
+      <span>WhatsApp</span>
+    </a>
+    <a href="#/admissions" onclick="navigateTo('admissions')" class="bottom-action-btn active">
+      <i class="fa-solid fa-file-pen" style="color: var(--primary-pink);"></i>
+      <span>Enquire</span>
+    </a>
+    <a href="#/activity-club" onclick="navigateTo('activity-club')" class="bottom-action-btn">
+      <i class="fa-solid fa-palette" style="color: var(--primary-yellow);"></i>
+      <span>Activities</span>
+    </a>
+  </nav>
+
+  <script>
+    // Configuration
+    const CONFIG = {
+      whatsappNumber: '917016733472',
+      email: 'littlewingsacademy24@gmail.com'
+    };
+
+    // Multi-Page Client Side Router
+    function navigateTo(route) {
+      if (!route) route = 'home';
+      
+      // Clean route string
+      route = route.replace('#/', '').replace('#', '');
+      if (!document.getElementById('page-' + route)) {
+        route = 'home';
+      }
+
+      // Hide all page sections
+      const pages = document.querySelectorAll('.page-section');
+      pages.forEach(p => p.classList.remove('active-page'));
+
+      // Show target page
+      const targetPage = document.getElementById('page-' + route);
+      if (targetPage) {
+        targetPage.classList.add('active-page');
+      }
+
+      // Update Nav Link Active States
+      const navLinks = document.querySelectorAll('.nav-links a, .drawer-links a');
+      navLinks.forEach(link => {
+        if (link.getAttribute('data-route') === route) {
+          link.classList.add('active');
+        } else {
+          link.classList.remove('active');
+        }
+      });
+
+      // Scroll to top
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    // Hash Change Listener
+    window.addEventListener('hashchange', () => {
+      const hash = window.location.hash || '#/home';
+      navigateTo(hash.replace('#/', ''));
+    });
+
+    // Mobile Drawer Controls
+    const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+    const closeDrawerBtn = document.getElementById('closeDrawerBtn');
+    const mobileDrawer = document.getElementById('mobileDrawer');
+    const drawerOverlay = document.getElementById('drawerOverlay');
+
+    function openMobileMenu() {
+      mobileDrawer.classList.add('open');
+      drawerOverlay.classList.add('active');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeMobileMenu() {
+      mobileDrawer.classList.remove('open');
+      drawerOverlay.classList.remove('active');
+      document.body.style.overflow = '';
+    }
+
+    if (mobileMenuBtn) mobileMenuBtn.addEventListener('click', openMobileMenu);
+    if (closeDrawerBtn) closeDrawerBtn.addEventListener('click', closeMobileMenu);
+    if (drawerOverlay) drawerOverlay.addEventListener('click', closeMobileMenu);
+
+    document.querySelectorAll('.drawer-links a').forEach(link => {
+      link.addEventListener('click', () => {
+        closeMobileMenu();
+      });
+    });
+
+    // Gallery Filter System
+    function filterGallery(category, btn) {
+      document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+      if (btn) btn.classList.add('active');
+
+      const items = document.querySelectorAll('.gallery-item');
+      items.forEach(item => {
+        if (category === 'all' || item.getAttribute('data-category') === category) {
+          item.style.display = 'block';
+        } else {
+          item.style.display = 'none';
+        }
+      });
+    }
+
+    // Lightbox System
+    function openLightbox(imgSrc) {
+      const modal = document.getElementById('lightboxModal');
+      const img = document.getElementById('lightboxImg');
+      img.src = imgSrc;
+      modal.classList.add('active');
+    }
+
+    function closeLightbox() {
+      const modal = document.getElementById('lightboxModal');
+      modal.classList.remove('active');
+    }
+
+    // Toast Notification System
+    function showToast(message) {
+      const toast = document.getElementById('notificationToast');
+      const toastMsg = document.getElementById('toastMessage');
+      toastMsg.innerText = message;
+      toast.classList.add('show');
+      setTimeout(() => {
+        toast.classList.remove('show');
+      }, 4000);
+    }
+
+    // Form Submissions
+    function handleAdmissionSubmit(e) {
+      e.preventDefault();
+      const program = document.getElementById('programInterest').value;
+      showToast(`Admission enquiry for ${program} received! Our coordinator will call you soon.`);
+      e.target.reset();
+    }
+
+    function handleContactSubmit(e) {
+      e.preventDefault();
+      showToast('Thank you! Your message has been sent to Little Wings Academy.');
+      e.target.reset();
+    }
+
+    // Initial Route Detection on Load
+    document.addEventListener('DOMContentLoaded', () => {
+      const initialHash = window.location.hash || '#/home';
+      navigateTo(initialHash.replace('#/', ''));
+    });
+  </script>
+</body>
+</html>
