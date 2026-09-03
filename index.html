@@ -1229,7 +1229,7 @@
         </div>
       </div>
     </div>
-
+    <!-- Header Start -->
     <header class="site-header">
       <div class="container nav-container">
         <a href="#/home" class="brand-logo" onclick="navigateTo('home')">
@@ -1420,576 +1420,961 @@
     </aside>
 
     <main id="page-home" class="page-section active-page">
-      <section class="hero-wrapper">
-        <div class="container hero-grid">
-          <div class="hero-content">
-            <div class="badge-pill">
-              <i class="fa-solid fa-sparkles"></i> Admissions Open for 2026-2027
+      <!-- =========================================================
+     HOME PAGE — HERO SECTION
+     ========================================================= -->
+      <section class="lw-hero">
+        <div class="lw-hero-shape lw-hero-shape-one"></div>
+        <div class="lw-hero-shape lw-hero-shape-two"></div>
+        <div class="lw-hero-dots"></div>
+
+        <div class="container lw-hero-container">
+          <!-- LEFT CONTENT -->
+          <div class="lw-hero-content">
+            <div class="lw-hero-eyebrow">
+              <span class="lw-eyebrow-dot"></span>
+              Admissions Open for 2026-2027
             </div>
+
             <h1>
-              Learn. Play. <br /><span class="pink">Grow</span>
-              <span class="blue">Together.</span>
+              Learn. Play.
+              <span>Grow Together.</span>
             </h1>
-            <p>
+
+            <p class="lw-hero-description">
               A joyful, safe and vibrant learning sanctuary where little wings
               prepare for big dreams through play-based Montessori preschool,
               loving daycare, and fun activities.
             </p>
-            <div class="hero-cta-group">
+
+            <div class="lw-hero-actions">
               <a
                 href="#/admissions"
                 onclick="navigateTo('admissions')"
-                class="btn btn-pink"
+                class="lw-btn lw-btn-primary"
               >
-                <i class="fa-solid fa-star"></i> Enrol Now
+                <span>Enrol Now</span>
+                <i class="fa-solid fa-arrow-right"></i>
               </a>
+
               <a
                 href="#/preschool"
                 onclick="navigateTo('preschool')"
-                class="btn btn-outline"
+                class="lw-btn lw-btn-secondary"
               >
-                Explore Our Programs <i class="fa-solid fa-arrow-right"></i>
+                Explore Our Programs
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
               </a>
             </div>
 
-            <div
-              style="
-                margin-top: 30px;
-                display: flex;
-                flex-wrap: wrap;
-                gap: 20px;
-                align-items: center;
-              "
-            >
-              <div
-                style="
-                  display: flex;
-                  align-items: center;
-                  gap: 6px;
-                  font-weight: 700;
-                  font-size: 0.9rem;
-                  color: #334155;
-                "
-              >
-                <i
-                  class="fa-solid fa-circle-check"
-                  style="color: var(--primary-green)"
-                ></i>
-                CCTV Secured
+            <!-- TRUST POINTS -->
+            <div class="lw-hero-trust">
+              <div class="lw-trust-item">
+                <div class="lw-trust-icon">
+                  <i class="fa-solid fa-shield-heart"></i>
+                </div>
+                <span>CCTV Secured</span>
               </div>
-              <div
-                style="
-                  display: flex;
-                  align-items: center;
-                  gap: 6px;
-                  font-weight: 700;
-                  font-size: 0.9rem;
-                  color: #334155;
-                "
-              >
-                <i
-                  class="fa-solid fa-circle-check"
-                  style="color: var(--primary-green)"
-                ></i>
-                AC Classrooms
+
+              <div class="lw-trust-item">
+                <div class="lw-trust-icon">
+                  <i class="fa-solid fa-snowflake"></i>
+                </div>
+                <span>AC Classrooms</span>
               </div>
-              <div
-                style="
-                  display: flex;
-                  align-items: center;
-                  gap: 6px;
-                  font-weight: 700;
-                  font-size: 0.9rem;
-                  color: var(--primary-pink);
-                "
-              >
-                <i class="fa-solid fa-gift"></i> 2-Days Free Trial
+
+              <div class="lw-trust-item lw-trust-highlight">
+                <div class="lw-trust-icon">
+                  <i class="fa-solid fa-gift"></i>
+                </div>
+                <span>2-Days Free Trial</span>
               </div>
             </div>
           </div>
 
-          <div class="hero-image-frame">
-            <img
-              src="https://images.unsplash.com/photo-1587654780291-39c9404d746b?w=800&auto=format&fit=crop&q=80"
-              alt="Happy Children in classroom"
-              class="hero-main-img"
-            />
+          <!-- RIGHT VISUAL -->
+          <div class="lw-hero-visual">
+            <div class="lw-hero-image-wrap">
+              <div class="lw-image-backdrop"></div>
 
-            <div class="floating-card-badge badge-top">
-              <i
-                class="fa-solid fa-shield-heart"
-                style="font-size: 1.6rem; color: var(--primary-green)"
-              ></i>
+              <img
+                src="https://images.unsplash.com/photo-1587654780291-39c9404d746b?w=900&auto=format&fit=crop&q=85"
+                alt="Happy Children in classroom"
+                class="lw-hero-image"
+              />
+
+              <div class="lw-image-accent"></div>
+            </div>
+
+            <!-- TOP FLOATING CARD -->
+            <div class="lw-floating-card lw-floating-top">
+              <div class="lw-floating-icon lw-icon-mint">
+                <i class="fa-solid fa-heart"></i>
+              </div>
+
               <div>
-                <div style="font-size: 0.75rem; color: #64748b">
-                  Safe & Loving
-                </div>
-                <div style="font-size: 0.9rem">Home Environment</div>
+                <small>Safe & Loving</small>
+                <strong>Home Environment</strong>
               </div>
             </div>
 
-            <div class="floating-card-badge badge-bottom">
-              <i
-                class="fa-solid fa-shapes"
-                style="font-size: 1.6rem; color: var(--primary-pink)"
-              ></i>
-              <div>
-                <div style="font-size: 0.75rem; color: #64748b">Montessori</div>
-                <div style="font-size: 0.9rem">Activity-Based Learning</div>
+            <!-- BOTTOM FLOATING CARD -->
+            <div class="lw-floating-card lw-floating-bottom">
+              <div class="lw-floating-icon lw-icon-coral">
+                <i class="fa-solid fa-shapes"></i>
               </div>
+
+              <div>
+                <small>Montessori</small>
+                <strong>Activity-Based Learning</strong>
+              </div>
+            </div>
+
+            <!-- SMALL DECORATIVE BADGE -->
+            <div class="lw-hero-mini-badge">
+              <i class="fa-solid fa-sparkles"></i>
+              <span>Learn • Play • Grow</span>
             </div>
           </div>
         </div>
       </section>
       <!-- OUR CORE OFFERINGS -->
-      <section class="section-py">
+      <!-- =========================================================
+     HOME PAGE — OUR CORE OFFERINGS
+     ========================================================= -->
+      <section class="lw-programs section-py">
         <div class="container">
-          <div class="section-header">
-            <div class="badge-pill blue">Our Core Offerings</div>
-            <h2>Nurturing Every Step of Childhood</h2>
+          <!-- SECTION HEADER -->
+          <div class="lw-programs-header">
+            <div class="lw-section-kicker">
+              <span></span>
+              Our Core Offerings
+            </div>
+
+            <h2>
+              Nurturing Every Step
+              <em>of Childhood</em>
+            </h2>
+
             <p>
               Choose from our specialized early childhood programs crafted to
               encourage holistic emotional, social, and academic growth.
             </p>
           </div>
 
-          <div class="grid-3">
-            <div class="program-card card-pink">
-              <div class="program-img-wrap">
+          <!-- PROGRAM CARDS -->
+          <div class="lw-program-grid">
+            <!-- =====================================================
+           PRESCHOOL
+           ===================================================== -->
+
+            <article class="lw-program-card lw-program-preschool">
+              <div class="lw-program-image">
                 <img
-                  src="https://images.unsplash.com/photo-1544717305-2782549b5136?w=600&auto=format&fit=crop&q=80"
+                  src="https://images.unsplash.com/photo-1544717305-2782549b5136?w=800&auto=format&fit=crop&q=85"
                   alt="Preschool Learning"
                 />
-                <div class="program-price-tag">₹1,499 / mo</div>
-              </div>
-              <div
-                class="badge-pill"
-                style="align-self: flex-start; margin-bottom: 8px"
-              >
-                Preschool
-              </div>
-              <h3>Building Strong Foundations</h3>
-              <p
-                style="
-                  color: var(--text-muted);
-                  font-size: 0.95rem;
-                  margin-top: 6px;
-                "
-              >
-                Play School & Nursery with hands-on, play-based learning
-                activities. designed to ignite young minds.
-              </p>
-              <ul class="feature-list">
-                <li>
-                  <i class="fa-solid fa-check"></i> Play School & Nursery
-                  Curriculum
-                </li>
-                <li>
-                  <i class="fa-solid fa-check"></i> Montessori & Play-way
-                  Approach
-                </li>
-                <li>
-                  <i class="fa-solid fa-check"></i> Phonetics & Early Numbers
-                </li>
-                <li>
-                  <i class="fa-solid fa-check"></i> Individual Attention & Care
-                </li>
-              </ul>
-              <a
-                href="#/preschool"
-                onclick="navigateTo('preschool')"
-                class="btn btn-outline"
-                style="width: 100%"
-              >
-                Explore Preschool <i class="fa-solid fa-arrow-right"></i>
-              </a>
-            </div>
 
-            <div class="program-card card-blue">
-              <div class="daycare-card-header">
-                <div
-                  style="
-                    display: flex;
-                    justify-content: space-between;
-                    align-items: flex-start;
-                    z-index: 1;
-                  "
+                <div class="lw-image-overlay"></div>
+
+                <div class="lw-price">₹1,499 / mo</div>
+
+                <div class="lw-program-number">01</div>
+              </div>
+
+              <div class="lw-program-content">
+                <span class="lw-program-label"> Preschool </span>
+
+                <h3>Building Strong Foundations</h3>
+
+                <p>
+                  Play School & Nursery with hands-on, play-based learning
+                  activities. designed to ignite young minds.
+                </p>
+
+                <ul class="lw-feature-list">
+                  <li>
+                    <span class="lw-check">
+                      <i class="fa-solid fa-check"></i>
+                    </span>
+                    Play School & Nursery Curriculum
+                  </li>
+
+                  <li>
+                    <span class="lw-check">
+                      <i class="fa-solid fa-check"></i>
+                    </span>
+                    Montessori & Play-way Approach
+                  </li>
+
+                  <li>
+                    <span class="lw-check">
+                      <i class="fa-solid fa-check"></i>
+                    </span>
+                    Phonetics & Early Numbers
+                  </li>
+
+                  <li>
+                    <span class="lw-check">
+                      <i class="fa-solid fa-check"></i>
+                    </span>
+                    Individual Attention & Care
+                  </li>
+                </ul>
+
+                <a
+                  href="#/preschool"
+                  onclick="navigateTo('preschool')"
+                  class="lw-program-link"
                 >
-                  <span
-                    style="
-                      background: rgba(255, 255, 255, 0.22);
-                      padding: 4px 12px;
-                      border-radius: var(--radius-full);
-                      font-size: 0.8rem;
-                      font-weight: 700;
-                    "
-                  >
-                    <i class="fa-solid fa-house-chimney-heart"></i> DAYCARE
-                  </span>
-                  <span
-                    style="
-                      background: #ffffff;
-                      color: var(--primary-blue);
-                      padding: 4px 12px;
-                      border-radius: var(--radius-full);
-                      font-size: 0.82rem;
-                      font-weight: 800;
-                    "
-                  >
-                    1 - 14 YRS
-                  </span>
-                </div>
-                <div style="z-index: 1">
-                  <h4
-                    style="
-                      color: #ffffff;
-                      font-size: 1.35rem;
-                      margin-bottom: 2px;
-                    "
-                  >
-                    Home Away From Home
-                  </h4>
-                  <p style="font-size: 0.85rem; opacity: 0.92">
-                    Caring, Safe & Flexible Timings
-                  </p>
-                </div>
-                <div
-                  class="program-price-tag"
-                  style="color: var(--primary-blue)"
-                >
-                  ₹3,000 / mo
-                </div>
+                  <span>Explore Preschool</span>
+                  <i class="fa-solid fa-arrow-right"></i>
+                </a>
               </div>
+            </article>
 
-              <div
-                class="badge-pill blue"
-                style="align-self: flex-start; margin-bottom: 8px"
-              >
-                Daycare Facility
-              </div>
-              <h3>A Home Away From Home</h3>
-              <p
-                style="
-                  color: var(--text-muted);
-                  font-size: 0.95rem;
-                  margin-top: 6px;
-                "
-              >
-                Caring, hygienic, and secure childcare for working parents with
-                flexible hourly to full-day options.
-              </p>
-              <ul class="feature-list">
-                <li>
-                  <i class="fa-solid fa-check"></i> Age Group: 1 Year to 14
-                  Years
-                </li>
-                <li>
-                  <i class="fa-solid fa-check"></i> Monday to Saturday, 9:00 AM
-                  to 7:00 PM.
-                </li>
-                <li>
-                  <i class="fa-solid fa-check"></i> Nutritious Meals & Snacks
-                </li>
-                <li>
-                  <i class="fa-solid fa-check"></i> Homework Assistance for
-                  School Kids
-                </li>
-              </ul>
-              <a
-                href="#/daycare"
-                onclick="navigateTo('daycare')"
-                class="btn btn-blue"
-                style="width: 100%"
-              >
-                Explore Daycare <i class="fa-solid fa-arrow-right"></i>
-              </a>
-            </div>
+            <!-- =====================================================
+           DAYCARE
+           ===================================================== -->
 
-            <div class="program-card card-purple">
-              <div class="program-img-wrap">
+            <article class="lw-program-card lw-program-daycare">
+              <div class="lw-program-image">
                 <img
-                  src="https://images.unsplash.com/photo-1596464716127-f2a829822301?w=600&auto=format&fit=crop&q=80"
+                  src="https://images.unsplash.com/photo-1602030028438-4cf153cbae9e?w=800&auto=format&fit=crop&q=85"
+                  alt="Daycare Facility"
+                />
+
+                <div class="lw-image-overlay"></div>
+
+                <div class="lw-price">₹3,000 / mo</div>
+
+                <div class="lw-program-number">02</div>
+
+                <div class="lw-age-badge">1 - 14 YRS</div>
+              </div>
+
+              <div class="lw-program-content">
+                <span class="lw-program-label"> Daycare Facility </span>
+
+                <h3>A Home Away From Home</h3>
+
+                <p>
+                  Caring, hygienic, and secure childcare for working parents
+                  with flexible hourly to full-day options.
+                </p>
+
+                <ul class="lw-feature-list">
+                  <li>
+                    <span class="lw-check">
+                      <i class="fa-solid fa-check"></i>
+                    </span>
+                    Age Group: 1 Year to 14 Years
+                  </li>
+
+                  <li>
+                    <span class="lw-check">
+                      <i class="fa-solid fa-check"></i>
+                    </span>
+                    Monday to Saturday, 9:00 AM to 7:00 PM.
+                  </li>
+
+                  <li>
+                    <span class="lw-check">
+                      <i class="fa-solid fa-check"></i>
+                    </span>
+                    Nutritious Meals & Snacks
+                  </li>
+
+                  <li>
+                    <span class="lw-check">
+                      <i class="fa-solid fa-check"></i>
+                    </span>
+                    Homework Assistance for School Kids
+                  </li>
+                </ul>
+
+                <a
+                  href="#/daycare"
+                  onclick="navigateTo('daycare')"
+                  class="lw-program-link"
+                >
+                  <span>Explore Daycare</span>
+                  <i class="fa-solid fa-arrow-right"></i>
+                </a>
+              </div>
+            </article>
+
+            <!-- =====================================================
+           ACTIVITY CLUB
+           ===================================================== -->
+
+            <article class="lw-program-card lw-program-activity">
+              <div class="lw-program-image">
+                <img
+                  src="https://images.unsplash.com/photo-1596464716127-f2a829822301?w=800&auto=format&fit=crop&q=85"
                   alt="Activity Club Fun"
                 />
-                <div
-                  class="program-price-tag"
-                  style="color: var(--primary-purple)"
+
+                <div class="lw-image-overlay"></div>
+
+                <div class="lw-price">From ₹1,000 / mo</div>
+
+                <div class="lw-program-number">03</div>
+              </div>
+
+              <div class="lw-program-content">
+                <span class="lw-program-label"> Activity Club </span>
+
+                <h3>Tiny Wings Activity Club</h3>
+
+                <p>
+                  Unleash creativity, fitness, and communication through 15+
+                  skill-building active workshops.
+                </p>
+
+                <ul class="lw-feature-list">
+                  <li>
+                    <span class="lw-check">
+                      <i class="fa-solid fa-check"></i>
+                    </span>
+                    Yoga, Zumba, Fun Run & Sports
+                  </li>
+
+                  <li>
+                    <span class="lw-check">
+                      <i class="fa-solid fa-check"></i>
+                    </span>
+                    Art, Craft, Clay & Drawing
+                  </li>
+
+                  <li>
+                    <span class="lw-check">
+                      <i class="fa-solid fa-check"></i>
+                    </span>
+                    Phonetics & English Grammar
+                  </li>
+
+                  <li>
+                    <span class="lw-check">
+                      <i class="fa-solid fa-check"></i>
+                    </span>
+                    Weekly 2-Day Structured Batches
+                  </li>
+                </ul>
+
+                <a
+                  href="#/activity-club"
+                  onclick="navigateTo('activity-club')"
+                  class="lw-program-link"
                 >
-                  From ₹1,000 / mo
+                  <span>Explore Activities</span>
+                  <i class="fa-solid fa-arrow-right"></i>
+                </a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- =========================================================
+     WHY LITTLE WINGS
+     ========================================================= -->
+      <section class="lw-why">
+        <div class="lw-why-shape lw-why-shape-one"></div>
+        <div class="lw-why-shape lw-why-shape-two"></div>
+
+        <div class="container">
+          <!-- HEADER -->
+          <div class="lw-why-header">
+            <span class="lw-section-kicker">WHY LITTLE WINGS</span>
+
+            <h2>
+              A Place Where
+              <span>Little Minds Flourish.</span>
+            </h2>
+
+            <p>
+              Little Wings Academy brings together learning, care, creativity
+              and joyful activities in one nurturing environment.
+            </p>
+          </div>
+
+          <!-- FEATURES -->
+          <div class="lw-why-grid">
+            <!-- 01 -->
+            <article class="lw-why-card lw-why-card-main">
+              <div class="lw-why-number">01</div>
+
+              <div class="lw-why-icon">
+                <i class="fa-solid fa-shield-heart"></i>
+              </div>
+
+              <h3>Safe & Secure</h3>
+
+              <p>
+                A safe, joyful and nurturing environment where children can
+                learn, play, explore and grow with confidence.
+              </p>
+
+              <div class="lw-why-card-line"></div>
+            </article>
+
+            <!-- 02 -->
+            <article class="lw-why-card">
+              <div class="lw-why-number">02</div>
+
+              <div class="lw-why-icon">
+                <i class="fa-solid fa-puzzle-piece"></i>
+              </div>
+
+              <h3>Play-Based Learning</h3>
+
+              <p>
+                Engaging learning experiences designed to make early education
+                enjoyable and meaningful.
+              </p>
+
+              <div class="lw-why-card-line"></div>
+            </article>
+
+            <!-- 03 -->
+            <article class="lw-why-card">
+              <div class="lw-why-number">03</div>
+
+              <div class="lw-why-icon">
+                <i class="fa-solid fa-heart"></i>
+              </div>
+
+              <h3>Loving Care</h3>
+
+              <p>
+                A warm and welcoming atmosphere where every child's comfort and
+                development is kept in mind.
+              </p>
+
+              <div class="lw-why-card-line"></div>
+            </article>
+
+            <!-- 04 -->
+            <article class="lw-why-card">
+              <div class="lw-why-number">04</div>
+
+              <div class="lw-why-icon">
+                <i class="fa-solid fa-person-chalkboard"></i>
+              </div>
+
+              <h3>Individual Attention</h3>
+
+              <p>
+                Thoughtfully planned learning and care that supports each
+                child's development.
+              </p>
+
+              <div class="lw-why-card-line"></div>
+            </article>
+
+            <!-- 05 -->
+            <article class="lw-why-card">
+              <div class="lw-why-number">05</div>
+
+              <div class="lw-why-icon">
+                <i class="fa-solid fa-palette"></i>
+              </div>
+
+              <h3>Creative Activities</h3>
+
+              <p>
+                Opportunities for children to explore creativity through
+                engaging activities and joyful experiences.
+              </p>
+
+              <div class="lw-why-card-line"></div>
+            </article>
+
+            <!-- 06 -->
+            <article class="lw-why-card">
+              <div class="lw-why-number">06</div>
+
+              <div class="lw-why-icon">
+                <i class="fa-solid fa-person-running"></i>
+              </div>
+
+              <h3>Active Learning</h3>
+
+              <p>
+                Learning experiences that encourage children to explore,
+                participate and grow through activity.
+              </p>
+
+              <div class="lw-why-card-line"></div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- =========================================================
+     HOME PAGE — FREE TRIAL CTA
+     ========================================================= -->
+      <section class="lw-trial">
+        <div class="lw-trial-decoration lw-trial-decoration-one"></div>
+        <div class="lw-trial-decoration lw-trial-decoration-two"></div>
+
+        <div class="container">
+          <div class="lw-trial-card">
+            <!-- LEFT CONTENT -->
+            <div class="lw-trial-content">
+              <div class="lw-trial-label">
+                <i class="fa-solid fa-gift"></i>
+                Free Trial Experience
+              </div>
+
+              <h2>
+                Free Trial Classes
+                <span>(2 Days)!</span>
+              </h2>
+
+              <p>
+                Let your child experience the joy of learning, playing, and
+                growing at Little Wings before you decide.
+              </p>
+
+              <div class="lw-trial-points">
+                <div class="lw-trial-point">
+                  <span>
+                    <i class="fa-solid fa-check"></i>
+                  </span>
+                  Experience our learning environment
+                </div>
+
+                <div class="lw-trial-point">
+                  <span>
+                    <i class="fa-solid fa-check"></i>
+                  </span>
+                  Meet our caring educators
+                </div>
+
+                <div class="lw-trial-point">
+                  <span>
+                    <i class="fa-solid fa-check"></i>
+                  </span>
+                  Discover our activity-based approach
                 </div>
               </div>
-              <div
-                class="badge-pill yellow"
-                style="align-self: flex-start; margin-bottom: 8px"
-              >
-                Activity Club
+            </div>
+
+            <!-- RIGHT ACTION -->
+            <div class="lw-trial-action">
+              <div class="lw-trial-icon">
+                <i class="fa-solid fa-sparkles"></i>
               </div>
-              <h3>Tiny Wings Activity Club</h3>
-              <p
-                style="
-                  color: var(--text-muted);
-                  font-size: 0.95rem;
-                  margin-top: 6px;
-                "
-              >
-                Unleash creativity, fitness, and communication through 15+
-                skill-building active workshops.
-              </p>
-              <ul class="feature-list">
-                <li>
-                  <i class="fa-solid fa-check"></i> Yoga, Zumba, Fun Run &
-                  Sports
-                </li>
-                <li>
-                  <i class="fa-solid fa-check"></i> Art, Craft, Clay & Drawing
-                </li>
-                <li>
-                  <i class="fa-solid fa-check"></i> Phonetics & English Grammar
-                </li>
-                <li>
-                  <i class="fa-solid fa-check"></i> Weekly 2-Day Structured
-                  Batches
-                </li>
-              </ul>
+
+              <div class="lw-trial-action-text">
+                <strong>Ready to explore?</strong>
+                <small>Book your child's free trial today.</small>
+              </div>
+
               <a
-                href="#/activity-club"
-                onclick="navigateTo('activity-club')"
-                class="btn btn-pink"
-                style="width: 100%"
+                href="#/admissions"
+                onclick="navigateTo('admissions')"
+                class="lw-trial-btn"
               >
-                Explore Activities <i class="fa-solid fa-arrow-right"></i>
+                Book Free Trial
+                <i class="fa-solid fa-arrow-right"></i>
               </a>
             </div>
           </div>
         </div>
       </section>
 
-      <section class="container" style="margin-bottom: 60px">
-        <div class="free-trial-banner">
-          <div>
-            <span
-              style="
-                background: rgba(255, 255, 255, 0.25);
-                padding: 5px 14px;
-                border-radius: 20px;
-                font-weight: 800;
-                font-size: 0.85rem;
-                text-transform: uppercase;
-              "
-              >Zero Risk Experience</span
-            >
-            <h2 style="color: #fff; margin: 12px 0; font-size: 2.2rem">
-              Free Trial Classes (2 Days)!
-            </h2>
-            <p style="font-size: 1.05rem; opacity: 0.95; max-width: 520px">
-              Let your child experience our caring teachers, cheerful
-              environment, and engaging activity sessions before enrolling.
-            </p>
-          </div>
-          <div style="text-align: center">
-            <a
-              href="#/admissions"
-              onclick="navigateTo('admissions')"
-              class="btn btn-pink"
-              style="
-                background: #ffffff;
-                color: #d97706;
-                font-size: 1.1rem;
-                padding: 15px 36px;
-                box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
-              "
-            >
-              <i class="fa-solid fa-calendar-check"></i> Book Free Trial Now
-            </a>
-            <div style="font-size: 0.82rem; margin-top: 8px; opacity: 0.9">
-              *Limited seats per batch for personal care
-            </div>
-          </div>
-        </div>
-      </section>
+      <!-- =========================================================
+     HOME PAGE — LITTLE WINGS DIFFERENCE
+     ========================================================= -->
+      <section class="lw-trust-section">
+        <div class="lw-trust-bg-shape lw-trust-bg-one"></div>
+        <div class="lw-trust-bg-shape lw-trust-bg-two"></div>
 
-      <section class="section-py" style="background: #ffffff">
         <div class="container">
-          <div class="section-header">
-            <div class="badge-pill green">The Little Wings Difference</div>
-            <h2>Why Parents Trust Little Wings Academy</h2>
-            <p>
-              Every corner is thoughtfully arranged to create a happy, safe, and
-              motivating learning journey.
-            </p>
-          </div>
-
-          <div class="grid-4">
-            <div class="feature-box">
-              <div class="feature-box-icon">
-                <i class="fa-solid fa-heart-pulse"></i>
-              </div>
-              <div>
-                <h4 style="font-size: 1.05rem">Safe & Nurturing</h4>
-                <p style="font-size: 0.88rem; color: var(--text-muted)">
-                  Hygienic, child-proof, loving environment.
-                </p>
-              </div>
+          <!-- SECTION HEADER -->
+          <div class="lw-trust-header">
+            <div class="lw-section-kicker">
+              <span></span>
+              The Little Wings Difference
             </div>
-
-            <div class="feature-box">
-              <div
-                class="feature-box-icon"
-                style="background: var(--sky-soft); color: var(--primary-blue)"
-              >
-                <i class="fa-solid fa-chalkboard-user"></i>
-              </div>
-              <div>
-                <h4 style="font-size: 1.05rem">Caring Educators</h4>
-                <p style="font-size: 0.88rem; color: var(--text-muted)">
-                  Experienced teachers who listen and guide.
-                </p>
-              </div>
-            </div>
-
-            <div class="feature-box">
-              <div
-                class="feature-box-icon"
-                style="
-                  background: var(--yellow-soft);
-                  color: var(--primary-yellow);
-                "
-              >
-                <i class="fa-solid fa-snowflake"></i>
-              </div>
-              <div>
-                <h4 style="font-size: 1.05rem">AC Classrooms</h4>
-                <p style="font-size: 0.88rem; color: var(--text-muted)">
-                  Comfortable air-conditioned spaces.
-                </p>
-              </div>
-            </div>
-
-            <div class="feature-box">
-              <div
-                class="feature-box-icon"
-                style="
-                  background: var(--purple-soft);
-                  color: var(--primary-purple);
-                "
-              >
-                <i class="fa-solid fa-video"></i>
-              </div>
-              <div>
-                <h4 style="font-size: 1.05rem">CCTV Surveillance</h4>
-                <p style="font-size: 0.88rem; color: var(--text-muted)">
-                  Round-the-clock safety monitoring.
-                </p>
-              </div>
-            </div>
-
-            <div class="feature-box">
-              <div class="feature-box-icon">
-                <i class="fa-solid fa-puzzle-piece"></i>
-              </div>
-              <div>
-                <h4 style="font-size: 1.05rem">Play Area & Toys</h4>
-                <p style="font-size: 0.88rem; color: var(--text-muted)">
-                  Colorful learning toys & sensory blocks.
-                </p>
-              </div>
-            </div>
-
-            <div class="feature-box">
-              <div
-                class="feature-box-icon"
-                style="
-                  background: var(--green-soft);
-                  color: var(--primary-green);
-                "
-              >
-                <i class="fa-solid fa-user-check"></i>
-              </div>
-              <div>
-                <h4 style="font-size: 1.05rem">Individual Attention</h4>
-                <p style="font-size: 0.88rem; color: var(--text-muted)">
-                  Small batch size for personalized growth.
-                </p>
-              </div>
-            </div>
-
-            <div class="feature-box">
-              <div
-                class="feature-box-icon"
-                style="background: var(--sky-soft); color: var(--primary-blue)"
-              >
-                <i class="fa-solid fa-book-open-reader"></i>
-              </div>
-              <div>
-                <h4 style="font-size: 1.05rem">Storytelling & Arts</h4>
-                <p style="font-size: 0.88rem; color: var(--text-muted)">
-                  Daily puppetry, music, craft & dancing.
-                </p>
-              </div>
-            </div>
-
-            <div class="feature-box">
-              <div
-                class="feature-box-icon"
-                style="
-                  background: var(--yellow-soft);
-                  color: var(--primary-yellow);
-                "
-              >
-                <i class="fa-solid fa-bowl-rice"></i>
-              </div>
-              <div>
-                <h4 style="font-size: 1.05rem">Nutritious Meals</h4>
-                <p style="font-size: 0.88rem; color: var(--text-muted)">
-                  Wholesome snacks & meal support in daycare.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- ================= OUR CAMPUS ================= -->
-      <section class="section campus-section">
-        <div class="container campus-container">
-          <div class="campus-content">
-            <span class="section-badge campus-badge">OUR CAMPUS</span>
 
             <h2>
-              A Warm & Welcoming Space
-              <span>for Every Child</span>
+              More Than a School,
+              <em>A Second Home.</em>
             </h2>
 
             <p>
-              Our Little Wings campus is thoughtfully designed to create a safe,
-              joyful and nurturing environment where children can learn, play,
-              explore and grow with confidence.
+              We create a safe, joyful and nurturing environment where every
+              child gets the care, attention and opportunities they deserve.
             </p>
-
-            <p>
-              From engaging learning spaces to a child-friendly atmosphere,
-              every corner is designed with your child's comfort and development
-              in mind.
-            </p>
-
-            <a href="about.html" class="campus-btn">
-              Explore Our Campus
-              <span>→</span>
-            </a>
           </div>
 
-          <div class="campus-image">
-            <div class="campus-image-frame">
-              <img
-                src="./images/campus.jpeg"
-                alt="Little Wings Academy campus"
-                loading="lazy"
-              />
+          <!-- MAIN LAYOUT -->
+          <div class="lw-trust-layout">
+            <!-- LEFT FEATURE PANEL -->
+            <div class="lw-trust-feature">
+              <div class="lw-trust-feature-top">
+                <div class="lw-trust-feature-icon">
+                  <i class="fa-solid fa-heart"></i>
+                </div>
 
-              <div class="campus-image-tag">
-                <span>♥</span>
-                Safe • Happy • Learning
+                <span>WHY LITTLE WINGS?</span>
               </div>
+
+              <h3>
+                Where little
+                <span>hearts</span>
+                feel at home.
+              </h3>
+
+              <p>
+                From the first hello to every little achievement, we focus on
+                making childhood a happy, secure and meaningful experience.
+              </p>
+
+              <div class="lw-trust-stat-row">
+                <div class="lw-trust-stat">
+                  <strong>100%</strong>
+                  <span>Care & Attention</span>
+                </div>
+
+                <div class="lw-trust-stat">
+                  <strong>15+</strong>
+                  <span>Activities</span>
+                </div>
+              </div>
+
+              <div class="lw-trust-decoration">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+            </div>
+
+            <!-- RIGHT TRUST GRID -->
+            <div class="lw-trust-grid">
+              <!-- CARD 01 -->
+              <article class="lw-trust-card">
+                <div class="lw-trust-card-number">01</div>
+
+                <div class="lw-trust-card-icon icon-coral">
+                  <i class="fa-solid fa-shield-heart"></i>
+                </div>
+
+                <div>
+                  <h3>Safe & Secure</h3>
+
+                  <p>
+                    CCTV monitored campus with child-safe spaces and attentive
+                    supervision.
+                  </p>
+                </div>
+
+                <span class="lw-trust-arrow">
+                  <i class="fa-solid fa-arrow-up-right"></i>
+                </span>
+              </article>
+
+              <!-- CARD 02 -->
+              <article class="lw-trust-card">
+                <div class="lw-trust-card-number">02</div>
+
+                <div class="lw-trust-card-icon icon-mint">
+                  <i class="fa-solid fa-chalkboard-user"></i>
+                </div>
+
+                <div>
+                  <h3>Experienced Educators</h3>
+
+                  <p>
+                    Caring educators who understand each child's unique learning
+                    journey.
+                  </p>
+                </div>
+
+                <span class="lw-trust-arrow">
+                  <i class="fa-solid fa-arrow-up-right"></i>
+                </span>
+              </article>
+
+              <!-- CARD 03 -->
+              <article class="lw-trust-card">
+                <div class="lw-trust-card-number">03</div>
+
+                <div class="lw-trust-card-icon icon-purple">
+                  <i class="fa-solid fa-snowflake"></i>
+                </div>
+
+                <div>
+                  <h3>AC Classrooms</h3>
+
+                  <p>
+                    Comfortable, hygienic and child-friendly learning spaces
+                    throughout the day.
+                  </p>
+                </div>
+
+                <span class="lw-trust-arrow">
+                  <i class="fa-solid fa-arrow-up-right"></i>
+                </span>
+              </article>
+
+              <!-- CARD 04 -->
+              <article class="lw-trust-card">
+                <div class="lw-trust-card-number">04</div>
+
+                <div class="lw-trust-card-icon icon-coral">
+                  <i class="fa-solid fa-video"></i>
+                </div>
+
+                <div>
+                  <h3>CCTV Monitoring</h3>
+
+                  <p>
+                    Added peace of mind for parents with monitored learning and
+                    activity areas.
+                  </p>
+                </div>
+
+                <span class="lw-trust-arrow">
+                  <i class="fa-solid fa-arrow-up-right"></i>
+                </span>
+              </article>
+
+              <!-- CARD 05 -->
+              <article class="lw-trust-card">
+                <div class="lw-trust-card-number">05</div>
+
+                <div class="lw-trust-card-icon icon-mint">
+                  <i class="fa-solid fa-puzzle-piece"></i>
+                </div>
+
+                <div>
+                  <h3>Fun Learning</h3>
+
+                  <p>
+                    Play-based activities designed to make learning engaging and
+                    enjoyable.
+                  </p>
+                </div>
+
+                <span class="lw-trust-arrow">
+                  <i class="fa-solid fa-arrow-up-right"></i>
+                </span>
+              </article>
+
+              <!-- CARD 06 -->
+              <article class="lw-trust-card">
+                <div class="lw-trust-card-number">06</div>
+
+                <div class="lw-trust-card-icon icon-purple">
+                  <i class="fa-solid fa-person-running"></i>
+                </div>
+
+                <div>
+                  <h3>Active Play</h3>
+
+                  <p>
+                    Opportunities for movement, fitness and active exploration
+                    every week.
+                  </p>
+                </div>
+
+                <span class="lw-trust-arrow">
+                  <i class="fa-solid fa-arrow-up-right"></i>
+                </span>
+              </article>
+
+              <!-- CARD 07 -->
+              <article class="lw-trust-card">
+                <div class="lw-trust-card-number">07</div>
+
+                <div class="lw-trust-card-icon icon-coral">
+                  <i class="fa-solid fa-users"></i>
+                </div>
+
+                <div>
+                  <h3>Individual Attention</h3>
+
+                  <p>
+                    A caring environment where children receive personal
+                    attention and support.
+                  </p>
+                </div>
+
+                <span class="lw-trust-arrow">
+                  <i class="fa-solid fa-arrow-up-right"></i>
+                </span>
+              </article>
+
+              <!-- CARD 08 -->
+              <article class="lw-trust-card">
+                <div class="lw-trust-card-number">08</div>
+
+                <div class="lw-trust-card-icon icon-mint">
+                  <i class="fa-solid fa-apple-whole"></i>
+                </div>
+
+                <div>
+                  <h3>Healthy Environment</h3>
+
+                  <p>
+                    Clean surroundings and thoughtful routines that support
+                    happy childhood development.
+                  </p>
+                </div>
+
+                <span class="lw-trust-arrow">
+                  <i class="fa-solid fa-arrow-up-right"></i>
+                </span>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- =========================================================
+     HOME PAGE — OUR CAMPUS
+     ========================================================= -->
+      <section class="lw-campus">
+        <div class="lw-campus-orb lw-campus-orb-one"></div>
+        <div class="lw-campus-orb lw-campus-orb-two"></div>
+
+        <div class="container">
+          <div class="lw-campus-layout">
+            <!-- =====================================================
+           LEFT — CAMPUS VISUAL
+           ===================================================== -->
+
+            <div class="lw-campus-visual">
+              <div class="lw-campus-image-frame">
+                <img
+                  src="./images/campus.jpeg"
+                  alt="Little Wings Academy Campus"
+                />
+
+                <div class="lw-campus-image-shade"></div>
+              </div>
+
+              <!-- LOCATION BADGE -->
+
+              <div class="lw-campus-location">
+                <div class="lw-campus-location-icon">
+                  <i class="fa-solid fa-location-dot"></i>
+                </div>
+
+                <div>
+                  <small>Visit Us</small>
+                  <strong>Little Wings Academy</strong>
+                </div>
+              </div>
+
+              <!-- IMAGE LABEL -->
+
+              <div class="lw-campus-image-label">
+                <span></span>
+                Our Campus
+              </div>
+
+              <!-- DECORATIVE DOTS -->
+
+              <div class="lw-campus-dots">
+                <i></i>
+                <i></i>
+                <i></i>
+                <i></i>
+                <i></i>
+                <i></i>
+                <i></i>
+                <i></i>
+                <i></i>
+              </div>
+            </div>
+
+            <!-- =====================================================
+           RIGHT — CONTENT
+           ===================================================== -->
+
+            <div class="lw-campus-content">
+              <div class="lw-section-kicker">
+                <span></span>
+                Our Campus
+              </div>
+
+              <h2>
+                A Space Where
+                <em>Little Minds</em>
+                Can Flourish.
+              </h2>
+
+              <p class="lw-campus-intro">
+                A warm, welcoming and child-friendly environment designed to
+                make every day at Little Wings joyful, safe and engaging.
+              </p>
+
+              <!-- CAMPUS HIGHLIGHTS -->
+
+              <div class="lw-campus-highlights">
+                <div class="lw-campus-highlight">
+                  <div class="lw-campus-highlight-icon icon-mint">
+                    <i class="fa-solid fa-shield-heart"></i>
+                  </div>
+
+                  <div>
+                    <h3>Safe Environment</h3>
+
+                    <p>
+                      Thoughtfully designed spaces where children can learn,
+                      explore and play comfortably.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="lw-campus-highlight">
+                  <div class="lw-campus-highlight-icon icon-coral">
+                    <i class="fa-solid fa-palette"></i>
+                  </div>
+
+                  <div>
+                    <h3>Learning Through Play</h3>
+
+                    <p>
+                      Engaging surroundings that encourage curiosity, creativity
+                      and active participation.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="lw-campus-highlight">
+                  <div class="lw-campus-highlight-icon icon-purple">
+                    <i class="fa-solid fa-people-roof"></i>
+                  </div>
+
+                  <div>
+                    <h3>Child-Friendly Spaces</h3>
+
+                    <p>
+                      Comfortable spaces created around the needs of growing
+                      children.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- CTA -->
+
+              <a
+                href="#/contact"
+                onclick="navigateTo('contact')"
+                class="lw-campus-cta"
+              >
+                <span>Visit Our Campus</span>
+
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
             </div>
           </div>
         </div>
@@ -1997,79 +2382,135 @@
     </main>
 
     <section id="page-about-us" class="page-section">
-      <div
-        class="hero-wrapper"
-        style="padding: 50px 0 60px 0; text-align: center"
-      >
+      <!-- =========================================================
+     ABOUT US — HERO
+     ========================================================= -->
+      <div class="lw-about-hero">
+        <div class="lw-about-hero-orb lw-about-orb-one"></div>
+        <div class="lw-about-hero-orb lw-about-orb-two"></div>
+
         <div class="container">
-          <div class="badge-pill">About Little Wings Academy</div>
-          <h1>Small Wings, <span class="pink">Big Dreams</span></h1>
-          <p style="margin: 0 auto; max-width: 650px">
-            Where every child is celebrated, nurtured, and empowered to discover
-            their true talents in a playful, respectful learning community.
-          </p>
+          <div class="lw-about-hero-grid">
+            <div class="lw-about-hero-content">
+              <span class="lw-about-eyebrow"> ABOUT LITTLE WINGS ACADEMY </span>
+
+              <h1>
+                Small Wings,
+                <span>Big Dreams</span>
+              </h1>
+
+              <p>
+                Where every child is celebrated, nurtured, and empowered to
+                discover their true talents in a playful, respectful learning
+                community.
+              </p>
+
+              <div class="lw-about-hero-line">
+                <span></span>
+                <small>Learn • Play • Grow Together</small>
+              </div>
+            </div>
+
+            <div class="lw-about-hero-visual">
+              <div class="lw-about-image-card">
+                <img
+                  src="https://images.unsplash.com/photo-1577896851231-70ef18881754?w=900&auto=format&fit=crop&q=85"
+                  alt="Teacher interacting with children"
+                  loading="lazy"
+                />
+
+                <div class="lw-about-image-overlay"></div>
+
+                <div class="lw-about-image-badge">
+                  <i class="fa-solid fa-heart"></i>
+                  <span>Little Wings Academy</span>
+                </div>
+              </div>
+
+              <div class="lw-about-floating-shape"></div>
+            </div>
+          </div>
         </div>
       </div>
 
       <div class="container section-py">
-        <div class="grid-2" style="margin-bottom: 60px">
-          <div>
-            <div class="badge-pill blue">Our Philosophy</div>
-            <h2>Where Little Hands Explore, Create & Shine!</h2>
-            <p style="margin-bottom: 16px; color: #475569">
-              At Little Wings Academy, we believe early childhood is not a
-              race—it is a magical journey of wonder, hands-on exploration, and
-              social bonding. Guided by our motto
-              <strong>“Learn • Play • Grow Together”</strong>, our curriculum
-              bridges structured Montessori fundamentals with joyful physical
-              and creative expression.
-            </p>
-            <p style="color: #475569; margin-bottom: 24px">
-              Whether your little one joins us for preschool, after-school
-              activity clubs, or daycare, we provide an encouraging environment
-              where children feel secure, loved, and confident to ask questions.
-            </p>
+        <!-- =========================================================
+     ABOUT US — OUR PHILOSOPHY
+     ========================================================= -->
+        <div class="lw-about-philosophy">
+          <!-- LEFT CONTENT -->
+          <div class="lw-about-philosophy-content">
+            <span class="lw-about-section-tag"> OUR PHILOSOPHY </span>
 
-            <div
-              style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px"
-            >
-              <div
-                style="
-                  background: var(--pink-soft);
-                  padding: 16px;
-                  border-radius: var(--radius-sm);
-                "
-              >
-                <h4 style="color: var(--primary-pink); margin-bottom: 4px">
-                  Joyful Learning
-                </h4>
-                <p style="font-size: 0.85rem; color: #64748b">
-                  Play-way methods that turn education into adventure.
-                </p>
+            <h2>
+              Where Little Hands
+              <span>Explore, Create & Shine!</span>
+            </h2>
+
+            <div class="lw-about-copy">
+              <p>
+                At Little Wings Academy, we believe early childhood is not a
+                race—it is a magical journey of wonder, hands-on exploration,
+                and social bonding. Guided by our motto
+                <strong>“Learn • Play • Grow Together”</strong>, our curriculum
+                bridges structured Montessori fundamentals with joyful physical
+                and creative expression.
+              </p>
+
+              <p>
+                Whether your little one joins us for preschool, after-school
+                activity clubs, or daycare, we provide an encouraging
+                environment where children feel secure, loved, and confident to
+                ask questions.
+              </p>
+            </div>
+
+            <!-- PHILOSOPHY HIGHLIGHTS -->
+            <div class="lw-philosophy-points">
+              <div class="lw-philosophy-point">
+                <div class="lw-philosophy-point-icon">
+                  <i class="fa-solid fa-sun"></i>
+                </div>
+
+                <div>
+                  <h4>Joyful Learning</h4>
+
+                  <p>Play-way methods that turn education into adventure.</p>
+                </div>
               </div>
-              <div
-                style="
-                  background: var(--sky-soft);
-                  padding: 16px;
-                  border-radius: var(--radius-sm);
-                "
-              >
-                <h4 style="color: var(--primary-blue); margin-bottom: 4px">
-                  Holistic Care
-                </h4>
-                <p style="font-size: 0.85rem; color: #64748b">
-                  Physical fitness, creative expression & social values.
-                </p>
+
+              <div class="lw-philosophy-point">
+                <div class="lw-philosophy-point-icon">
+                  <i class="fa-solid fa-heart"></i>
+                </div>
+
+                <div>
+                  <h4>Holistic Care</h4>
+
+                  <p>Physical fitness, creative expression & social values.</p>
+                </div>
               </div>
             </div>
           </div>
 
-          <div>
-            <img
-              src="https://images.unsplash.com/photo-1577896851231-70ef18881754?w=700&auto=format&fit=crop&q=80"
-              alt="Teacher interacting with children"
-              style="border-radius: 28px; box-shadow: var(--shadow-lg)"
-            />
+          <!-- RIGHT IMAGE -->
+          <div class="lw-about-philosophy-visual">
+            <div class="lw-about-photo-frame">
+              <img
+                src="https://images.unsplash.com/photo-1577896851231-70ef18881754?w=900&auto=format&fit=crop&q=85"
+                alt="Teacher interacting with children"
+                loading="lazy"
+              />
+
+              <div class="lw-about-photo-shade"></div>
+
+              <div class="lw-about-photo-label">
+                <span>01</span>
+                <strong>Growing Together</strong>
+              </div>
+            </div>
+
+            <div class="lw-about-photo-decoration"></div>
           </div>
         </div>
 
@@ -3437,174 +3878,186 @@
       </div>
     </section>
 
-    <footer class="site-footer">
+    <!-- =========================================================
+     PREMIUM FOOTER
+     ========================================================= -->
+    <footer class="lw-footer">
+      <div class="lw-footer-glow lw-footer-glow-one"></div>
+      <div class="lw-footer-glow lw-footer-glow-two"></div>
+
       <div class="container">
-        <div class="footer-grid">
-          <div class="footer-col">
-            <div class="brand-logo" style="margin-bottom: 16px">
+        <!-- FOOTER TOP -->
+        <div class="lw-footer-top">
+          <!-- BRAND -->
+          <div class="lw-footer-brand">
+            <div class="lw-footer-logo-row">
               <img
                 src="images/IMG-20260901-WA0013.jpg"
                 alt="Little Wings Academy Logo"
-                style="
-                  height: 48px;
-                  width: 48px;
-                  border-radius: 50%;
-                  object-fit: contain;
-                  background: #fff;
-                "
               />
-              <div class="brand-text">
-                <span class="brand-title" style="color: #fff"
-                  >Little Wings</span
-                >
-                <span class="brand-sub" style="color: #cbd5e1">ACADEMY</span>
+
+              <div>
+                <div class="lw-footer-brand-title">Little Wings</div>
+                <div class="lw-footer-brand-sub">ACADEMY</div>
               </div>
             </div>
-            <p style="font-size: 0.9rem; line-height: 1.6; margin-bottom: 16px">
+
+            <p>
               “Learn • Play • Grow Together” — Nurturing young minds through
               holistic preschool, loving daycare, and joyful physical and
               creative clubs in Vadodara.
             </p>
-            <div style="display: flex; gap: 12px">
+
+            <!-- SOCIAL / CONTACT ICONS -->
+            <div class="lw-footer-socials">
               <a
                 href="https://wa.me/917016733472"
                 target="_blank"
-                style="
-                  width: 36px;
-                  height: 36px;
-                  border-radius: 50%;
-                  background: #1e293b;
-                  display: flex;
-                  align-items: center;
-                  justify-content: center;
-                  color: #25d366;
-                "
-                ><i class="fa-brands fa-whatsapp"></i
-              ></a>
-              <a
-                href="tel:7016733472"
-                style="
-                  width: 36px;
-                  height: 36px;
-                  border-radius: 50%;
-                  background: #1e293b;
-                  display: flex;
-                  align-items: center;
-                  justify-content: center;
-                  color: var(--sky-blue);
-                "
-                ><i class="fa-solid fa-phone"></i
-              ></a>
+                aria-label="WhatsApp"
+              >
+                <i class="fa-brands fa-whatsapp"></i>
+              </a>
+
+              <a href="tel:7016733472" aria-label="Call Little Wings Academy">
+                <i class="fa-solid fa-phone"></i>
+              </a>
+
               <a
                 href="mailto:littlewingsacademy24@gmail.com"
-                style="
-                  width: 36px;
-                  height: 36px;
-                  border-radius: 50%;
-                  background: #1e293b;
-                  display: flex;
-                  align-items: center;
-                  justify-content: center;
-                  color: var(--primary-pink);
-                "
-                ><i class="fa-solid fa-envelope"></i
-              ></a>
-            </div>
-          </div>
-
-          <div class="footer-col">
-            <h4>Quick Links</h4>
-            <ul class="footer-links">
-              <li><a href="#/home" onclick="navigateTo('home')">Home</a></li>
-              <li>
-                <a href="#/about-us" onclick="navigateTo('about-us')"
-                  >About Us</a
-                >
-              </li>
-              <li>
-                <a href="#/preschool" onclick="navigateTo('preschool')"
-                  >Preschool (₹1499)</a
-                >
-              </li>
-              <li>
-                <a href="#/daycare" onclick="navigateTo('daycare')"
-                  >Daycare (₹3000)</a
-                >
-              </li>
-              <li>
-                <a href="#/activity-club" onclick="navigateTo('activity-club')"
-                  >Activity Club</a
-                >
-              </li>
-              <li>
-                <a href="#/gallery" onclick="navigateTo('gallery')"
-                  >Photo Gallery</a
-                >
-              </li>
-            </ul>
-          </div>
-
-          <div class="footer-col">
-            <h4>Our Programs</h4>
-            <ul class="footer-links">
-              <li>
-                <a href="#/preschool" onclick="navigateTo('preschool')"
-                  >Playgroup to UKG</a
-                >
-              </li>
-              <li>
-                <a href="#/preschool" onclick="navigateTo('preschool')"
-                  >Montessori Learning</a
-                >
-              </li>
-              <li>
-                <a href="#/daycare" onclick="navigateTo('daycare')"
-                  >Hourly & Full Day Daycare</a
-                >
-              </li>
-              <li>
-                <a href="#/activity-club" onclick="navigateTo('activity-club')"
-                  >Tiny Tots Fitness</a
-                >
-              </li>
-              <li>
-                <a href="#/activity-club" onclick="navigateTo('activity-club')"
-                  >Phonics & Grammar</a
-                >
-              </li>
-              <li>
-                <a href="#/admissions" onclick="navigateTo('admissions')"
-                  >2-Days Free Trial</a
-                >
-              </li>
-            </ul>
-          </div>
-
-          <div class="footer-col">
-            <h4>Vadodara Campus</h4>
-            <div class="contact-item">
-              <i class="fa-solid fa-location-dot"></i>
-              <span
-                >A/46-289 Anand Flats, Sai Baba Temple Lane, Ellora Park,
-                Vadodara – 390023</span
+                aria-label="Email Little Wings Academy"
               >
+                <i class="fa-solid fa-envelope"></i>
+              </a>
             </div>
-            <div class="contact-item">
-              <i class="fa-solid fa-phone"></i>
-              <span>70167 33472 / 96248 29592</span>
+          </div>
+
+          <!-- QUICK LINKS -->
+          <div class="lw-footer-column">
+            <span class="lw-footer-heading">Quick Links</span>
+
+            <ul>
+              <li>
+                <a href="#/home" onclick="navigateTo('home')">
+                  <span>01</span> Home
+                </a>
+              </li>
+
+              <li>
+                <a href="#/about-us" onclick="navigateTo('about-us')">
+                  <span>02</span> About Us
+                </a>
+              </li>
+
+              <li>
+                <a href="#/preschool" onclick="navigateTo('preschool')">
+                  <span>03</span> Preschool (₹1499)
+                </a>
+              </li>
+
+              <li>
+                <a href="#/daycare" onclick="navigateTo('daycare')">
+                  <span>04</span> Daycare (₹3000)
+                </a>
+              </li>
+
+              <li>
+                <a href="#/activity-club" onclick="navigateTo('activity-club')">
+                  <span>05</span> Activity Club
+                </a>
+              </li>
+
+              <li>
+                <a href="#/gallery" onclick="navigateTo('gallery')">
+                  <span>06</span> Photo Gallery
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- PROGRAMS -->
+          <div class="lw-footer-column">
+            <span class="lw-footer-heading">Our Programs</span>
+
+            <ul>
+              <li>
+                <a href="#/preschool" onclick="navigateTo('preschool')">
+                  <span>01</span> Playgroup to UKG
+                </a>
+              </li>
+
+              <li>
+                <a href="#/preschool" onclick="navigateTo('preschool')">
+                  <span>02</span> Montessori Learning
+                </a>
+              </li>
+
+              <li>
+                <a href="#/daycare" onclick="navigateTo('daycare')">
+                  <span>03</span> Hourly & Full Day Daycare
+                </a>
+              </li>
+
+              <li>
+                <a href="#/activity-club" onclick="navigateTo('activity-club')">
+                  <span>04</span> Tiny Tots Fitness
+                </a>
+              </li>
+
+              <li>
+                <a href="#/activity-club" onclick="navigateTo('activity-club')">
+                  <span>05</span> Phonics & Grammar
+                </a>
+              </li>
+
+              <li>
+                <a href="#/admissions" onclick="navigateTo('admissions')">
+                  <span>06</span> 2-Days Free Trial
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- CAMPUS / CONTACT -->
+          <div class="lw-footer-column lw-footer-contact">
+            <span class="lw-footer-heading">Vadodara Campus</span>
+
+            <div class="lw-footer-contact-item">
+              <div class="lw-footer-contact-icon">
+                <i class="fa-solid fa-location-dot"></i>
+              </div>
+
+              <span>
+                A/46-289 Anand Flats, Sai Baba Temple Lane, Ellora Park,
+                Vadodara – 390023
+              </span>
             </div>
-            <div class="contact-item">
-              <i class="fa-solid fa-envelope"></i>
-              <span>littlewingsacademy24@gmail.com</span>
+
+            <div class="lw-footer-contact-item">
+              <div class="lw-footer-contact-icon">
+                <i class="fa-solid fa-phone"></i>
+              </div>
+
+              <span> 70167 33472 / 96248 29592 </span>
+            </div>
+
+            <div class="lw-footer-contact-item">
+              <div class="lw-footer-contact-icon">
+                <i class="fa-solid fa-envelope"></i>
+              </div>
+
+              <span> littlewingsacademy24@gmail.com </span>
             </div>
           </div>
         </div>
 
-        <div class="footer-bottom">
+        <!-- FOOTER BOTTOM -->
+        <div class="lw-footer-bottom">
           <p>
             © 2026 Little Wings Academy. All Rights Reserved. Learn • Play •
             Grow Together.
           </p>
+
+          <div class="lw-footer-bottom-line"></div>
         </div>
       </div>
     </footer>
