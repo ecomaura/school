@@ -1,3 +1,9 @@
+.container {
+  width: min(90%, 1200px);
+  margin-inline: auto;
+}
+
+
 /* =========================================================
    OUR CAMPUS
    ========================================================= */
@@ -11118,5 +11124,306 @@
 
   .lw-contact-map {
     height: 220px;
+  }
+}
+
+
+/* =========================================================
+   HOME PAGE — ACTIVITY VIDEOS
+========================================================= */
+
+.lw-video-section {
+  position: relative;
+  padding: 105px 6%;
+  overflow: hidden;
+
+  background:
+    linear-gradient(
+      135deg,
+      #fff9f2 0%,
+      #ffffff 52%,
+      #f4f1ff 100%
+    );
+}
+
+
+/* Background Decorations */
+
+.lw-video-bg-shape {
+  position: absolute;
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+.lw-video-shape-one {
+  width: 220px;
+  height: 220px;
+
+  top: -90px;
+  right: 5%;
+
+  background: rgba(98, 199, 176, .10);
+}
+
+.lw-video-shape-two {
+  width: 170px;
+  height: 170px;
+
+  bottom: -80px;
+  left: -50px;
+
+  background: rgba(139, 124, 246, .09);
+}
+
+
+/* =========================================================
+   SECTION HEADING
+========================================================= */
+
+.lw-video-heading {
+  position: relative;
+  z-index: 2;
+
+  max-width: 700px;
+
+  margin: 0 auto 55px;
+
+  text-align: center;
+}
+
+.lw-video-heading h2 {
+  margin: 0;
+
+  color: #17233c;
+
+  font-family: "Fredoka", sans-serif;
+
+  font-size: clamp(36px, 4vw, 54px);
+
+  line-height: 1.05;
+}
+
+.lw-video-heading h2 span {
+  color: #ff6b5f;
+}
+
+.lw-video-heading p {
+  max-width: 620px;
+
+  margin: 17px auto 0;
+
+  color: #64748b;
+
+  font-size: 15px;
+
+  line-height: 1.8;
+}
+
+
+/* =========================================================
+   VIDEO GRID
+========================================================= */
+
+.lw-video-grid {
+  position: relative;
+  z-index: 2;
+
+  max-width: 1180px;
+
+  margin: auto;
+
+  display: grid;
+
+  grid-template-columns:
+    repeat(2, minmax(0, 1fr));
+
+  gap: 28px;
+}
+
+
+/* =========================================================
+   VIDEO CARD
+========================================================= */
+
+.lw-video-grid {
+  width: min(100%, 1000px);
+  margin: 45px auto 0;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 24px;
+  align-items: start;
+}
+
+.lw-video-card:hover {
+  transform: translateY(-8px);
+
+  border-color:
+    rgba(98, 199, 176, .28);
+
+  box-shadow:
+    0 25px 55px rgba(23, 35, 60, .12);
+}
+
+
+/* =========================================================
+   VIDEO PLAYER
+========================================================= */
+
+.lw-video-player {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 9 / 16;
+  background: #17233c;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.lw-video-player video {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: contain;
+  background: #17233c;
+}
+
+
+/* =========================================================
+   VIDEO CARD CONTENT
+========================================================= */
+
+.lw-video-card-content {
+  display: flex;
+
+  align-items: center;
+
+  gap: 14px;
+
+  padding: 20px 22px;
+}
+
+.lw-video-icon {
+  width: 44px;
+  height: 44px;
+
+  display: grid;
+  place-items: center;
+
+  flex: 0 0 44px;
+
+  border-radius: 13px;
+
+  background: rgba(255, 107, 95, .10);
+
+  color: #ff6b5f;
+
+  font-size: 15px;
+
+  transition:
+    transform .3s ease,
+    background .3s ease;
+}
+
+.lw-video-card:hover .lw-video-icon {
+  transform: scale(1.08) rotate(-5deg);
+
+  background: rgba(98, 199, 176, .14);
+
+  color: #62c7b0;
+}
+
+.lw-video-card-content h3 {
+  margin: 0 0 3px;
+
+  color: #17233c;
+
+  font-family: "Fredoka", sans-serif;
+
+  font-size: 19px;
+}
+
+.lw-video-card-content p {
+  margin: 0;
+
+  color: #94a3b8;
+
+  font-size: 12px;
+
+  font-weight: 700;
+}
+
+
+/* =========================================================
+   VIDEO SECTION — TABLET
+========================================================= */
+
+@media (max-width: 800px) {
+
+  .lw-video-section {
+    padding:
+      80px 6%;
+  }
+
+  .lw-video-grid {
+    grid-template-columns: 1fr;
+  }
+
+}
+
+
+/* =========================================================
+   VIDEO SECTION — MOBILE
+========================================================= */
+
+@media (max-width: 600px) {
+
+  .lw-video-section {
+    padding:
+      70px 5%;
+  }
+
+  .lw-video-heading {
+    margin-bottom: 38px;
+  }
+
+  .lw-video-heading h2 {
+    font-size: 38px;
+  }
+
+  .lw-video-heading p {
+    font-size: 14px;
+  }
+
+  .lw-video-grid {
+    gap: 20px;
+  }
+
+  .lw-video-card {
+    border-radius: 21px;
+  }
+
+  .lw-video-card-content {
+    padding: 17px;
+  }
+
+}
+
+@media (max-width: 900px) {
+  .lw-video-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    max-width: 650px;
+  }
+}
+
+@media (max-width: 560px) {
+  .lw-video-grid {
+    grid-template-columns: 1fr;
+    max-width: 360px;
+    gap: 22px;
+  }
+
+  .lw-video-player {
+    aspect-ratio: 9 / 16;
   }
 }
