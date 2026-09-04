@@ -3,7 +3,6 @@
   margin-inline: auto !important;
 }
 
-
 /* =========================================================
    OUR CAMPUS
    ========================================================= */
@@ -11127,7 +11126,6 @@
   }
 }
 
-
 /* =========================================================
    HOME PAGE — ACTIVITY VIDEOS
 ========================================================= */
@@ -11137,15 +11135,8 @@
   padding: 105px 6%;
   overflow: hidden;
 
-  background:
-    linear-gradient(
-      135deg,
-      #fff9f2 0%,
-      #ffffff 52%,
-      #f4f1ff 100%
-    );
+  background: linear-gradient(135deg, #fff9f2 0%, #ffffff 52%, #f4f1ff 100%);
 }
-
 
 /* Background Decorations */
 
@@ -11162,7 +11153,7 @@
   top: -90px;
   right: 5%;
 
-  background: rgba(98, 199, 176, .10);
+  background: rgba(98, 199, 176, 0.1);
 }
 
 .lw-video-shape-two {
@@ -11172,9 +11163,8 @@
   bottom: -80px;
   left: -50px;
 
-  background: rgba(139, 124, 246, .09);
+  background: rgba(139, 124, 246, 0.09);
 }
-
 
 /* =========================================================
    SECTION HEADING
@@ -11219,7 +11209,6 @@
   line-height: 1.8;
 }
 
-
 /* =========================================================
    VIDEO GRID
 ========================================================= */
@@ -11234,12 +11223,10 @@
 
   display: grid;
 
-  grid-template-columns:
-    repeat(2, minmax(0, 1fr));
+  grid-template-columns: repeat(2, minmax(0, 1fr));
 
   gap: 28px;
 }
-
 
 /* =========================================================
    VIDEO CARD
@@ -11257,13 +11244,10 @@
 .lw-video-card:hover {
   transform: translateY(-8px);
 
-  border-color:
-    rgba(98, 199, 176, .28);
+  border-color: rgba(98, 199, 176, 0.28);
 
-  box-shadow:
-    0 25px 55px rgba(23, 35, 60, .12);
+  box-shadow: 0 25px 55px rgba(23, 35, 60, 0.12);
 }
-
 
 /* =========================================================
    VIDEO PLAYER
@@ -11287,7 +11271,6 @@
   object-fit: contain;
   background: #17233c;
 }
-
 
 /* =========================================================
    VIDEO CARD CONTENT
@@ -11314,21 +11297,21 @@
 
   border-radius: 13px;
 
-  background: rgba(255, 107, 95, .10);
+  background: rgba(255, 107, 95, 0.1);
 
   color: #ff6b5f;
 
   font-size: 15px;
 
   transition:
-    transform .3s ease,
-    background .3s ease;
+    transform 0.3s ease,
+    background 0.3s ease;
 }
 
 .lw-video-card:hover .lw-video-icon {
   transform: scale(1.08) rotate(-5deg);
 
-  background: rgba(98, 199, 176, .14);
+  background: rgba(98, 199, 176, 0.14);
 
   color: #62c7b0;
 }
@@ -11353,34 +11336,27 @@
   font-weight: 700;
 }
 
-
 /* =========================================================
    VIDEO SECTION — TABLET
 ========================================================= */
 
 @media (max-width: 800px) {
-
   .lw-video-section {
-    padding:
-      80px 6%;
+    padding: 80px 6%;
   }
 
   .lw-video-grid {
     grid-template-columns: 1fr;
   }
-
 }
-
 
 /* =========================================================
    VIDEO SECTION — MOBILE
 ========================================================= */
 
 @media (max-width: 600px) {
-
   .lw-video-section {
-    padding:
-      70px 5%;
+    padding: 70px 5%;
   }
 
   .lw-video-heading {
@@ -11406,7 +11382,6 @@
   .lw-video-card-content {
     padding: 17px;
   }
-
 }
 
 @media (max-width: 900px) {
@@ -11427,7 +11402,6 @@
     aspect-ratio: 9 / 16;
   }
 }
-
 
 /* =========================================
    GALLERY — VIEW MORE BUTTON
@@ -11488,7 +11462,6 @@
   display: none;
 }
 
-
 /* =========================================
    GALLERY — GENERATED ITEMS
 ========================================= */
@@ -11506,7 +11479,6 @@
 .lw-gallery-item:hover img {
   transform: scale(1.04);
 }
-
 
 /* =========================================
    GALLERY — LIGHTBOX
@@ -11567,11 +11539,9 @@
   transition: transform 0.3s ease;
 }
 
-.lw-gallery-lightbox.active
-  .lw-gallery-lightbox-content img {
+.lw-gallery-lightbox.active .lw-gallery-lightbox-content img {
   transform: scale(1);
 }
-
 
 /* =========================================
    LIGHTBOX — CLOSE
@@ -11609,7 +11579,6 @@
   background: #ff6b5f;
   transform: rotate(90deg);
 }
-
 
 /* =========================================
    LIGHTBOX — PREVIOUS / NEXT
@@ -11662,7 +11631,6 @@
   transform: translateY(-50%) translateX(3px);
 }
 
-
 /* =========================================
    LIGHTBOX — COUNTER
 ========================================= */
@@ -11684,13 +11652,11 @@
   white-space: nowrap;
 }
 
-
 /* =========================================
    GALLERY — MOBILE
 ========================================= */
 
 @media (max-width: 768px) {
-
   .lw-gallery-more-wrap {
     margin-top: 32px;
   }
@@ -11741,7 +11707,6 @@
 }
 
 @media (max-width: 480px) {
-
   .lw-gallery-lightbox-prev,
   .lw-gallery-lightbox-next {
     top: auto;
@@ -11764,4 +11729,1688 @@
   .lw-gallery-lightbox-next:hover {
     transform: translateX(3px);
   }
+}
+
+/* =========================================================
+   LITTLE WINGS ACADEMY
+   GLOBAL LOGO-BASED BRAND THEME
+   Purple • Pink • Mint • Soft Yellow
+========================================================= */
+
+:root {
+  /* Brand Colors */
+  --primary-pink: #d96b9d !important;
+  --pink-soft: #f9e5ef !important;
+
+  --primary-blue: #8b5bb7 !important;
+  --sky-blue: #b58bd4 !important;
+  --sky-soft: #f2eaf8 !important;
+
+  --primary-yellow: #f4c95d !important;
+  --yellow-soft: #fff5d9 !important;
+
+  --primary-green: #75c9a5 !important;
+  --green-soft: #e5f5ed !important;
+
+  --primary-purple: #8b5bb7 !important;
+  --purple-soft: #eee4f7 !important;
+
+  --primary-orange: #f28b82 !important;
+
+  /* Text */
+  --text-main: #49365c !important;
+  --text-muted: #817688 !important;
+
+  /* Background */
+  --bg-light: #fffaf5 !important;
+  --white: #ffffff !important;
+  --border-color: #eee4f0 !important;
+
+  /* Brand Helpers */
+  --lw-purple: #8b5bb7;
+  --lw-purple-dark: #70459b;
+  --lw-purple-light: #eee4f7;
+
+  --lw-pink: #d96b9d;
+  --lw-pink-dark: #c65388;
+  --lw-pink-light: #f9e5ef;
+
+  --lw-coral: #f28b82;
+  --lw-coral-light: #fde9e6;
+
+  --lw-mint: #75c9a5;
+  --lw-mint-dark: #4eaa83;
+  --lw-mint-light: #e5f5ed;
+
+  --lw-yellow: #f4c95d;
+  --lw-yellow-light: #fff5d9;
+
+  --lw-cream: #fffaf5;
+  --lw-heading: #49365c;
+  --lw-body: #5f5367;
+}
+
+/* =========================================================
+   GLOBAL
+========================================================= */
+
+body {
+  background: var(--lw-cream) !important;
+  color: var(--lw-body) !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--lw-heading) !important;
+}
+
+p {
+  color: var(--lw-body);
+}
+
+a {
+  color: inherit;
+}
+
+/* =========================================================
+   HEADER
+========================================================= */
+
+.site-header {
+  background: rgba(255, 250, 245, 0.96) !important;
+  border-bottom: 1px solid var(--lw-pink-light);
+  box-shadow: 0 4px 20px rgba(112, 69, 155, 0.08) !important;
+}
+
+/* Logo title */
+
+.brand-title {
+  background: linear-gradient(90deg, #8b5bb7 0%, #d96b9d 100%) !important;
+
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+}
+
+.brand-sub {
+  color: #6f6178 !important;
+}
+
+.brand-tagline {
+  color: var(--lw-pink) !important;
+}
+
+/* Desktop Navigation */
+
+.nav-links a {
+  color: #5b5064 !important;
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+  color: var(--lw-purple) !important;
+}
+
+.nav-links a.active::after {
+  background: linear-gradient(
+    90deg,
+    var(--lw-purple),
+    var(--lw-pink)
+  ) !important;
+}
+
+/* Enquire button */
+
+.btn-pink {
+  background: var(--lw-purple) !important;
+  box-shadow: 0 8px 20px rgba(139, 91, 183, 0.25) !important;
+}
+
+.btn-pink:hover {
+  background: var(--lw-purple-dark) !important;
+}
+
+/* =========================================================
+   MOBILE HEADER / DRAWER
+========================================================= */
+
+.hamburger-btn {
+  color: var(--lw-purple) !important;
+}
+
+.mobile-drawer {
+  background: var(--lw-cream) !important;
+}
+
+.drawer-header {
+  border-bottom-color: var(--lw-pink-light) !important;
+}
+
+.drawer-links a {
+  color: #5b5064 !important;
+}
+
+.drawer-links a.active,
+.drawer-links a:hover {
+  background: var(--lw-pink-light) !important;
+  color: var(--lw-purple) !important;
+}
+
+/* =========================================================
+   GLOBAL BADGES
+========================================================= */
+
+.badge-pill {
+  background: var(--lw-pink-light) !important;
+  color: var(--lw-pink-dark) !important;
+  border-color: var(--lw-pink) !important;
+}
+
+.badge-pill.blue {
+  background: var(--lw-purple-light) !important;
+  color: var(--lw-purple-dark) !important;
+  border-color: #b58bd4 !important;
+}
+
+.badge-pill.yellow {
+  background: var(--lw-yellow-light) !important;
+  color: #9a7720 !important;
+  border-color: var(--lw-yellow) !important;
+}
+
+.badge-pill.green {
+  background: var(--lw-mint-light) !important;
+  color: var(--lw-mint-dark) !important;
+  border-color: var(--lw-mint) !important;
+}
+
+/* =========================================================
+   GLOBAL BUTTONS
+========================================================= */
+
+.btn-pink,
+.lw-btn-primary,
+.lw-trial-btn,
+.lw-form-submit,
+.lw-contact-submit,
+.lw-admissions-primary-btn,
+.lw-admission-form-submit {
+  background: var(--lw-purple) !important;
+  color: #ffffff !important;
+}
+
+.btn-pink:hover,
+.lw-btn-primary:hover,
+.lw-trial-btn:hover,
+.lw-form-submit:hover,
+.lw-contact-submit:hover,
+.lw-admissions-primary-btn:hover,
+.lw-admission-form-submit:hover {
+  /* background: var(--lw-purple-dark) !important; */
+}
+
+.btn-blue,
+.lw-btn-secondary {
+  background: var(--lw-pink) !important;
+  color: #ffffff !important;
+}
+
+.btn-blue:hover,
+.lw-btn-secondary:hover {
+  background: var(--lw-pink-dark) !important;
+}
+
+.btn-outline {
+  border-color: var(--lw-purple) !important;
+  color: var(--lw-purple) !important;
+}
+
+.btn-outline:hover {
+  background: var(--lw-purple) !important;
+  color: #ffffff !important;
+}
+
+.btn-whatsapp {
+  background: #5bbd83 !important;
+}
+
+.btn-whatsapp:hover {
+  background: #479e6b !important;
+}
+
+/* =========================================================
+   HOME — HERO
+========================================================= */
+
+.lw-hero {
+  background:
+    radial-gradient(
+      circle at 10% 20%,
+      rgba(217, 107, 157, 0.12),
+      transparent 30%
+    ),
+    radial-gradient(
+      circle at 90% 80%,
+      rgba(117, 201, 165, 0.14),
+      transparent 32%
+    ),
+    var(--lw-cream) !important;
+}
+
+.lw-hero-eyebrow,
+.lw-hero-eyebrow span {
+  color: var(--lw-pink) !important;
+}
+
+.lw-hero h1 {
+  color: var(--lw-purple-dark) !important;
+}
+
+.lw-hero h1 span {
+  color: var(--lw-pink) !important;
+}
+
+.lw-eyebrow-dot {
+  background: var(--lw-mint) !important;
+}
+
+.lw-image-backdrop {
+  background: var(--lw-mint) !important;
+}
+
+.lw-image-accent {
+  background: var(--lw-pink) !important;
+}
+
+.lw-floating-card {
+  border-color: var(--lw-pink-light) !important;
+}
+
+.lw-icon-mint {
+  background: var(--lw-mint-light) !important;
+  color: var(--lw-mint-dark) !important;
+}
+
+.lw-icon-coral {
+  background: var(--lw-pink-light) !important;
+  color: var(--lw-pink-dark) !important;
+}
+
+.lw-hero-mini-badge {
+  background: var(--lw-purple) !important;
+}
+
+/* =========================================================
+   HOME — PROGRAMS
+========================================================= */
+
+.lw-programs {
+  background: #ffffff !important;
+}
+
+.lw-section-kicker {
+  color: var(--lw-pink) !important;
+}
+
+.lw-programs-header h2 {
+  color: var(--lw-purple-dark) !important;
+}
+
+.lw-programs-header h2 em {
+  color: var(--lw-pink) !important;
+}
+
+/* Program cards */
+
+.lw-program-card {
+  background: #ffffff !important;
+  border-color: var(--lw-pink-light) !important;
+  box-shadow: 0 15px 40px rgba(112, 69, 155, 0.09) !important;
+}
+
+/* Program top accents */
+
+.lw-program-preschool::before {
+  background: var(--lw-purple) !important;
+}
+
+.lw-program-daycare::before {
+  background: var(--lw-mint) !important;
+}
+
+.lw-program-activity::before {
+  background: var(--lw-pink) !important;
+}
+
+.lw-program-number {
+  background: var(--lw-purple-light) !important;
+  color: var(--lw-purple-dark) !important;
+}
+
+.lw-program-daycare .lw-program-number {
+  background: var(--lw-mint-light) !important;
+  color: var(--lw-mint-dark) !important;
+}
+
+.lw-program-activity .lw-program-number {
+  background: var(--lw-pink-light) !important;
+  color: var(--lw-pink-dark) !important;
+}
+
+.lw-price {
+  color: var(--lw-purple) !important;
+}
+
+.lw-program-daycare .lw-price {
+  color: var(--lw-mint-dark) !important;
+}
+
+.lw-program-activity .lw-price {
+  color: var(--lw-pink-dark) !important;
+}
+
+.lw-age-badge {
+  background: var(--lw-purple-light) !important;
+  color: var(--lw-purple-dark) !important;
+}
+
+.lw-program-daycare .lw-age-badge {
+  background: var(--lw-mint-light) !important;
+  color: var(--lw-mint-dark) !important;
+}
+
+.lw-program-activity .lw-age-badge {
+  background: var(--lw-pink-light) !important;
+  color: var(--lw-pink-dark) !important;
+}
+
+.lw-check {
+  background: var(--lw-mint-light) !important;
+  color: var(--lw-mint-dark) !important;
+}
+
+.lw-program-preschool .lw-check {
+  background: var(--lw-purple-light) !important;
+  color: var(--lw-purple-dark) !important;
+}
+
+.lw-program-activity .lw-check {
+  background: var(--lw-pink-light) !important;
+  color: var(--lw-pink-dark) !important;
+}
+
+.lw-program-link {
+  color: var(--lw-purple) !important;
+}
+
+.lw-program-link:hover {
+  color: var(--lw-pink-dark) !important;
+}
+
+/* =========================================================
+   HOME — FREE TRIAL
+========================================================= */
+
+.lw-trial {
+  background: var(--lw-purple-light) !important;
+}
+
+.lw-trial-card {
+  background: linear-gradient(
+    135deg,
+    #70459b 0%,
+    #8b5bb7 55%,
+    #a76cc2 100%
+  ) !important;
+}
+
+.lw-trial-label {
+  color: var(--lw-yellow) !important;
+}
+
+.lw-trial-content h2 {
+  color: #ffffff !important;
+}
+
+.lw-trial-content h2 span {
+  color: var(--lw-yellow) !important;
+}
+
+.lw-trial-point i,
+.lw-trial-icon {
+  color: var(--lw-mint) !important;
+}
+
+.lw-trial-btn {
+  background: #ffffff !important;
+  color: var(--lw-purple-dark) !important;
+}
+
+.lw-trial-btn:hover {
+  background: var(--lw-pink-light) !important;
+}
+
+/* =========================================================
+   HOME — TRUST / DIFFERENCE
+========================================================= */
+
+.lw-trust-section {
+  background: var(--lw-cream) !important;
+}
+
+.lw-trust-header h2 {
+  color: var(--lw-purple-dark) !important;
+}
+
+.lw-trust-header h2 em {
+  color: var(--lw-pink) !important;
+}
+
+.lw-trust-feature,
+.lw-trust-card {
+  background: #ffffff !important;
+  border-color: var(--lw-pink-light) !important;
+}
+
+.lw-trust-feature-icon,
+.lw-trust-card-icon {
+  background: var(--lw-purple-light) !important;
+  color: var(--lw-purple) !important;
+}
+
+.lw-trust-card:hover .lw-trust-card-icon {
+  background: var(--lw-pink-light) !important;
+  color: var(--lw-pink-dark) !important;
+}
+
+.lw-trust-card-number {
+  color: var(--lw-pink) !important;
+}
+
+.lw-trust-arrow {
+  color: var(--lw-mint-dark) !important;
+}
+
+/* =========================================================
+   HOME — CAMPUS
+========================================================= */
+
+.lw-campus {
+  background: #ffffff !important;
+}
+
+.lw-campus-orb-one {
+  background: rgba(217, 107, 157, 0.14) !important;
+}
+
+.lw-campus-orb-two {
+  background: rgba(117, 201, 165, 0.14) !important;
+}
+
+.lw-campus-image-frame {
+  box-shadow: 0 22px 50px rgba(112, 69, 155, 0.12) !important;
+}
+
+.lw-campus-image-frame::before {
+  background: rgba(217, 107, 157, 0.14) !important;
+}
+
+.lw-campus-image-frame::after {
+  background: rgba(117, 201, 165, 0.16) !important;
+}
+
+.lw-campus-location {
+  background: #ffffff !important;
+  border-color: var(--lw-pink-light) !important;
+}
+
+.lw-campus-location-icon {
+  background: var(--lw-pink-light) !important;
+  color: var(--lw-pink-dark) !important;
+}
+
+.lw-campus-image-label {
+  background: rgba(255, 250, 245, 0.96) !important;
+  color: var(--lw-purple-dark) !important;
+}
+
+.lw-campus-content h2 {
+  color: var(--lw-purple-dark) !important;
+}
+
+.lw-campus-content h2 em {
+  color: var(--lw-pink) !important;
+}
+
+.lw-campus-highlight-icon {
+  background: var(--lw-mint-light) !important;
+  color: var(--lw-mint-dark) !important;
+}
+
+.lw-campus-cta {
+  background: var(--lw-purple) !important;
+}
+
+.lw-campus-cta:hover {
+  background: var(--lw-purple-dark) !important;
+}
+
+/* =========================================================
+   ABOUT PAGE
+========================================================= */
+
+.lw-about-hero {
+  background:
+    radial-gradient(
+      circle at 10% 20%,
+      rgba(217, 107, 157, 0.11),
+      transparent 30%
+    ),
+    var(--lw-cream) !important;
+}
+
+.lw-about-hero h1,
+.lw-about-philosophy h2,
+.lw-about-features-header h2 {
+  color: var(--lw-purple-dark) !important;
+}
+
+.lw-about-hero h1 span,
+.lw-about-philosophy h2 span,
+.lw-about-features-header h2 span {
+  color: var(--lw-pink) !important;
+}
+
+.lw-about-feature-card {
+  background: #ffffff !important;
+  border-color: var(--lw-pink-light) !important;
+}
+
+.lw-about-feature-icon {
+  background: var(--lw-purple-light) !important;
+  color: var(--lw-purple) !important;
+}
+
+/* =========================================================
+   PRESCHOOL
+========================================================= */
+
+.lw-preschool-hero {
+  background:
+    radial-gradient(
+      circle at 85% 15%,
+      rgba(117, 201, 165, 0.16),
+      transparent 30%
+    ),
+    var(--lw-cream) !important;
+}
+
+.lw-preschool-eyebrow {
+  color: var(--lw-pink) !important;
+}
+
+.lw-preschool-hero h1,
+.lw-preschool-details h2 {
+  color: var(--lw-purple-dark) !important;
+}
+
+.lw-preschool-hero h1 span {
+  color: var(--lw-pink) !important;
+}
+
+.lw-preschool-image-badge {
+  background: var(--lw-mint) !important;
+  color: #ffffff !important;
+}
+
+.lw-preschool-feature {
+  border-color: var(--lw-pink-light) !important;
+}
+
+.lw-preschool-feature-icon {
+  background: var(--lw-purple-light) !important;
+  color: var(--lw-purple) !important;
+}
+
+.lw-preschool-enquire,
+.lw-preschool-whatsapp {
+  background: var(--lw-pink) !important;
+  color: #ffffff !important;
+}
+
+.lw-preschool-fee-card {
+  background: #ffffff !important;
+  border-color: var(--lw-pink-light) !important;
+}
+
+.lw-preschool-fee-card .lw-price {
+  color: var(--lw-purple) !important;
+}
+
+/* =========================================================
+   DAYCARE
+========================================================= */
+
+.lw-daycare-hero {
+  background:
+    radial-gradient(
+      circle at 10% 15%,
+      rgba(117, 201, 165, 0.15),
+      transparent 30%
+    ),
+    var(--lw-cream) !important;
+}
+
+.lw-daycare-eyebrow {
+  color: var(--lw-mint-dark) !important;
+}
+
+.lw-daycare-hero h1,
+.lw-daycare-care h2 {
+  color: var(--lw-purple-dark) !important;
+}
+
+.lw-daycare-hero h1 span {
+  color: var(--lw-mint-dark) !important;
+}
+
+.lw-daycare-price-pill {
+  background: var(--lw-mint-light) !important;
+  color: var(--lw-mint-dark) !important;
+}
+
+.lw-daycare-image-badge {
+  background: var(--lw-mint) !important;
+}
+
+.lw-daycare-care-item {
+  border-color: var(--lw-pink-light) !important;
+}
+
+.lw-daycare-care-icon {
+  background: var(--lw-mint-light) !important;
+  color: var(--lw-mint-dark) !important;
+}
+
+.lw-daycare-plan-card {
+  background: #ffffff !important;
+  border-color: var(--lw-mint-light) !important;
+}
+
+.lw-daycare-plan-price {
+  color: var(--lw-mint-dark) !important;
+}
+
+.lw-daycare-plan-btn {
+  background: var(--lw-mint-dark) !important;
+  color: #ffffff !important;
+}
+
+/* =========================================================
+   ACTIVITY CLUB
+========================================================= */
+
+.lw-activity-hero {
+  background:
+    radial-gradient(
+      circle at 12% 15%,
+      rgba(217, 107, 157, 0.12),
+      transparent 30%
+    ),
+    var(--lw-cream) !important;
+}
+
+.lw-activity-eyebrow {
+  color: var(--lw-pink) !important;
+}
+
+.lw-activity-hero h1 {
+  color: var(--lw-purple-dark) !important;
+}
+
+.lw-activity-word-explore {
+  color: var(--lw-purple) !important;
+}
+
+.lw-activity-word-create {
+  color: var(--lw-pink) !important;
+}
+
+.lw-activity-word-shine {
+  color: var(--lw-mint-dark) !important;
+}
+
+.lw-activity-main-card {
+  background: #ffffff !important;
+  border-color: var(--lw-pink-light) !important;
+}
+
+.lw-activity-icon-card {
+  background: var(--lw-purple-light) !important;
+  color: var(--lw-purple) !important;
+}
+
+.lw-activity-item {
+  background: #ffffff !important;
+  border-color: var(--lw-pink-light) !important;
+}
+
+.lw-activity-item-icon {
+  background: var(--lw-pink-light) !important;
+  color: var(--lw-pink-dark) !important;
+}
+
+.lw-activity-pricing {
+  background: var(--lw-cream) !important;
+}
+
+.lw-activity-price-card {
+  background: #ffffff !important;
+  border-color: var(--lw-pink-light) !important;
+}
+
+.lw-activity-price-card .lw-price {
+  color: var(--lw-purple) !important;
+}
+
+/* =========================================================
+   GALLERY
+========================================================= */
+
+.lw-gallery-hero {
+  background:
+    radial-gradient(
+      circle at 15% 20%,
+      rgba(217, 107, 157, 0.12),
+      transparent 30%
+    ),
+    radial-gradient(
+      circle at 85% 80%,
+      rgba(117, 201, 165, 0.12),
+      transparent 30%
+    ),
+    var(--lw-cream) !important;
+}
+
+.lw-gallery-eyebrow {
+  color: var(--lw-pink) !important;
+}
+
+.lw-gallery-hero h1 {
+  color: var(--lw-purple-dark) !important;
+}
+
+.lw-gallery-hero h1 span {
+  color: var(--lw-pink) !important;
+}
+
+.lw-gallery-filter-wrap {
+  background: #ffffff !important;
+  border-color: var(--lw-pink-light) !important;
+}
+
+.lw-gallery-filter {
+  color: #685c70 !important;
+}
+
+.lw-gallery-filter.active {
+  background: var(--lw-purple) !important;
+  color: #ffffff !important;
+}
+
+.lw-gallery-filter:hover {
+  color: var(--lw-purple) !important;
+}
+
+.lw-gallery-item {
+  border-color: var(--lw-pink-light) !important;
+  box-shadow: 0 14px 35px rgba(112, 69, 155, 0.1) !important;
+}
+
+.lw-gallery-overlay {
+  background: linear-gradient(
+    to top,
+    rgba(73, 54, 92, 0.88),
+    rgba(73, 54, 92, 0.05)
+  ) !important;
+}
+
+.lw-gallery-overlay span {
+  color: var(--lw-yellow) !important;
+}
+
+.lw-gallery-view {
+  background: var(--lw-pink) !important;
+  color: #ffffff !important;
+}
+
+/* =========================================================
+   ADMISSIONS
+========================================================= */
+
+.lw-admissions-hero {
+  background:
+    radial-gradient(
+      circle at 12% 15%,
+      rgba(217, 107, 157, 0.12),
+      transparent 30%
+    ),
+    var(--lw-cream) !important;
+}
+
+.lw-admissions-eyebrow {
+  color: var(--lw-pink) !important;
+}
+
+.lw-admissions-hero h1 {
+  color: var(--lw-purple-dark) !important;
+}
+
+.lw-admissions-hero h1 span {
+  color: var(--lw-pink) !important;
+}
+
+.lw-admission-process {
+  background: #ffffff !important;
+}
+
+.lw-admission-step {
+  border-color: var(--lw-pink-light) !important;
+  background: #ffffff !important;
+}
+
+.lw-admission-step-number {
+  /* background: var(--lw-purple-light) !important; */
+  color: var(--lw-purple-dark) !important;
+}
+
+.lw-admission-step-icon {
+  background: var(--lw-pink-light) !important;
+  color: var(--lw-pink-dark) !important;
+}
+
+.lw-admission-assistance {
+  background: var(--lw-mint-light) !important;
+  border-color: var(--lw-mint) !important;
+}
+
+.lw-assistance-icon {
+  background: var(--lw-mint) !important;
+  color: #ffffff !important;
+}
+
+.lw-assistance-btn {
+  background: var(--lw-mint-dark) !important;
+  color: #ffffff !important;
+}
+
+.lw-admission-form-section {
+  background: var(--lw-cream) !important;
+}
+
+.lw-admission-form-wrap {
+  background: #ffffff !important;
+  border-color: var(--lw-pink-light) !important;
+}
+
+.lw-form-side {
+  background: linear-gradient(
+    145deg,
+    var(--lw-purple-dark),
+    var(--lw-purple)
+  ) !important;
+}
+
+.lw-form-side-badge {
+  background: rgba(255, 255, 255, 0.14) !important;
+}
+
+.lw-input-wrap:focus-within,
+.lw-textarea-wrap:focus-within {
+  border-color: var(--lw-purple) !important;
+  box-shadow: 0 0 0 3px var(--lw-purple-light) !important;
+}
+
+/* =========================================================
+   CONTACT
+========================================================= */
+
+.lw-contact-hero {
+  background:
+    radial-gradient(
+      circle at 10% 20%,
+      rgba(217, 107, 157, 0.12),
+      transparent 30%
+    ),
+    var(--lw-cream) !important;
+}
+
+.lw-contact-eyebrow {
+  color: var(--lw-pink) !important;
+}
+
+.lw-contact-hero h1 {
+  color: var(--lw-purple-dark) !important;
+}
+
+.lw-contact-hero h1 span {
+  color: var(--lw-pink) !important;
+}
+
+.lw-contact-primary-btn {
+  background: var(--lw-purple) !important;
+}
+
+.lw-contact-primary-btn:hover {
+  background: var(--lw-purple-dark) !important;
+}
+
+.lw-contact-secondary-btn {
+  border-color: var(--lw-pink) !important;
+  color: var(--lw-pink-dark) !important;
+}
+
+.lw-contact-info-card,
+.lw-contact-form-card,
+.lw-contact-map-card {
+  background: #ffffff !important;
+  border-color: var(--lw-pink-light) !important;
+}
+
+.lw-contact-info-icon {
+  background: var(--lw-purple-light) !important;
+  color: var(--lw-purple) !important;
+}
+
+.lw-contact-icon-location {
+  background: var(--lw-pink-light) !important;
+  color: var(--lw-pink-dark) !important;
+}
+
+.lw-contact-icon-phone {
+  background: var(--lw-mint-light) !important;
+  color: var(--lw-mint-dark) !important;
+}
+
+.lw-contact-icon-email {
+  background: var(--lw-yellow-light) !important;
+  color: #a17a18 !important;
+}
+
+.lw-contact-form-icon,
+.lw-contact-map-icon {
+  background: var(--lw-purple-light) !important;
+  color: var(--lw-purple) !important;
+}
+
+.lw-contact-input-wrap:focus-within,
+.lw-contact-textarea-wrap:focus-within {
+  border-color: var(--lw-purple) !important;
+  box-shadow: 0 0 0 3px var(--lw-purple-light) !important;
+}
+
+/* =========================================================
+   VIDEO SECTION
+========================================================= */
+
+.lw-video-section {
+  background:
+    radial-gradient(
+      circle at 10% 20%,
+      rgba(217, 107, 157, 0.1),
+      transparent 30%
+    ),
+    var(--lw-cream) !important;
+}
+
+.lw-video-card {
+  background: #ffffff !important;
+  border-color: var(--lw-pink-light) !important;
+  box-shadow: 0 16px 40px rgba(112, 69, 155, 0.1) !important;
+}
+
+.lw-video-card:hover {
+  box-shadow: 0 22px 50px rgba(112, 69, 155, 0.15) !important;
+}
+
+.lw-video-icon {
+  background: var(--lw-purple-light) !important;
+  color: var(--lw-purple) !important;
+}
+
+.lw-video-card:hover .lw-video-icon {
+  background: var(--lw-mint-light) !important;
+  color: var(--lw-mint-dark) !important;
+}
+
+/* =========================================================
+   VIEW MORE GALLERY BUTTON
+========================================================= */
+
+.lw-gallery-more-btn {
+  background: var(--lw-purple) !important;
+  box-shadow: 0 12px 28px rgba(139, 91, 183, 0.2) !important;
+}
+
+.lw-gallery-more-btn:hover {
+  background: var(--lw-pink) !important;
+}
+
+/* =========================================================
+   FOOTER
+========================================================= */
+
+.lw-footer {
+  background: linear-gradient(
+    145deg,
+    #49365c 0%,
+    #70459b 55%,
+    #8b5bb7 100%
+  ) !important;
+}
+
+.lw-footer-glow-one {
+  background: rgba(217, 107, 157, 0.18) !important;
+}
+
+.lw-footer-glow-two {
+  background: rgba(117, 201, 165, 0.15) !important;
+}
+
+.lw-footer-brand-title {
+  color: #ffffff !important;
+}
+
+.lw-footer-brand-sub {
+  color: var(--lw-yellow) !important;
+}
+
+.lw-footer-heading {
+  color: #ffffff !important;
+}
+
+.lw-footer-heading::after {
+  background: var(--lw-pink) !important;
+}
+
+.lw-footer-column li a {
+  color: rgba(255, 255, 255, 0.78) !important;
+}
+
+.lw-footer-column li a:hover {
+  color: var(--lw-yellow) !important;
+}
+
+.lw-footer-column li a span {
+  color: var(--lw-mint) !important;
+}
+
+.lw-footer-contact-icon {
+  background: rgba(255, 255, 255, 0.12) !important;
+  color: var(--lw-pink) !important;
+}
+
+.lw-footer-contact-item:hover .lw-footer-contact-icon {
+  background: var(--lw-pink) !important;
+  color: #ffffff !important;
+}
+
+.lw-footer-bottom {
+  border-top-color: rgba(255, 255, 255, 0.16) !important;
+}
+
+/* =========================================================
+   FLOATING WHATSAPP
+========================================================= */
+
+.floating-whatsapp {
+  background: #5bbd83 !important;
+  box-shadow: 0 10px 28px rgba(91, 189, 131, 0.38) !important;
+}
+
+.floating-whatsapp:hover {
+  background: #479e6b !important;
+}
+
+/* =========================================================
+   MOBILE BOTTOM BAR
+========================================================= */
+
+.mobile-bottom-bar {
+  background: rgba(255, 250, 245, 0.98) !important;
+  border-top-color: var(--lw-pink-light) !important;
+  box-shadow: 0 -4px 18px rgba(112, 69, 155, 0.1) !important;
+}
+
+.bottom-action-btn {
+  color: #6c6072 !important;
+}
+
+.bottom-action-btn.active {
+  color: var(--lw-pink) !important;
+}
+
+.bottom-action-btn:nth-child(1) i {
+  color: var(--lw-purple) !important;
+}
+
+.bottom-action-btn:nth-child(2) i {
+  color: var(--lw-mint-dark) !important;
+}
+
+.bottom-action-btn:nth-child(3) i {
+  color: var(--lw-pink) !important;
+}
+
+.bottom-action-btn:nth-child(4) i {
+  color: var(--lw-yellow) !important;
+}
+
+/* =========================================================
+   TOAST
+========================================================= */
+
+.notification-toast {
+  background: var(--lw-mint-dark) !important;
+}
+
+/* =========================================================
+   OLD CAMPUS SECTION
+   Kept for compatibility with any existing elements
+========================================================= */
+
+.campus-section {
+  background: var(--lw-cream) !important;
+}
+
+.campus-badge {
+  border-color: var(--lw-pink) !important;
+  color: var(--lw-pink-dark) !important;
+}
+
+.campus-content h2 {
+  color: var(--lw-purple-dark) !important;
+}
+
+.campus-content h2 span {
+  color: var(--lw-pink) !important;
+}
+
+.campus-content p {
+  color: var(--lw-body) !important;
+}
+
+.campus-btn {
+  background: var(--lw-purple) !important;
+  box-shadow: 0 10px 25px rgba(139, 91, 183, 0.18) !important;
+}
+
+.campus-btn:hover {
+  background: var(--lw-purple-dark) !important;
+}
+
+.campus-image-frame {
+  background: #ffffff !important;
+}
+
+.campus-image-frame::before {
+  background: rgba(217, 107, 157, 0.13) !important;
+}
+
+.campus-image-frame::after {
+  background: rgba(117, 201, 165, 0.14) !important;
+}
+
+.campus-image-tag {
+  color: var(--lw-purple-dark) !important;
+}
+
+.campus-image-tag span {
+  background: var(--lw-mint-light) !important;
+  color: var(--lw-mint-dark) !important;
+}
+
+/* =========================================================
+   LIGHTBOX
+========================================================= */
+
+.lw-gallery-lightbox {
+  background: rgba(73, 54, 92, 0.94) !important;
+}
+
+.lw-gallery-lightbox-close:hover {
+  background: var(--lw-pink) !important;
+}
+
+.lw-gallery-lightbox-prev:hover,
+.lw-gallery-lightbox-next:hover {
+  background: var(--lw-mint-dark) !important;
+}
+
+/* =========================================================
+   RESPONSIVE — KEEP BACKGROUND CONSISTENT
+========================================================= */
+
+@media (max-width: 768px) {
+  body {
+    background: var(--lw-cream) !important;
+  }
+
+  .lw-hero,
+  .lw-about-hero,
+  .lw-preschool-hero,
+  .lw-daycare-hero,
+  .lw-activity-hero,
+  .lw-gallery-hero,
+  .lw-admissions-hero,
+  .lw-contact-hero {
+    background-color: var(--lw-cream) !important;
+  }
+}
+
+
+/* =========================================================
+   LITTLE WINGS — THEME BUG FIXES
+   Add this AFTER the global logo theme CSS
+========================================================= */
+
+
+/* =========================================================
+   1. HEADER — REMOVE BLUE FOCUS OUTLINE
+========================================================= */
+
+.nav-links a,
+.nav-links a:focus,
+.nav-links a:focus-visible {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.nav-links a.active {
+  color: var(--lw-purple) !important;
+}
+
+.nav-links a.active::after {
+  background: var(--lw-purple) !important;
+}
+
+
+/* =========================================================
+   2. ADMISSIONS — FORM SUBMIT WRAPPER
+   Background should NOT appear behind the button
+========================================================= */
+
+.lw-form-submit {
+  background: transparent !important;
+  color: inherit !important;
+  padding: 0 !important;
+  border: 0 !important;
+}
+
+
+/* Actual admission submit button */
+
+.lw-form-submit button {
+  width: 100% !important;
+
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 8px !important;
+
+  min-height: 54px !important;
+
+  background: var(--lw-coral) !important;
+  color: #ffffff !important;
+
+  border: 0 !important;
+  border-radius: 15px !important;
+
+  font-family: "Nunito", sans-serif !important;
+  font-size: 15px !important;
+  font-weight: 800 !important;
+
+  cursor: pointer !important;
+
+  box-shadow: none !important;
+
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease,
+    background 0.3s ease !important;
+}
+
+.lw-form-submit button:hover {
+  background: #e87971 !important;
+  transform: translateY(-3px) !important;
+
+  box-shadow:
+    0 14px 30px rgba(242, 139, 130, 0.25) !important;
+}
+
+.lw-form-submit button:focus,
+.lw-form-submit button:focus-visible {
+  outline: none !important;
+  box-shadow:
+    0 0 0 4px rgba(242, 139, 130, 0.18) !important;
+}
+
+
+/* Admission WhatsApp information text */
+
+.lw-form-submit small {
+  display: block !important;
+
+  margin-top: 10px !important;
+
+  background: transparent !important;
+
+  color: #817688 !important;
+
+  text-align: center !important;
+
+  font-size: 11px !important;
+  line-height: 1.5 !important;
+}
+
+
+/* =========================================================
+   3. ADMISSIONS — IMMEDIATE ASSISTANCE
+========================================================= */
+
+.lw-admission-assistance {
+  background: var(--lw-mint-light) !important;
+  margin-top: 20px !important;
+
+  border: 1px solid rgba(117, 201, 165, 0.22) !important;
+
+  box-shadow:
+    0 20px 50px rgba(78, 170, 131, 0.10) !important;
+}
+
+.lw-assistance-icon {
+  background: var(--lw-mint) !important;
+  color: #ffffff !important;
+}
+
+.lw-assistance-content span {
+  color: var(--lw-mint-dark) !important;
+}
+
+.lw-assistance-content h3 {
+  color: var(--lw-heading) !important;
+}
+
+.lw-assistance-content p {
+  color: #6f6376 !important;
+}
+
+.lw-assistance-btn {
+  background: var(--lw-mint-dark) !important;
+  color: #ffffff !important;
+}
+
+.lw-assistance-btn:hover {
+  background: #438f6e !important;
+  color: #ffffff !important;
+}
+
+
+/* =========================================================
+   4. CONTACT — FORM SUBMIT WRAPPER
+========================================================= */
+
+.lw-contact-submit {
+  background: transparent !important;
+  color: inherit !important;
+  padding: 0 !important;
+  border: 0 !important;
+}
+
+
+/* Actual Contact submit button */
+
+.lw-contact-submit button {
+  width: 100% !important;
+
+  min-height: 53px !important;
+
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 8px !important;
+
+  background: var(--lw-coral) !important;
+  color: #ffffff !important;
+
+  border: 0 !important;
+  border-radius: 15px !important;
+
+  font-family: "Nunito", sans-serif !important;
+  font-size: 15px !important;
+  font-weight: 800 !important;
+
+  cursor: pointer !important;
+
+  box-shadow: none !important;
+
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease,
+    background 0.3s ease !important;
+}
+
+.lw-contact-submit button:hover {
+  /* background: #e87971 !important;
+   */
+
+  transform: translateY(-3px) !important;
+
+  box-shadow:
+    0 14px 30px rgba(242, 139, 130, 0.25) !important;
+}
+
+.lw-contact-submit button:focus,
+.lw-contact-submit button:focus-visible {
+  outline: none !important;
+
+  box-shadow:
+    0 0 0 4px rgba(242, 139, 130, 0.18) !important;
+}
+
+.lw-contact-submit small {
+  display: block !important;
+
+  margin-top: 9px !important;
+
+  background: transparent !important;
+
+  color: #817688 !important;
+
+  text-align: center !important;
+
+  font-size: 11px !important;
+  line-height: 1.5 !important;
+}
+
+
+/* =========================================================
+   5. PRESCHOOL — WHATSAPP BUTTON
+   Only the link should look like a button
+========================================================= */
+
+.lw-preschool-enquire {
+  display: block !important;
+
+  width: auto !important;
+
+  margin-top: 28px !important;
+
+  background: transparent !important;
+
+  padding: 0 !important;
+
+  border: 0 !important;
+}
+
+.lw-preschool-whatsapp {
+  display: inline-flex !important;
+
+  width: auto !important;
+
+  align-items: center !important;
+  justify-content: center !important;
+
+  gap: 10px !important;
+
+  padding: 13px 18px !important;
+
+  border-radius: 14px !important;
+
+  background: var(--lw-purple) !important;
+
+  color: #ffffff !important;
+
+  box-shadow:
+    0 12px 28px rgba(139, 91, 183, 0.18) !important;
+}
+
+.lw-preschool-whatsapp i {
+  color: #ffffff !important;
+}
+
+.lw-preschool-whatsapp:hover {
+  background: var(--lw-purple-dark) !important;
+
+  color: #ffffff !important;
+
+  transform: translateY(-3px) !important;
+}
+
+
+/* =========================================================
+   6. FORM INPUTS — LOGO THEME
+========================================================= */
+
+.lw-input-wrap input,
+.lw-input-wrap select,
+.lw-input-wrap textarea,
+.lw-contact-input-wrap input,
+.lw-contact-input-wrap textarea {
+  color: var(--lw-heading) !important;
+
+  background: #fffdfb !important;
+
+  border-color: #e7ddea !important;
+}
+
+.lw-input-wrap input::placeholder,
+.lw-input-wrap textarea::placeholder,
+.lw-contact-input-wrap input::placeholder,
+.lw-contact-input-wrap textarea::placeholder {
+  color: #9a909f !important;
+}
+
+.lw-input-wrap > i,
+.lw-contact-input-wrap > i {
+  color: var(--lw-purple) !important;
+}
+
+.lw-input-wrap input:focus,
+.lw-input-wrap select:focus,
+.lw-input-wrap textarea:focus,
+.lw-contact-input-wrap input:focus,
+.lw-contact-input-wrap textarea:focus {
+  border-color: var(--lw-purple) !important;
+
+  background: #ffffff !important;
+
+  box-shadow:
+    0 0 0 4px rgba(139, 91, 183, 0.10) !important;
+}
+
+
+/* =========================================================
+   7. FORM LABELS
+========================================================= */
+
+.lw-form-field label,
+.lw-contact-field label {
+  color: var(--lw-heading) !important;
+}
+
+
+/* =========================================================
+   8. ADMISSION FORM — LEFT PANEL
+========================================================= */
+
+.lw-form-side {
+  background:
+    linear-gradient(
+      145deg,
+      #70459b 0%,
+      #8b5bb7 100%
+    ) !important;
+}
+
+.lw-form-side-badge {
+  background: rgba(217, 107, 157, 0.18) !important;
+  color: #ffffff !important;
+}
+
+.lw-form-side-points i {
+  color: var(--lw-mint) !important;
+}
+
+
+/* =========================================================
+   9. CONTACT INFO CARDS
+========================================================= */
+
+.lw-contact-info-card:hover {
+  border-color:
+    rgba(139, 91, 183, 0.22) !important;
+}
+
+.lw-contact-info-content h3 {
+  color: var(--lw-heading) !important;
+}
+
+.lw-contact-number-row a,
+.lw-contact-email a {
+  color: var(--lw-purple-dark) !important;
+}
+
+.lw-contact-number-row a:hover,
+.lw-contact-email a:hover {
+  color: var(--lw-pink-dark) !important;
+}
+
+
+/* =========================================================
+   10. PREVENT RANDOM PURPLE BACKGROUNDS ON FORM WRAPPERS
+========================================================= */
+
+.lw-form-submit,
+.lw-contact-submit,
+.lw-preschool-enquire {
+  background-color: transparent !important;
+}
+
+
+/* =========================================================
+   11. ACCESSIBILITY — FOCUS WITHOUT BLUE BROWSER RING
+========================================================= */
+
+button:focus-visible,
+a:focus-visible {
+  outline: 2px solid rgba(139, 91, 183, 0.45) !important;
+  outline-offset: 3px !important;
+}
+
+.nav-links a:focus-visible {
+  outline: none !important;
 }
