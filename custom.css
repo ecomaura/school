@@ -1,6 +1,6 @@
 .container {
-  width: min(90%, 1200px);
-  margin-inline: auto;
+  width: min(90%, 1200px) !important;
+  margin-inline: auto !important;
 }
 
 
