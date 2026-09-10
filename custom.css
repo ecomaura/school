@@ -13011,12 +13011,10 @@ a {
   }
 }
 
-
 /* =========================================================
    LITTLE WINGS — THEME BUG FIXES
    Add this AFTER the global logo theme CSS
 ========================================================= */
-
 
 /* =========================================================
    1. HEADER — REMOVE BLUE FOCUS OUTLINE
@@ -13037,7 +13035,6 @@ a {
   background: var(--lw-purple) !important;
 }
 
-
 /* =========================================================
    2. ADMISSIONS — FORM SUBMIT WRAPPER
    Background should NOT appear behind the button
@@ -13049,7 +13046,6 @@ a {
   padding: 0 !important;
   border: 0 !important;
 }
-
 
 /* Actual admission submit button */
 
@@ -13087,17 +13083,14 @@ a {
   background: #e87971 !important;
   transform: translateY(-3px) !important;
 
-  box-shadow:
-    0 14px 30px rgba(242, 139, 130, 0.25) !important;
+  box-shadow: 0 14px 30px rgba(242, 139, 130, 0.25) !important;
 }
 
 .lw-form-submit button:focus,
 .lw-form-submit button:focus-visible {
   outline: none !important;
-  box-shadow:
-    0 0 0 4px rgba(242, 139, 130, 0.18) !important;
+  box-shadow: 0 0 0 4px rgba(242, 139, 130, 0.18) !important;
 }
-
 
 /* Admission WhatsApp information text */
 
@@ -13116,7 +13109,6 @@ a {
   line-height: 1.5 !important;
 }
 
-
 /* =========================================================
    3. ADMISSIONS — IMMEDIATE ASSISTANCE
 ========================================================= */
@@ -13127,8 +13119,7 @@ a {
 
   border: 1px solid rgba(117, 201, 165, 0.22) !important;
 
-  box-shadow:
-    0 20px 50px rgba(78, 170, 131, 0.10) !important;
+  box-shadow: 0 20px 50px rgba(78, 170, 131, 0.1) !important;
 }
 
 .lw-assistance-icon {
@@ -13158,7 +13149,6 @@ a {
   color: #ffffff !important;
 }
 
-
 /* =========================================================
    4. CONTACT — FORM SUBMIT WRAPPER
 ========================================================= */
@@ -13169,7 +13159,6 @@ a {
   padding: 0 !important;
   border: 0 !important;
 }
-
 
 /* Actual Contact submit button */
 
@@ -13209,16 +13198,14 @@ a {
 
   transform: translateY(-3px) !important;
 
-  box-shadow:
-    0 14px 30px rgba(242, 139, 130, 0.25) !important;
+  box-shadow: 0 14px 30px rgba(242, 139, 130, 0.25) !important;
 }
 
 .lw-contact-submit button:focus,
 .lw-contact-submit button:focus-visible {
   outline: none !important;
 
-  box-shadow:
-    0 0 0 4px rgba(242, 139, 130, 0.18) !important;
+  box-shadow: 0 0 0 4px rgba(242, 139, 130, 0.18) !important;
 }
 
 .lw-contact-submit small {
@@ -13235,7 +13222,6 @@ a {
   font-size: 11px !important;
   line-height: 1.5 !important;
 }
-
 
 /* =========================================================
    5. PRESCHOOL — WHATSAPP BUTTON
@@ -13274,8 +13260,7 @@ a {
 
   color: #ffffff !important;
 
-  box-shadow:
-    0 12px 28px rgba(139, 91, 183, 0.18) !important;
+  box-shadow: 0 12px 28px rgba(139, 91, 183, 0.18) !important;
 }
 
 .lw-preschool-whatsapp i {
@@ -13289,7 +13274,6 @@ a {
 
   transform: translateY(-3px) !important;
 }
-
 
 /* =========================================================
    6. FORM INPUTS — LOGO THEME
@@ -13328,10 +13312,8 @@ a {
 
   background: #ffffff !important;
 
-  box-shadow:
-    0 0 0 4px rgba(139, 91, 183, 0.10) !important;
+  box-shadow: 0 0 0 4px rgba(139, 91, 183, 0.1) !important;
 }
-
 
 /* =========================================================
    7. FORM LABELS
@@ -13342,18 +13324,12 @@ a {
   color: var(--lw-heading) !important;
 }
 
-
 /* =========================================================
    8. ADMISSION FORM — LEFT PANEL
 ========================================================= */
 
 .lw-form-side {
-  background:
-    linear-gradient(
-      145deg,
-      #70459b 0%,
-      #8b5bb7 100%
-    ) !important;
+  background: linear-gradient(145deg, #70459b 0%, #8b5bb7 100%) !important;
 }
 
 .lw-form-side-badge {
@@ -13365,14 +13341,12 @@ a {
   color: var(--lw-mint) !important;
 }
 
-
 /* =========================================================
    9. CONTACT INFO CARDS
 ========================================================= */
 
 .lw-contact-info-card:hover {
-  border-color:
-    rgba(139, 91, 183, 0.22) !important;
+  border-color: rgba(139, 91, 183, 0.22) !important;
 }
 
 .lw-contact-info-content h3 {
@@ -13389,7 +13363,6 @@ a {
   color: var(--lw-pink-dark) !important;
 }
 
-
 /* =========================================================
    10. PREVENT RANDOM PURPLE BACKGROUNDS ON FORM WRAPPERS
 ========================================================= */
@@ -13399,7 +13372,6 @@ a {
 .lw-preschool-enquire {
   background-color: transparent !important;
 }
-
 
 /* =========================================================
    11. ACCESSIBILITY — FOCUS WITHOUT BLUE BROWSER RING
@@ -13413,4 +13385,476 @@ a:focus-visible {
 
 .nav-links a:focus-visible {
   outline: none !important;
+}
+
+/* =========================================================
+   HOME — PHOTO GALLERY
+========================================================= */
+
+.lw-home-gallery {
+  position: relative;
+  padding: 100px 0 105px;
+
+  background:
+    radial-gradient(
+      circle at 8% 20%,
+      rgba(217, 107, 157, 0.1),
+      transparent 30%
+    ),
+    radial-gradient(
+      circle at 92% 75%,
+      rgba(117, 201, 165, 0.12),
+      transparent 32%
+    ),
+    var(--lw-cream);
+
+  overflow: hidden;
+}
+
+/* Decorative Orbs */
+
+.lw-home-gallery-orb {
+  position: absolute;
+
+  border-radius: 50%;
+
+  pointer-events: none;
+
+  filter: blur(1px);
+}
+
+.lw-home-gallery-orb-one {
+  width: 220px;
+  height: 220px;
+
+  top: 60px;
+  left: -110px;
+
+  background: rgba(217, 107, 157, 0.1);
+}
+
+.lw-home-gallery-orb-two {
+  width: 260px;
+  height: 260px;
+
+  right: -130px;
+  bottom: 30px;
+
+  background: rgba(117, 201, 165, 0.11);
+}
+
+/* =========================================================
+   HOME GALLERY — HEADING
+========================================================= */
+
+.lw-home-gallery-heading {
+  position: relative;
+
+  max-width: 720px;
+
+  margin: 0 auto 48px;
+
+  text-align: center;
+}
+
+.lw-home-gallery-heading .lw-section-kicker {
+  display: inline-block;
+
+  margin-bottom: 10px;
+
+  color: var(--lw-pink) !important;
+
+  font-size: 13px;
+  font-weight: 900;
+
+  letter-spacing: 1.8px;
+  text-transform: uppercase;
+}
+
+.lw-home-gallery-heading h2 {
+  margin: 0 0 14px;
+
+  color: var(--lw-purple-dark) !important;
+
+  font-size: clamp(2rem, 4vw, 3rem);
+
+  line-height: 1.1;
+}
+
+.lw-home-gallery-heading h2 span {
+  color: var(--lw-pink) !important;
+}
+
+.lw-home-gallery-heading p {
+  max-width: 620px;
+
+  margin: 0 auto;
+
+  color: var(--lw-body) !important;
+
+  font-size: 15px;
+  line-height: 1.8;
+}
+
+/* =========================================================
+   HOME GALLERY — GRID
+========================================================= */
+
+.lw-home-gallery-grid {
+  position: relative;
+
+  width: 100%;
+
+  display: grid;
+
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+
+  gap: 24px;
+
+  max-width: 1180px;
+
+  margin: 0 auto;
+}
+
+/* =========================================================
+   HOME GALLERY — CARD
+========================================================= */
+
+.lw-home-gallery-item {
+  position: relative;
+
+  min-height: 300px;
+
+  overflow: hidden;
+
+  background: #ffffff;
+
+  border-radius: 24px;
+
+  border: 1px solid var(--lw-pink-light);
+
+  cursor: pointer;
+
+  box-shadow: 0 15px 40px rgba(112, 69, 155, 0.09);
+
+  opacity: 0;
+  transform: translateY(18px);
+
+  animation: lwHomeGalleryReveal 0.55s ease forwards;
+
+  transition:
+    transform 0.35s ease,
+    box-shadow 0.35s ease;
+}
+
+.lw-home-gallery-item:hover {
+  transform: translateY(-7px);
+
+  box-shadow: 0 22px 48px rgba(112, 69, 155, 0.15);
+}
+
+/* Image */
+
+.lw-home-gallery-item img {
+  width: 100%;
+  height: 100%;
+
+  min-height: 300px;
+
+  display: block;
+
+  object-fit: cover;
+
+  transition:
+    transform 0.6s ease,
+    filter 0.4s ease;
+}
+
+.lw-home-gallery-item:hover img {
+  transform: scale(1.06);
+
+  filter: saturate(1.04);
+}
+
+/* =========================================================
+   HOME GALLERY — OVERLAY
+========================================================= */
+
+.lw-home-gallery-overlay {
+  position: absolute;
+
+  inset: 0;
+
+  display: flex;
+
+  align-items: flex-end;
+
+  padding: 22px;
+
+  background: linear-gradient(
+    to top,
+    rgba(73, 54, 92, 0.84) 0%,
+    rgba(73, 54, 92, 0.2) 48%,
+    transparent 75%
+  );
+
+  opacity: 0;
+
+  transition: opacity 0.35s ease;
+}
+
+.lw-home-gallery-item:hover .lw-home-gallery-overlay {
+  opacity: 1;
+}
+
+.lw-home-gallery-overlay-content {
+  display: flex;
+
+  align-items: center;
+
+  justify-content: space-between;
+
+  gap: 15px;
+
+  width: 100%;
+}
+
+.lw-home-gallery-overlay-text span {
+  display: block;
+
+  margin-bottom: 5px;
+
+  color: var(--lw-yellow);
+
+  font-size: 11px;
+
+  font-weight: 800;
+
+  letter-spacing: 1px;
+
+  text-transform: uppercase;
+}
+
+.lw-home-gallery-overlay-text strong {
+  display: block;
+
+  color: #ffffff;
+
+  font-size: 16px;
+
+  line-height: 1.25;
+}
+
+.lw-home-gallery-view {
+  width: 44px;
+  height: 44px;
+
+  flex-shrink: 0;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+
+  background: var(--lw-pink);
+
+  color: #ffffff;
+
+  font-size: 14px;
+
+  transition:
+    transform 0.3s ease,
+    background 0.3s ease;
+}
+
+.lw-home-gallery-item:hover .lw-home-gallery-view {
+  transform: scale(1.08);
+
+  background: var(--lw-mint-dark);
+}
+
+/* =========================================================
+   HOME GALLERY — VIEW MORE
+========================================================= */
+
+.lw-home-gallery-more {
+  display: flex;
+
+  justify-content: center;
+
+  margin-top: 42px;
+}
+
+.lw-home-gallery-more-btn {
+  display: inline-flex;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 11px;
+
+  padding: 14px 27px;
+
+  border: 0;
+
+  border-radius: 999px;
+
+  background: var(--lw-purple);
+
+  color: #ffffff;
+
+  font-family: "Nunito", sans-serif;
+
+  font-size: 14px;
+  font-weight: 900;
+
+  cursor: pointer;
+
+  box-shadow: 0 12px 28px rgba(139, 91, 183, 0.2);
+
+  transition:
+    transform 0.3s ease,
+    background 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.lw-home-gallery-more-btn i {
+  font-size: 12px;
+
+  transition: transform 0.3s ease;
+}
+
+.lw-home-gallery-more-btn:hover {
+  background: var(--lw-pink);
+
+  transform: translateY(-3px);
+
+  box-shadow: 0 16px 32px rgba(217, 107, 157, 0.22);
+}
+
+.lw-home-gallery-more-btn:hover i {
+  transform: translateY(3px);
+}
+
+.lw-home-gallery-more-btn.hidden {
+  display: none;
+}
+
+/* =========================================================
+   HOME GALLERY — FULL GALLERY LINK
+========================================================= */
+
+.lw-home-gallery-full-link {
+  display: flex;
+
+  justify-content: center;
+
+  margin-top: 18px;
+}
+
+.lw-home-gallery-full-btn {
+  display: inline-flex;
+
+  align-items: center;
+
+  gap: 9px;
+
+  color: var(--lw-purple-dark);
+
+  font-size: 13px;
+
+  font-weight: 800;
+
+  transition:
+    color 0.25s ease,
+    transform 0.25s ease;
+}
+
+.lw-home-gallery-full-btn i {
+  transition: transform 0.25s ease;
+}
+
+.lw-home-gallery-full-btn:hover {
+  color: var(--lw-pink-dark);
+
+  transform: translateX(2px);
+}
+
+.lw-home-gallery-full-btn:hover i {
+  transform: translateX(4px);
+}
+
+/* =========================================================
+   HOME GALLERY — REVEAL ANIMATION
+========================================================= */
+
+@keyframes lwHomeGalleryReveal {
+  from {
+    opacity: 0;
+
+    transform: translateY(18px);
+  }
+
+  to {
+    opacity: 1;
+
+    transform: translateY(0);
+  }
+}
+
+/* =========================================================
+   HOME GALLERY — TABLET
+========================================================= */
+
+@media (max-width: 900px) {
+  .lw-home-gallery-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+
+    gap: 20px;
+  }
+}
+
+/* =========================================================
+   HOME GALLERY — MOBILE
+========================================================= */
+
+@media (max-width: 600px) {
+  .lw-home-gallery {
+    padding: 75px 0 80px;
+  }
+
+  .lw-home-gallery-heading {
+    margin-bottom: 35px;
+  }
+
+  .lw-home-gallery-grid {
+    grid-template-columns: 1fr;
+
+    gap: 18px;
+  }
+
+  .lw-home-gallery-item {
+    min-height: 330px;
+
+    border-radius: 20px;
+  }
+
+  .lw-home-gallery-item img {
+    min-height: 330px;
+  }
+
+  /*
+     Keep overlay visible on touch devices
+     because hover does not exist on mobile.
+  */
+
+  .lw-home-gallery-overlay {
+    opacity: 1;
+  }
+
+  .lw-home-gallery-more {
+    margin-top: 32px;
+  }
 }
